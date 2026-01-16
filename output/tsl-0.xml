@@ -55,6 +55,47 @@
           </TSPService>
         </TSPServices>
       </TrustServiceProvider>
+      <TrustServiceProvider>
+        <TSPInformation>
+          <TSPName>
+            <Name lang="en">Beta Digital Identity Services</Name>
+            <Name lang="de">Beta Digitale Identitätsdienste</Name>
+          </TSPName>
+          <TSPAddress>
+            <PostalAddresses>
+              <PostalAddress lang="en">
+                <StreetAddress>Friedrichstraße 100</StreetAddress>
+                <Locality>Berlin</Locality>
+                <PostalCode>10117</PostalCode>
+                <CountryName>DE</CountryName>
+              </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+              <URI lang="en">https://beta-identity.example.com</URI>
+              <URI lang="en">mailto:info@beta-identity.example.com</URI>
+            </ElectronicAddress>
+          </TSPAddress>
+        </TSPInformation>
+        <TSPServices>
+          <TSPService>
+            <ServiceInformation>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name lang="en">Beta Wallet Unit Attestation Service</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509Certificate>MIIDkTCCAnmgAwIBAgIUJGqgkRaz3r/l+jMn+R+EXHCMpHwwDQYJKoZIhvcNAQELBQAwWDEgMB4GA1UEAwwXQmV0YSBXYWxsZXQgQXR0ZXN0YXRpb24xJzAlBgNVBAoMHkJldGEgRGlnaXRhbCBJZGVudGl0eSBTZXJ2aWNlczELMAkGA1UEBhMCREUwHhcNMjYwMTE2MTAzMDA5WhcNMjcwMTE2MTAzMDA5WjBYMSAwHgYDVQQDDBdCZXRhIFdhbGxldCBBdHRlc3RhdGlvbjEnMCUGA1UECgweQmV0YSBEaWdpdGFsIElkZW50aXR5IFNlcnZpY2VzMQswCQYDVQQGEwJERTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANQw87J2FZPDFIFNdU8V7hKR3ezJj7pcROBHPE6CWj/bXz1mdLvFRrtVQcW1NvmLM4JRZt8q1TaxiPObUhHu1SVIXRh+RopiarQbgW9PwOfrF+i44QErdm15OmX+Ud4myH+gnJhDnwaUxECaEq2iHY6reNpsqAzWzNxL5KwdVAePU4fgc9Jd2zVVqSxU5cPQKPDF7jygcMuJpD4t6dgZ6WUSiVahE6gqXO+QPs2E08OFRol7p7pPxhxq4KHXhUJ7jY8DqmMxQDYY6ZzKSEuR3NG/tLXA+JavI2OQVtP8VhfL8XTiUuQUV+VBcW5J4i4oMQUY9DMhjK3+4Erlz8o3FKECAwEAAaNTMFEwHQYDVR0OBBYEFOkXWp9PJnAFlOf9+6Gw+F6z5fr2MB8GA1UdIwQYMBaAFOkXWp9PJnAFlOf9+6Gw+F6z5fr2MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIhP9sM1i9UsYPTCOLL1KJcQQl6rtg3Td1+tMjapdZ29m656RblFBQAwYKbu205mN0ttMXpj/cMJFW0SOQSBlUh758BLlMSD8WZiyeruuM0hfQU1PKjWxOtxiqJe4kHdMPIb05gYlYyJIh+AoGbBQpPK4cQxq6o957zEcfalwiNlevsGdvshXV690SWfuYQ8jr5nHt6jK3dK5VDv+kA7ZfBqcSbzZYgfobSHNFZei24pD3VrLGHj+nQnywfJ5jgqaU3RqcLVhsgUJu7uk5PMDQtotSpNL2LzU46/N/bpKnv6pGsOEDpKVkGabE9euF1MNuA8v1ZfJeGyXZu47qOuADw=</X509Certificate>
+                  <X509SubjectName></X509SubjectName>
+                  <X509SKI></X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime></StatusStartingTime>
+            </ServiceInformation>
+          </TSPService>
+        </TSPServices>
+      </TrustServiceProvider>
     </TrustServiceProviderList>
   </List>
 </TrustServiceStatusList>
