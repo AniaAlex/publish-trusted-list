@@ -1,5 +1,0 @@
-serviceNames:
-  - language: en
-    value: "Beta Wallet Unit Attestation Service"
-serviceType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
-status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
