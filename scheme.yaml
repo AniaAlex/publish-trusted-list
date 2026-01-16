@@ -1,0 +1,7 @@
+operatorNames:
+  - language: en
+    value: "Example Trust List Operator"
+  - language: sv
+    value: "Exempel Förtroende Lista Operatör"
+type: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric"
+sequenceNumber: 1
