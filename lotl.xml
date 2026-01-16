@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#"
+    xmlns:ns2="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#"
+    xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#"
+    xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
+    xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
+    <SchemeInformation>
+        <TSLVersionIdentifier>5</TSLVersionIdentifier>
+        <TSLSequenceNumber>1</TSLSequenceNumber>
+        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists</TSLType>
+        <SchemeOperatorName>
+            <Name xml:lang="en">Example Trust List Operator</Name>
+            <Name xml:lang="sv">Exempel Förtroende Lista Operatör</Name>
+        </SchemeOperatorName>
+        <SchemeOperatorAddress>
+            <PostalAddresses>
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>Kungsgatan 1</StreetAddress>
+                    <Locality>Stockholm</Locality>
+                    <PostalCode>111 43</PostalCode>
+                    <CountryName>SE</CountryName>
+                </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+                <URI xml:lang="en">https://alpha-wallet.example.com</URI>
+                <URI xml:lang="en">mailto:contact@alpha-wallet.example.com</URI>
+            </ElectronicAddress>
+        </SchemeOperatorAddress>
+        <SchemeName>
+            <Name xml:lang="en">Example List of Trusted Lists</Name>
+            <Name xml:lang="sv">Exempel Lista över Betrodda Listor</Name>
+        </SchemeName>
+        <SchemeInformationURI>
+            <URI xml:lang="en">https://alpha-wallet.example.com/info</URI>
+        </SchemeInformationURI>
+        <StatusDeterminationApproach>
+            <URI xml:lang="en">https://alpha-wallet.example.com/status-determination</URI>
+        </StatusDeterminationApproach>
+        <SchemeTypeCommunityRules>
+            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/EUcommon</URI>
+        </SchemeTypeCommunityRules>
+        <SchemeTerritory>SE</SchemeTerritory>
+        <PolicyOrLegalNotice>
+            <TSLLegalNotice xml:lang="en">This is a List of Trusted Lists for demonstration purposes. In accordance with Article 4(3) of Commission Implementing Decision (EU) 2015/1505, this list contains pointers to trusted lists.</TSLLegalNotice>
+        </PolicyOrLegalNotice>
+        <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+        <ListIssueDateTime>2026-01-16T12:00:00Z</ListIssueDateTime>
+        <NextUpdate>
+            <dateTime>2026-02-16T12:00:00Z</dateTime>
+        </NextUpdate>
+        <DistributionPoints>
+            <URI>https://raw.githubusercontent.com/AniaAlex/publish-trusted-list/main/output/lotl.xml</URI>
+        </DistributionPoints>
+        <PointersToOtherTSL>
+            <OtherTSLPointer>
+                <ServiceDigitalIdentities>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
+                            <X509Certificate>MIIDfzCCAmegAwIBAgIUXG0bIaE4IH2qDWCiSn7VhKW/4LMwDQYJKoZIhvcNAQELBQAwTzEdMBsGA1UEAwwUQWxwaGEgV2FsbGV0IFNpZ25pbmcxITAfBgNVBAoMGEFscGhhIFdhbGxldCBQcm92aWRlciBBQjELMAkGA1UEBhMCU0UwHhcNMjYwMTE2MTAzMDAzWhcNMjcwMTE2MTAzMDAzWjBPMR0wGwYDVQQDDBRBbHBoYSBXYWxsZXQgU2lnbmluZzEhMB8GA1UECgwYQWxwaGEgV2FsbGV0IFByb3ZpZGVyIEFCMQswCQYDVQQGEwJTRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKAuFnkM5N4ZgMxvDk8waxtQegFlaLZRrfKaj4A7Gh959Q1uLJy0vptQygTn7KiIeQm8gWgOSMqROzmRS0jHqkFA6ofWfKaMrmTgTczkTrdiLbS7F2gpTQlbFxidko67QJGN8SAT/hEuKTdB9tUiW/MyvdtJ++AQhnt3QxDkNFBb3UuCXl+/1X0r5vbGZ0Lqhf+3+GDSGZYyH9/Uam8LJ6htVMBQcNJR8QxqIDFYoqrljgBKxdqF/f7+R74BCNkr5j0A5a361mtKase3F1SgaXeB1Fu/GsB9TjAN2F/4WjctB8rrkn5Rud37WZzoR+8kkhiCocKyEWhrlrexr3+rpxUCAwEAAaNTMFEwHQYDVR0OBBYEFPMySCllODljzYZghZaQLoBOVhBeMB8GA1UdIwQYMBaAFPMySCllODljzYZghZaQLoBOVhBeMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAoMZ/T7YBIwahxsbiBbJGEVoN1s6uG31GyvM2lG0+JE6dok/tVxmZ5Z/GO5TkCOl4f2uOSDMEzf1s23gHJ3+qljdotG6V1Dc87LiDys76Zo/vv4judEvhVUJRWb2CgXUKqt7UKA2TaiqpFsUrZdLXKJ844yEP0UbCi3G2stZ2JFvDu29EFWZnWI3Y/+AW5GdgeplO3v2lHz77oW69k4TnxgdebU/LPm/BRyr7RCoCrLRr4YESELEYELqz8COlKr5v57p1rmRlxgFlI18fxEW7eX6D3m86eTi+pN9PUfLwmBy7zcw/i1fzHKrA5IM64tFmOP460D5yB2wfdoGiCeG6o=</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                </ServiceDigitalIdentities>
+                <TSLLocation>https://raw.githubusercontent.com/AniaAlex/publish-trusted-list/main/output/tsl-0.xml</TSLLocation>
+                <AdditionalInformation>
+                    <OtherInformation>
+                        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeOperatorName>
+                            <Name xml:lang="en">Alpha Wallet Provider AB</Name>
+                            <Name xml:lang="sv">Alpha Plånboksleverantör AB</Name>
+                        </SchemeOperatorName>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTerritory>SE</SchemeTerritory>
+                    </OtherInformation>
+                    <OtherInformation>
+                        <SchemeTypeCommunityRules>
+                            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/EUcommon</URI>
+                            <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/SE</URI>
+                        </SchemeTypeCommunityRules>
+                    </OtherInformation>
+                </AdditionalInformation>
+            </OtherTSLPointer>
+        </PointersToOtherTSL>
+    </SchemeInformation>
+</TrustServiceStatusList>
