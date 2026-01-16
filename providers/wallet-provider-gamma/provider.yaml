@@ -1,0 +1,20 @@
+names:
+  - language: en
+    value: "Gamma Trust Services Ltd"
+  - language: fr
+    value: "Gamma Services de Confiance SARL"
+address:
+  postal:
+    streetAddress: "Avenue de la Liberté 42"
+    locality: "Paris"
+    postalCode: "75001"
+    countryName: "FR"
+  electronic:
+    - "https://gamma-trust.example.com"
+    - "mailto:support@gamma-trust.example.com"
+tradeName:
+  - language: en
+    value: "GammaTrust"
+informationURI:
+  - language: en
+    value: "https://gamma-trust.example.com/services"
