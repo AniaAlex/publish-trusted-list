@@ -1,0 +1,8 @@
+# TSL Generation Pipeline
+# Generates a Trust Status List from the tsl-data directory
+
+- generate:
+    - ./tsl-data
+
+- publish:
+    - ./output
