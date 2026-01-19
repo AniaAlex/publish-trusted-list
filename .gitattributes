@@ -1,0 +1,4 @@
+# Ensure PEM files maintain Unix line endings
+*.pem binary
+*.crt binary
+*.cer binary
