@@ -28,8 +28,8 @@ jobs:
                   cd /tmp/g119612
                   go build -o /usr/local/bin/tsl-tool ./cmd/tsl-tool
 
-            - name: Generate TSL
-              run: tsl-tool pipeline.yaml
+            # - name: Generate TSL
+            #   run: tsl-tool pipeline.yaml
 
             - name: Commit output
               run: |
