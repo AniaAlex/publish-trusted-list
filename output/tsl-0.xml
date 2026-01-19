@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList>
+  <List TSLTag="">
+    <SchemeInformation>
+      <TSLVersionIdentifier>1</TSLVersionIdentifier>
+      <TSLSequenceNumber>0</TSLSequenceNumber>
+      <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+      <SchemeOperatorName>
+        <Name lang="en">Example Trust List Operator</Name>
+        <Name lang="sv">Exempel Förtroende Lista Operatör</Name>
+      </SchemeOperatorName>
+      <StatusDeterminationApproach></StatusDeterminationApproach>
+      <HistoricalInformationPeriod>0</HistoricalInformationPeriod>
+      <ListIssueDateTime></ListIssueDateTime>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+      <TrustServiceProvider>
+        <TSPInformation>
+          <TSPName>
+            <Name lang="en">Beta Digital Identity Services</Name>
+            <Name lang="de">Beta Digitale Identitätsdienste</Name>
+          </TSPName>
+          <TSPAddress>
+            <PostalAddresses>
+              <PostalAddress lang="en">
+                <StreetAddress>Friedrichstraße 100</StreetAddress>
+                <Locality>Berlin</Locality>
+                <PostalCode>10117</PostalCode>
+                <CountryName>DE</CountryName>
+              </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+              <URI lang="en">https://beta-identity.example.com</URI>
+              <URI lang="en">mailto:info@beta-identity.example.com</URI>
+            </ElectronicAddress>
+          </TSPAddress>
+        </TSPInformation>
+        <TSPServices>
+          <TSPService>
+            <ServiceInformation>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name lang="en">Beta Wallet Signing Service</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509Certificate>MIIDezCCAmOgAwIBAgIUM2y+5w6psedACSCidWxmVbi2RKwwDQYJKoZIhvcNAQELBQAwTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVyIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMB4XDTI2MDExOTE2MTUxNFoXDTI3MDExOTE2MTUxNFowTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVyIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4XcDzTzL7oliHGqywDBBgvnCVrEIfTXSUbbZEcljV6szYyVDoTiI+CwQcoE/i5ToJwSCaOkPeXIjUfvGL8875d2xIUxUGlZNsMtsLELM9DDYYgaYreD4KfoGrq7itJDfYGqvMKOF8KNV0p77fnyl5XMG5Vm2NLpNQVVdNG8iPW66/nEww9UeU2zICqcIaoagMk0mDSLq3Lk8F6lHp949tiiHzfgKhWmn8K2eINIlqQsO6jrMXAxkph9Dj8a9ovcXO21BscpMS0aoYSyq45JxSjNxQD9vBsGQ2l8DoXgTHDwB0Jg1DO769JoVlqwpLDyPoUm2ErToJshFtoBdQXIa4wIDAQABo1MwUTAdBgNVHQ4EFgQUsUteoyXEJ7FHsQwymBqNkdkVT1QwHwYDVR0jBBgwFoAUsUteoyXEJ7FHsQwymBqNkdkVT1QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN5noX8hDxfuxukKZI+xr4ZbxEMC2lKwpXWw7WwovXXQIktoooVF5G9AcBlSKjmF3L1JdzB+gIwpOATl0GxPdC31Ijl6kFkiG7E88JyOAbfedVaqbkHjOcyABRVLF68Z2n1pbgVJ+dyc33h9UBgzZgun5UMXRszSsQBLnrJuN8PXFQD69A2agW7HJ+ipWDKoycnnV9YlUkWdR40UBzI14Ecag1sRMNnq8eUc3YyNGejvK3dATkgcnvsxXFfRgUKGG+4T4lzaS657thg40B+PaY0SKekjspMKqLgzYgBOXUMsEcqRYXIGofcejiS7tyIjg4BF7p+d4nGneRbJ8QUyK1g==</X509Certificate>
+                  <X509SubjectName></X509SubjectName>
+                  <X509SKI></X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime></StatusStartingTime>
+            </ServiceInformation>
+          </TSPService>
+        </TSPServices>
+      </TrustServiceProvider>
+      <TrustServiceProvider>
+        <TSPInformation>
+          <TSPName>
+            <Name lang="en">Gamma Trust Services Ltd</Name>
+            <Name lang="fr">Gamma Services de Confiance SARL</Name>
+          </TSPName>
+          <TSPAddress>
+            <PostalAddresses>
+              <PostalAddress lang="en">
+                <StreetAddress>Avenue de la Liberté 42</StreetAddress>
+                <Locality>Paris</Locality>
+                <PostalCode>75001</PostalCode>
+                <CountryName>FR</CountryName>
+              </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+              <URI lang="en">https://gamma-trust.example.com</URI>
+              <URI lang="en">mailto:support@gamma-trust.example.com</URI>
+            </ElectronicAddress>
+          </TSPAddress>
+        </TSPInformation>
+        <TSPServices>
+          <TSPService>
+            <ServiceInformation>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name lang="en">Gamma Credential Issuer Service</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509Certificate>MIIDhTCCAm2gAwIBAgIUKBZZn6ahrZKNvUKU3tzNOFP1+nkwDQYJKoZIhvcNAQELBQAwUjEgMB4GA1UEAwwXR2FtbWEgQ3JlZGVudGlhbCBJc3N1ZXIxITAfBgNVBAoMGEdhbW1hIFRydXN0IFNlcnZpY2VzIEx0ZDELMAkGA1UEBhMCRlIwHhcNMjYwMTE2MTAzMDE1WhcNMjcwMTE2MTAzMDE1WjBSMSAwHgYDVQQDDBdHYW1tYSBDcmVkZW50aWFsIElzc3VlcjEhMB8GA1UECgwYR2FtbWEgVHJ1c3QgU2VydmljZXMgTHRkMQswCQYDVQQGEwJGUjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJXQTUaxXFELeszOXc8e1D2SxYUz0Y2Uo0S+2+Cu4I5NeMEWdUtF/0dlNRsnGgQg+wnCGWfYPz3b6VogDIfMkrN8k16KJb22BC+nMswZPeUF4MbfE+e9QOWpLXfudNCJLwSJXYZuWMz3fapdgKnY/NpJ5UD5CxvDYlkNPoQ+rnj+vsmSpL7yA2xuGFc2yGRf2PSMr8LJJgV5tBbMoxiORPgccsS8LBSY6v5XM4yOVay18jfA9x8qgFore0BVJwziqx10kYeW+2hTYHDiqN6EndeCni2qSLnON9CUok2ttdlyc8BqAdY+MFliwpo/BJ2KNJOZhL77CJtaKm+OoZTpE5ECAwEAAaNTMFEwHQYDVR0OBBYEFJ33geDnVaLbiaRMPHQU45/vfJFTMB8GA1UdIwQYMBaAFJ33geDnVaLbiaRMPHQU45/vfJFTMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBADYokWjqZeD6IPMAnSyP5I6h0NTaEBNSyUxPcEU7XrysiIH1KL6xPao5LevRq1FDl1IgBuStHks2Tu1EPpdEwXP5jtRKSRqb37Yk3NN/pmjO2WduUXUcTvjEEAO8kw4nxLUpOUnGifh6e9VzeAdkdzHz/U/m7f/2rN4AKxmmJmuh2/SDOzN7Vo3g4Gw89Pl4ybIqwHEpOyEFUf0jhqB9JiYyXNpwa50pHFONgqtDkcndrj+VAlCXZJi/VURs+Gd5ukOLe1O62b0OXxooQ3/fJYVty8wkrXSj7Ecv13+q/sel8udHcg4Hj5QEzd+9AIc0zAXbTBFr7K1w03BmWuNhq0w=</X509Certificate>
+                  <X509SubjectName></X509SubjectName>
+                  <X509SKI></X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime></StatusStartingTime>
+            </ServiceInformation>
+          </TSPService>
+        </TSPServices>
+      </TrustServiceProvider>
+    </TrustServiceProviderList>
+  </List>
+</TrustServiceStatusList>
