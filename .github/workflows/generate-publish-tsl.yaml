@@ -26,7 +26,7 @@ jobs:
               run: |
                   git clone https://github.com/AniaAlex/g119612.git /tmp/g119612
                   cd /tmp/g119612
-                  git checkout 42b96fb163d3c339baba741004fa8f9a28bbde68
+                  git checkout 83b6b5f3a59960117d87e4403c7c7f8c576ec18f
                   go build -o /usr/local/bin/tsl-tool ./cmd/tsl-tool
 
             - name: Generate TSL
