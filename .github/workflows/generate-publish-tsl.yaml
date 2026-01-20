@@ -29,8 +29,8 @@ jobs:
                   git checkout 42b96fb163d3c339baba741004fa8f9a28bbde68
                   go build -o /usr/local/bin/tsl-tool ./cmd/tsl-tool
 
-            # - name: Generate TSL
-            #   run: tsl-tool pipeline.yaml
+            - name: Generate TSL
+              run: tsl-tool pipeline.yaml
 
             - name: Commit output
               run: |
