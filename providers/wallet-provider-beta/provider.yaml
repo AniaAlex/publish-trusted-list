@@ -8,7 +8,7 @@ address:
     streetAddress: "Friedrichstraße 100"
     locality: "Berlin"
     postalCode: "10117"
-    countryName: "DE"
+    countryName: "PL"
   electronic:
     - "https://beta-identity.example.com"
     - "mailto:info@beta-identity.example.com"
