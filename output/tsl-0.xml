@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> --- this needs to be: fix in the code,in ms-registry;
 <TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#"
   xmlns:ns2="http://www.w3.org/2000/09/xmldsig#"
   xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#"
@@ -44,6 +44,7 @@
       <TSPServices>
         <TSPService>
           <ServiceInformation>
+          #what to do with this is a bit of a question 
             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
             <ServiceName>
               <Name lang="en">asdssadasd</Name>
