@@ -44,7 +44,7 @@
       <TSPServices>
         <TSPService>
           <ServiceInformation>
-            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/PID_Issuer</ServiceTypeIdentifier>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
             <ServiceName>
               <Name lang="en">asdssadasd</Name>
             </ServiceName>
