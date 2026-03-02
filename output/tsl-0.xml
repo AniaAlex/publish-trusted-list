@@ -4,9 +4,9 @@
     xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#"
     xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#"
     xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
-    xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="id_for_enveloped_signing_of_the_entire_list" TSLTag="http://uri.etsi.org/19612/TSLTag">
+    xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL-001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
-        <TSLVersionIdentifier>5</TSLVersionIdentifier>
+        <TSLVersionIdentifier>1</TSLVersionIdentifier>
         <TSLSequenceNumber>1</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
