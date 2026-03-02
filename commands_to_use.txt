@@ -1,0 +1,1 @@
+openssl x509 -inform DER -in /Users/annaalexeeva/Documents/wp4trust/publish-trusted-list/providers/wallet-provider-beta/signing-cert-beta.pem -out /Users/annaalexeeva/Documents/wp4trust/publish-trusted-list/providers/wallet-provider-beta/signing-cert-beta.pem -outform PEM 2>&1
