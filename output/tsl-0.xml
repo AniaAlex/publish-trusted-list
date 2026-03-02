@@ -1,66 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?> --- this needs to be: fix in the code,in ms-registry;
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#"
-  xmlns:ns2="http://www.w3.org/2000/09/xmldsig#"
-  xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#"
-  xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#"
-  xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
-  xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL-001" TSLTag="http://uri.etsi.org/19612/TSLTag">
-  <SchemeInformation>
-    <TSLVersionIdentifier>1</TSLVersionIdentifier>
-    <TSLSequenceNumber>1</TSLSequenceNumber>
-    <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
-    <SchemeOperatorName></SchemeOperatorName>
-    <StatusDeterminationApproach>https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/</StatusDeterminationApproach>
-    <SchemeTerritory>SE</SchemeTerritory>
-    <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
-    <ListIssueDateTime>2026-01-13T14:37:22Z</ListIssueDateTime>
-    <DistributionPoints>
-      <URI>https://127.0.0.1:8000/admin/tsl_generator/tslscheme/add/</URI>
-    </DistributionPoints>
-  </SchemeInformation>
-  <TrustServiceProviderList>
-    <TrustServiceProvider>
-      <TSPInformation>
-        <TSPName>
-          <Name lang="en">ölölöl</Name>
-        </TSPName>
-        <TSPTradeName>
-          <Name lang="en">lkölkök</Name>
-        </TSPTradeName>
-        <TSPAddress>
-          <PostalAddresses>
-            <PostalAddress lang="en">
-              <StreetAddress>Kullerstensvägen 1</StreetAddress>
-              <Locality>Uppsala</Locality>
-              <PostalCode>732 60</PostalCode>
-              <CountryName>Sw</CountryName>
-            </PostalAddress>
-          </PostalAddresses>
-          <ElectronicAddress>
-            <URI lang="en">https//ksjdakjsd.se</URI>
-          </ElectronicAddress>
-        </TSPAddress>
-      </TSPInformation>
-      <TSPServices>
-        <TSPService>
-          <ServiceInformation>
-          #what to do with this is a bit of a question 
-            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
-            <ServiceName>
-              <Name lang="en">asdssadasd</Name>
-            </ServiceName>
-            <ServiceDigitalIdentity>
-              <DigitalId>
-                <X509Certificate>MIIDezCCAmOgAwIBAgIUM2y+5w6psedACSCidWxmVbi2RKwwDQYJKoZIhvcNAQELBQAwTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVyIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMB4XDTI2MDExOTE2MTUxNFoXDTI3MDExOTE2MTUxNFowTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVyIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4XcDzTzL7oliHGqywDBBgvnCVrEIfTXSUbbZEcljV6szYyVDoTiI+CwQcoE/i5ToJwSCaOkPeXIjUfvGL8875d2xIUxUGlZNsMtsLELM9DDYYgaYreD4KfoGrq7itJDfYGqvMKOF8KNV0p77fnyl5XMG5Vm2NLpNQVVdNG8iPW66/nEww9UeU2zICqcIaoagMk0mDSLq3Lk8F6lHp949tiiHzfgKhWmn8K2eINIlqQsO6jrMXAxkph9Dj8a9ovcXO21BscpMS0aoYSyq45JxSjNxQD9vBsGQ2l8DoXgTHDwB0Jg1DO769JoVlqwpLDyPoUm2ErToJshFtoBdQXIa4wIDAQABo1MwUTAdBgNVHQ4EFgQUsUteoyXEJ7FHsQwymBqNkdkVT1QwHwYDVR0jBBgwFoAUsUteoyXEJ7FHsQwymBqNkdkVT1QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN5noX8hDxfuxukKZI+xr4ZbxEMC2lKwpXWw7WwovXXQIktoooVF5G9AcBlSKjmF3L1JdzB+gIwpOATl0GxPdC31Ijl6kFkiG7E88JyOAbfedVaqbkHjOcyABRVLF68Z2n1pbgVJ+dyc33h9UBgzZgun5UMXRszSsQBLnrJuN8PXFQD69A2agW7HJ+ipWDKoycnnV9YlUkWdR40UBzI14Ecag1sRMNnq8eUc3YyNGejvK3dATkgcnvsxXFfRgUKGG+4T4lzaS657thg40B+PaY0SKekjspMKqLgzYgBOXUMsEcqRYXIGofcejiS7tyIjg4BF7p+d4nGneRbJ8QUyK1g==</X509Certificate>
-                <X509SubjectName>CN=Beta Wallet Signing,O=Beta Wallet Provider AB,C=SE</X509SubjectName>
-                <X509SKI>sUteoyXEJ7FHsQwymBqNkdkVT1Q=</X509SKI>
-              </DigitalId>
-            </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2026-02-27T11:58:56Z</StatusStartingTime>
-          </ServiceInformation>
-        </TSPService>
-      </TSPServices>
-    </TrustServiceProvider>
-  </TrustServiceProviderList>
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL-001" TSLTag="http://uri.etsi.org/19612/TSLTag">
+    <SchemeInformation>
+        <TSLVersionIdentifier>1</TSLVersionIdentifier>
+        <TSLSequenceNumber>1</TSLSequenceNumber>
+        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+        <SchemeOperatorName>
+        </SchemeOperatorName>
+        <StatusDeterminationApproach>https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/</StatusDeterminationApproach>
+        <SchemeTerritory>SE</SchemeTerritory>
+        <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+        <ListIssueDateTime>2026-01-13T14:37:22Z</ListIssueDateTime>
+        <DistributionPoints>
+            <URI>https://127.0.0.1:8000/admin/tsl_generator/tslscheme/add/</URI>
+        </DistributionPoints>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name lang="en">ölölöl</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name lang="en">lkölkök</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress lang="en">
+                            <StreetAddress>Kullerstensvägen 1</StreetAddress>
+                            <Locality>Uppsala</Locality>
+                            <PostalCode>732 60</PostalCode>
+                            <CountryName>Sw</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI lang="en">https//ksjdakjsd.se</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name lang="en">asdssadasd</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIIDezCCAmOgAwIBAgIUM2y+5w6psedACSCidWxmVbi2RKwwDQYJKoZIhvcNAQELBQAwTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVyIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMB4XDTI2MDExOTE2MTUxNFoXDTI3MDExOTE2MTUxNFowTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVyIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4XcDzTzL7oliHGqywDBBgvnCVrEIfTXSUbbZEcljV6szYyVDoTiI+CwQcoE/i5ToJwSCaOkPeXIjUfvGL8875d2xIUxUGlZNsMtsLELM9DDYYgaYreD4KfoGrq7itJDfYGqvMKOF8KNV0p77fnyl5XMG5Vm2NLpNQVVdNG8iPW66/nEww9UeU2zICqcIaoagMk0mDSLq3Lk8F6lHp949tiiHzfgKhWmn8K2eINIlqQsO6jrMXAxkph9Dj8a9ovcXO21BscpMS0aoYSyq45JxSjNxQD9vBsGQ2l8DoXgTHDwB0Jg1DO769JoVlqwpLDyPoUm2ErToJshFtoBdQXIa4wIDAQABo1MwUTAdBgNVHQ4EFgQUsUteoyXEJ7FHsQwymBqNkdkVT1QwHwYDVR0jBBgwFoAUsUteoyXEJ7FHsQwymBqNkdkVT1QwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAN5noX8hDxfuxukKZI+xr4ZbxEMC2lKwpXWw7WwovXXQIktoooVF5G9AcBlSKjmF3L1JdzB+gIwpOATl0GxPdC31Ijl6kFkiG7E88JyOAbfedVaqbkHjOcyABRVLF68Z2n1pbgVJ+dyc33h9UBgzZgun5UMXRszSsQBLnrJuN8PXFQD69A2agW7HJ+ipWDKoycnnV9YlUkWdR40UBzI14Ecag1sRMNnq8eUc3YyNGejvK3dATkgcnvsxXFfRgUKGG+4T4lzaS657thg40B+PaY0SKekjspMKqLgzYgBOXUMsEcqRYXIGofcejiS7tyIjg4BF7p+d4nGneRbJ8QUyK1g==</X509Certificate>
+                                <X509SubjectName>CN=Beta Wallet Signing,O=Beta Wallet Provider AB,C=SE</X509SubjectName>
+                                <X509SKI>sUteoyXEJ7FHsQwymBqNkdkVT1Q=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-02-27T11:58:56Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+    </TrustServiceProviderList>
 </TrustServiceStatusList>
