@@ -1,3 +1,4 @@
+here should be new wallet serviceTypes 
 {
   "version": "1.0",
   "schemeInformation": {
@@ -15,7 +16,7 @@
       }
     ],
     "schemeType": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
-    "issueDate": "2026-03-27T11:59:57.755686Z",
+    "issueDate": "2026-03-27T12:42:46.259141Z",
     "sequenceNumber": 1
   },
   "trustedEntities": [
@@ -31,7 +32,7 @@
       "digitalIdentities": [
         {
           "type": "x509",
-          "x509Certificate": "MIIDWTCCAkGgAwIBAgIUHQZBSVmjMWm7dRlfFvSZfb24VvcwDQYJKoZIhvcNAQELBQAwPDETMBEGA1UEAwwKZXhhbXBsZS1jYTEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMTQ1MjZaFw0yNzAzMjcxMTQ1MjZaMDwxEzARBgNVBAMMCmV4YW1wbGUtY2ExGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx6Jf1oP+R0VQhab86t9dMzF3c6Fl0uPY/gPbsTwcvlJ4wGI4O5pIQQykrEjBrM2Nt0mHz15aF74aSaj8Vq2TD6qqkK771ucFCKNyDWHTyrGOA4vZGI2+d/fdw+vhh7quuHaq5NmEbN9kAbT2+soybtu7JxjsPFqHT7wWEn5BeTZR1hV84A8Q5NNZHBwrM5Irt3DzVC5c4yIYTJ5NwAR/O67oKWswwXhh34jC/dS4Mp7V6jkR2smqXp9M8nSL685n0YU8ltqp5hdNgwA9vY0e4E+xhm1xwgPR0e2aFmux0j0x7OzdK28BtGEke2IyH8R/duyoP1WQnuyTAylSyhkGJAgMBAAGjUzBRMB0GA1UdDgQWBBTRW3PiMopvq3OYtIuFubzp0Ye/hzAfBgNVHSMEGDAWgBTRW3PiMopvq3OYtIuFubzp0Ye/hzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB0z4HIGPKs81KAxSUAA55G44I0Pa/c3GzNs3Zc32D0wsSxaiqclBAjSa1OtXhlX2Qr9oYJzYf/HNbw+r3BJezlsyzBXpIYcQRn36f/d2mG+NAEPJZpBx02CAtp5ZvkW1MRjIBJ/5gX52jDNS0yMy0K7LkHEmUWklRUdUQxwk1QzQI4N8lsq7rnuLwjCtTOAwZz6j71PfVFbt+x3pC8jjpcoSEEQ9r7BZmh2vm16DhH+IWB9Tz7aX9S+bWZEMvVYyMPL3TFV5ocmciOgwc8CIDS0xJoGYMGnIEU6hCsKjVRKGS52yE2lml/fKXhD3pCyWb9LqexJZNxekNcW6jConCW"
+          "x509Certificate": "MIIDWTCCAkGgAwIBAgIUPnkt8OJjSaqQbmoGaWOiBoAr+xEwDQYJKoZIhvcNAQELBQAwPDETMBEGA1UEAwwKZXhhbXBsZS1jYTEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMjQxNTdaFw0yNzAzMjcxMjQxNTdaMDwxEzARBgNVBAMMCmV4YW1wbGUtY2ExGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDX8aPPQbwkIKQZEEivFpN6iXu/drZ0G/r28ev8JO1rBeDhcWJkIQXNOkruqPc88MuPja+7N+kcj0XM2z9bp3LTzmaAbs6WUiR4G3od0ugcGfMUWVbSuLPwreJC0TUr2k6Sb2u29bsDvS03b1hqm1kvmmHUSICNTYLP5OHvW77tdUMfzKl1GsR61DCyoLbo0TqHLK5f0LBHs8XplxFIG7nHtGZPbYqILQNFuaqfRKFL4iDL1PIIQ8J0vomiuBDxp5Q1nKbGYD9XmZAGzAk0eSB/fDgyT7aV0Cw+xaF/fBewk3mFaGCFbOcGwrN6RxALNdE21U+M66SUEtkjPeoEO1jHAgMBAAGjUzBRMB0GA1UdDgQWBBRCEfSFWd/Eds2LLXIKyZYUAyQppTAfBgNVHSMEGDAWgBRCEfSFWd/Eds2LLXIKyZYUAyQppTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAWaQ2GXRqUFMp3FdofA1tLrlEYUe+kv2lYAnYqyIOs/Yn4Q0ppAiz1J5PxuvYhNIAAnjYJq/a/BwLj2rPMVylMCeIsM98VKC1gU+/LL6KzpuVKyz63DQEJle737IWmESZuLlPrJhQKrkxWmyVes39+IoN08WIzCDOeoUJ18kOZ04TCGsAmlEmh747/gs4RR5DNvsBV+SsDDa8pFkua8ys/8tnNy4eXWDid/31JKWKkdpTmhshSbOLmRPUmURQ5CN3g21WlEgC6KHM+JTKdjDwADyis9kFOgxgPvk3pHYBmqjWVJLk7MfMXdi6dREi5AoNRQ7ws8Bp7a+mDL6ePyO9+"
         }
       ],
       "services": [
@@ -69,7 +70,7 @@
         },
         {
           "type": "x509",
-          "x509Certificate": "MIIDYTCCAkmgAwIBAgIUIbpCS+d5sa9AolGPz6zfNVjspBQwDQYJKoZIhvcNAQELBQAwQDEXMBUGA1UEAwwOZXhhbXBsZS1pc3N1ZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwHhcNMjYwMzI3MTE0NTI2WhcNMjcwMzI3MTE0NTI2WjBAMRcwFQYDVQQDDA5leGFtcGxlLWlzc3VlcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMNG1/LrPCWEomDPzuEKREMoNQ9F8VOapLfYegSJ8Xj1rwdRYmWLLRGrfOElSKX96gKwpo61pw0PlHdZs45ovo9TXIWIseMHh4lbZ3ay7iIjojHlQMO19H1xMHtlLykFj4Q+nY++F1ljk/5nTYRyTBh3vvvrKXQzogaxV6rbzGxsihKHGYy0+CnegCY9PfnPiDVtlDC0sowJgzKWITWyLpR+1J5+DY25mh0KTrhY4GZa7UIC6QgiER754CfRaTl3oofrfsm4udVAXpZMhbRDkoNKC6oL1jldI8WNxP4bqizw+IRMMDuqJlkQbzhD7IOqaQgsCaNhVy1fygk3KKcbg90CAwEAAaNTMFEwHQYDVR0OBBYEFOYFo8Rxw8L+GY+VytjVryd3mpwyMB8GA1UdIwQYMBaAFOYFo8Rxw8L+GY+VytjVryd3mpwyMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABjs7yychNnKupQC7FFtH4y7YMFvtr5WpfrrR5lFjBbT7bc/dw7cFw6iHFGMJb0LNQtY1a3qTJshP14ffAMaEDBnmk/SmnDkVQQchGqcsiQ1+DELSCRlKYptfmvyzhUNRhg2D6a3Lao3Z3F1Qg3F/wI4fBOlkvsicyVPly0zNYaoImkZjaZP9WKgYbU/Uxp740Su7uaKCg3y2ZEn2rrjliLCf1FhePOG+uja0JxZ0KnLEXJJc0Vv5Afan33e35w96QpquDsNm90+Q3alxIUrM3t/NqduwQ3EJkLsNAtXUb1xYY6Xfr2txZjuu21HRsDTLfVVXwkvQJE3qaRw9PsjFYw="
+          "x509Certificate": "MIIDYTCCAkmgAwIBAgIUFGGV35yJ1aNesTgvB1u2/mdrAcAwDQYJKoZIhvcNAQELBQAwQDEXMBUGA1UEAwwOZXhhbXBsZS1pc3N1ZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwHhcNMjYwMzI3MTI0MTU3WhcNMjcwMzI3MTI0MTU3WjBAMRcwFQYDVQQDDA5leGFtcGxlLWlzc3VlcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKGt+Xttpz/4Kg/6oSzfxDbxqLRn5XPvHlq4FS0gD87VhZg10sRtKgVT/PO1vt/Gvwn0X73WafaPIAAAQKa0SqQ4Yhmi9mFHY6eJ4yHancNgMgqtb7pWXum89bObjK3pqRUNvQ/7wWEfTHjLq36WZi42/zyhIkEIEk7Yx0w/raWfFpCXgxx65ls3313tWwdSKb0xcYxqXYt+LSTgxUIVzzh2LmLY1Q6leIu0Ot2UDFU46yonfX1uFruTJ2JzFuTEDPCNBoZt7YHjAlC67FuD1n93v7ckl7VIhMwciIPm3szAz0FxDBenqmr74kuX6z4GE93mZB7dONjVeoMNZrDbAjECAwEAAaNTMFEwHQYDVR0OBBYEFMcjLfWJTH+iuIrttr39dd7pUGfFMB8GA1UdIwQYMBaAFMcjLfWJTH+iuIrttr39dd7pUGfFMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJeaQqCLVje+Tub995P6IGhMXSe2elRxIVV9sI0mUvTKgbh1iCaEHOVxkTilkDuF1+OQ+VudsGMMm4y2LTsKhR8z2TLeA9CksROnRW+FHyRagaddABqcF4OaVSfgcwjaKYgMhYpvOtmE8zP5gUAqjxeEOvbo0fcTP0STjeAvUvAL/NXjhUFU6Wr66M/AvhS4cLYpAW5M26VkxqJxqY6w9gS6PJAAaThsDSSJkMdrEm3R6nYNGrnfDftr98h6aMg0iDTfd9udwIlwiYOeGD9ii94f3G/X55MgHPHfqFyw7rTSK0VKJid8CugLtkwnzlmcMYDHnjfPpJ31pIgxMH5DW1w="
         }
       ],
       "services": [
@@ -102,7 +103,81 @@
         },
         {
           "type": "x509",
-          "x509Certificate": "MIIDZTCCAk2gAwIBAgIUZlo7ZRYdVlJSbKzoMQetJBO//Y0wDQYJKoZIhvcNAQELBQAwQjEZMBcGA1UEAwwQZXhhbXBsZS12ZXJpZmllcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMTQ1MjZaFw0yNzAzMjcxMTQ1MjZaMEIxGTAXBgNVBAMMEGV4YW1wbGUtdmVyaWZpZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC22s7tanreAl8gaHbKTaXrxuQhoN0zVCqRG9jfmH9uuKZSUBdiH1UHoq6BRD7z0zgDjBfsUAXWTocWGkShRf0j4ar/tSuY+up+0jWnV8TgLhWgeIOuO0tlmFhLnyGc1LbcVwixxqBUdWQsnNNgPGEC9JmckYsTUAwozRW+bANYQFVpO+GkVOtcf0++8GkisOe/Jzep/jHXi71RpFNq4mAVY9vQlpWwAEExkRfHbfC2O6MipUDMGrs3nf7FR1Pylo/DimVUymakqLCbneSLplZfKkWfc+zjAqZ9RoxxSKSziMtsagPwT1Rz/v23EN9b7spMZo3nSDdAU0cJ7z42x7PNAgMBAAGjUzBRMB0GA1UdDgQWBBQA4P2CmzX+ouMhajwjjw78L6veZzAfBgNVHSMEGDAWgBQA4P2CmzX+ouMhajwjjw78L6veZzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAHiRa0DgIvtK2MYY6dABNSIuXAMA2IZVStmQ/CLHTc5/YR7/AoYbUI/c7+ARJria2Ews5eVB7XJrqhyEWD3lpslOA+XY6r7KF7FzIKyMBPdXDp5aN7QzGmlXeaC6cjGbZuWtYnRPp3Ugc4EdvKA0YYVHADkRdV57PqD5N3B5i5Dk+G6xhq67c/ZyzQeRkNy4Zl1XAIkymECSwSHxYD9CTgGk/L9RbHpeQCgB9jSH3sXb8uQ+oaeW9aUcQzpbUpQR+5IlA3W2P0Rnzk+uUK2k2JXUg1VD/IrvkQ6X+Zdtz/7lEcvrDOVOIrYqcg7HdBrnkq5YvKyVO6dG/7mLUY+EcJ"
+          "x509Certificate": "MIIDZTCCAk2gAwIBAgIUJIIv93rmu1XO/3i5+BdQzUK9yOowDQYJKoZIhvcNAQELBQAwQjEZMBcGA1UEAwwQZXhhbXBsZS12ZXJpZmllcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMjQxNTdaFw0yNzAzMjcxMjQxNTdaMEIxGTAXBgNVBAMMEGV4YW1wbGUtdmVyaWZpZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCyHWQcfTg9fwvJS+wzuAMCOAzBAEIjhvcpwLir50af/X7C/52TRX6ly9pJkEpkdlwMzWkj108vqDndwz7JRBxYQHjM9awi1SK8WWGcOFHvcAugOuoGmIBZ+utS09QFiuU/aUyiqPqCmSfOpvXzeG+/poxWnuYG7PVrxlPfynCn/R8evOWk5ZoP0H7T+d3GKrfaI4FmqQg4iIbqjnFLrlod0myIBEbAWJnLWVthC33yHBUhTw0Bwsnr0SEaFmi78dGCoE02ar7fNh7JHZG4A6h8lw5vIlYnKSpAoOT+S3G3mLuQoPbBih74INbTTkxXL7Fj7M+ZB6/NQVaeUMbHA7qFAgMBAAGjUzBRMB0GA1UdDgQWBBT29gF6seVOUNkj9tXPxMmOspIZoTAfBgNVHSMEGDAWgBT29gF6seVOUNkj9tXPxMmOspIZoTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCQAMZjMboni0XQJTYmdqpYU2efsmsyerj8Rs7IUNizPFIAKgdEQGX2DSgG+3vxTRDGatotoAiPdJnU6jB93NJiBY/w6so9tIFuCdauWK7pblCiocNkOUdFN9bb/LNSbxLE9MLSLgXO38S+9RnFa8iujxhp8Y8leASi57cBpQ+NuVHuhniOaUzaPkauCy6y+4tt4XjFABo5qBcga6s+OwlShKrpK15Hp2ksNH//thy4+4+RKkK8ClXrqmTdXEWKlY9kgws91QodFgo0+vuTDV6yer4hjl9ChQdtlqbX28R/MI9oOaMyvL6K1gHSxnLHumyZDYkkB6ujgSPdA/4c5r9C"
+        }
+      ]
+    },
+    {
+      "entityId": "https://pid-a.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Swedish PID Issuer A"
+        },
+        {
+          "language": "sv",
+          "value": "Svensk PID-utf\u00e4rdare A"
+        }
+      ],
+      "entityType": "pid-provider",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDYzCCAkugAwIBAgIUSpLh5M7QzTnxENyl+6sfWT9MXp4wDQYJKoZIhvcNAQELBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMyNzEyNDE1N1oXDTI3MDMyNzEyNDE1N1owQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApeSaXEIJMxs/6r5/SfTG9iTfa6zNcd8n98E3bjJCyIw6Ar03nkuYtXKtCEN+jWGdSxMXKM0dg6NFBXpHxkuBWpSjKKjxsNv7uFzXSKvmOws1RnQFEjUxK5oGKh2e7DiOFdCCkLSYou03AcRjUTC9JTyJIOQGlzb2MoHxy9nQw81M3ue1ZglViQo6qe9TvwDGnnqV2i/yrYB/TCmgNBA/uwcGUSflkVooJWEkSId5NBCV6DJgIwUsqg96UFDws2aB0JVHIzimj5WaZ3FMOmKKdNEjSLkSjFb2H5OdzNPXOVkcjucM1+Yx126TwotTzmrxY1Vc30XOGuyZ2gCEHHbehwIDAQABo1MwUTAdBgNVHQ4EFgQUcuSZr4CbyxR2efgIVajIInr/0z8wHwYDVR0jBBgwFoAUcuSZr4CbyxR2efgIVajIInr/0z8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEASBDH5p/b9BhkvdxpjnbbQKQcisgmKqkcDzRY9TOg3/2aUjjsbbISMeKlQWjmXJm1IloSsdACE2OFEizmNvO6ogMJyPjGQqCkONPdJSWjHQCY7eekuSHx2YIJisNEJ28wXiFvB2GzTBemfD1WqZCLeOc2C3d+MwP6cJcJRJ+mqIILLLsyWdYBEgUSlCMyU2afzPtqwFcIv+Y31LqmUGQqvJTYa1E5WOyfJye13fYXX7uJohxyYTrYMn4IiItA72pLcZhus+SYvAiEaWWyg3dsqD0RXcoc0MDkO/rZyt2zj/7V+Q2reRDG061F4kDtYc0T7TBxtQGHp1JjYdm9PIYn7A=="
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/TrstSvc/Svctype/EAA/PID",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "PID Issuance Service A"
+            },
+            {
+              "language": "sv",
+              "value": "PID-utf\u00e4rdningstj\u00e4nst A"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    },
+    {
+      "entityId": "https://pid-b.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Swedish PID Issuer B"
+        },
+        {
+          "language": "sv",
+          "value": "Svensk PID-utf\u00e4rdare B"
+        }
+      ],
+      "entityType": "pid-provider",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDYzCCAkugAwIBAgIUDbv5yGhaNnVtogqMHLLdzc/hgB8wDQYJKoZIhvcNAQELBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1iMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMyNzEyNDE1N1oXDTI3MDMyNzEyNDE1N1owQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1iMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp7YatzHiLvA9jdadMkRA3DwjUY5thJl3hJ2klktTHx2NbGoUB1ibH+N480tzv63vbpJMEW6Y2t4NdTLs7TuNtH3ILV0QMVbAvEOWa2iA8aoHbHlLEhyNDtTL6A0Oa+COgeZ1PLF1G8qXFjCuypLZEgCrcqL4Q9Abc8KYiH43qIi4+sU2ZvGt+7dg3pejTQRr3nRiNLPWpqRdtjiAtJl72hNqROqZ/r5cjU177dyJkW2MDkA9mvaFBiqmuWpYNyaNWhVno3RFzhv4miBmXy4PDuadWdyIDT0Lvv5DbKEnpNpP161iW4jTTzkHc8o/k/wIxTncQqvhuLoxMCclC1ksoQIDAQABo1MwUTAdBgNVHQ4EFgQU2aq1rWBCvG9f+s44/6AL6vj2tSEwHwYDVR0jBBgwFoAU2aq1rWBCvG9f+s44/6AL6vj2tSEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAK0+b4SlSzqsY3PUYaQVk5Ddq9yv59N2gInyBMpkyMI5UwI+mfVqSmNwQ/VKZEWArfHcPbEEf62teD8q5hHjpuRvZfXdxG7GlY5mCo+Qhhj2ehSntDEiXy2qKdDyjqDRNF64nLUV0etRod/1FK7B1YmrGXxeUIeDsLxYfuZSMfyG2z1d47yPFSDpe+yb/mET8X3uF6dumLMZPMBt8Lkg2Ih/o+Qm9DL3B2i6WjQFD4his1/HZeL3xyikpF7S7C0c1o4/pqHS3SGUxCLdVfQ8yolcZcEsR/LqsCcw+H1v0wV1HCGoUYGjPzta7+wOaKhm34nqtQEFgqFdq73DPxtoE8A=="
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/TrstSvc/Svctype/EAA/PID",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "PID Issuance Service B"
+            },
+            {
+              "language": "sv",
+              "value": "PID-utf\u00e4rdningstj\u00e4nst B"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
         }
       ]
     }
