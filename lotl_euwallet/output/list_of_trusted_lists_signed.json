@@ -1,0 +1,144 @@
+{
+  "loteTag": "http://uri.etsi.org/19602/LoTETag",
+  "schemeInformation": {
+    "loteVersionIdentifier": 1,
+    "loteSequenceNumber": 1,
+    "loteType": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+    "schemeOperatorName": [
+      {
+        "lang": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeOperatorAddress": {
+      "postalAddresses": [],
+      "electronicAddress": [
+        {
+          "lang": "en",
+          "uri": "https://webuild-consortium.github.io/wp4-trust-group/"
+        }
+      ]
+    },
+    "schemeName": [
+      {
+        "lang": "en",
+        "value": "WP4 List of Trusted Lists"
+      }
+    ],
+    "schemeInformationURI": [
+      {
+        "lang": "en",
+        "uri": "https://webuild-consortium.github.io/wp4-trust-group/"
+      }
+    ],
+    "statusDeterminationApproach": "http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate",
+    "schemeTypeCommunityRules": [],
+    "schemeTerritory": "EU",
+    "listIssueDateTime": "2026-03-27T10:06:18Z",
+    "nextUpdate": "2026-09-27T10:06:18Z",
+    "distributionPoints": [
+      {
+        "tlType": "pid-provider",
+        "participantId": "italy",
+        "tlUrl": "https://trust.example.it/pid_providers.json",
+        "tlUrlJson": "https://trust.example.it/pid_providers.json",
+        "tlUrlXml": "https://trust.example.it/pid_providers.xml",
+        "metadata": {
+          "operator_name": "Italian PID Authority",
+          "country": "IT"
+        }
+      },
+      {
+        "tlType": "pid-provider",
+        "participantId": "germany",
+        "tlUrl": "https://trust.example.de/pid_providers.json",
+        "tlUrlJson": "https://trust.example.de/pid_providers.json",
+        "tlUrlXml": "https://trust.example.de/pid_providers.xml",
+        "metadata": {
+          "operator_name": "German PID Authority",
+          "country": "DE"
+        }
+      },
+      {
+        "tlType": "wallet-provider",
+        "participantId": "italy",
+        "tlUrl": "https://trust.example.it/wallet_providers.json",
+        "tlUrlJson": "https://trust.example.it/wallet_providers.json",
+        "tlUrlXml": "https://trust.example.it/wallet_providers.json",
+        "metadata": {
+          "operator_name": "Italian Wallet Authority",
+          "country": "IT"
+        }
+      },
+      {
+        "tlType": "wallet-provider",
+        "participantId": "france",
+        "tlUrl": "https://trust.example.fr/wallet_providers.json",
+        "tlUrlJson": "https://trust.example.fr/wallet_providers.json",
+        "tlUrlXml": "https://trust.example.fr/wallet_providers.json",
+        "metadata": {
+          "operator_name": "French Wallet Authority",
+          "country": "FR"
+        }
+      },
+      {
+        "tlType": "wrpac-provider",
+        "participantId": "eu-central",
+        "tlUrl": "https://trust.example.eu/wrpac_providers.json",
+        "tlUrlJson": "https://trust.example.eu/wrpac_providers.json",
+        "tlUrlXml": "https://trust.example.eu/wrpac_providers.json",
+        "metadata": {
+          "operator_name": "EU WRPAC Authority",
+          "country": "EU"
+        }
+      },
+      {
+        "tlType": "wrprc-provider",
+        "participantId": "eu-central",
+        "tlUrl": "https://trust.example.eu/wrprc_providers.json",
+        "tlUrlJson": "https://trust.example.eu/wrprc_providers.json",
+        "tlUrlXml": "https://trust.example.eu/wrprc_providers.json",
+        "metadata": {
+          "operator_name": "EU WRPRC Authority",
+          "country": "EU"
+        }
+      },
+      {
+        "tlType": "pub-eaa-provider",
+        "participantId": "spain",
+        "tlUrl": "https://trust.example.es/pub_eaa_providers.json",
+        "tlUrlJson": "https://trust.example.es/pub_eaa_providers.json",
+        "tlUrlXml": "https://trust.example.es/pub_eaa_providers.json",
+        "metadata": {
+          "operator_name": "Spanish Pub-EAA Authority",
+          "country": "ES"
+        }
+      },
+      {
+        "tlType": "ebwoid-provider",
+        "participantId": "eu-central",
+        "tlUrl": "https://trust.example.eu/ebwoid_providers.json",
+        "tlUrlJson": "https://trust.example.eu/ebwoid_providers.json",
+        "tlUrlXml": "https://trust.example.eu/ebwoid_providers.json",
+        "metadata": {
+          "operator_name": "EU EBWOID Registry",
+          "country": "EU"
+        }
+      }
+    ]
+  },
+  "signature": {
+    "protected": {
+      "alg": "RS256",
+      "x5c": [
+        "MIIDcTCCAlmgAwIBAgIUI8hVSKEAMINVxlgB5HMRmEvtgiQwDQYJKoZIhvcNAQELBQAwSDEfMB0GA1UEAwwWVGVzdCBMb1RMIEpBZEVTIFNpZ25lcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMDUxMTNaFw0yNzAzMjcxMDUxMTNaMEgxHzAdBgNVBAMMFlRlc3QgTG9UTCBKQWRFUyBTaWduZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHQgLNDmHQLxztn6KaX3XGGP5xjtZ4YQ97i9aUMx0wL6JupMZtYa4V3besAY5bQebcDg8C3QHFyQmwwXg41MnGj1xRHbxxvvaVJNInf2Pzlnb3Eul3/mDNAOgCeuhabvzzwCzOoQgC29DrQCvDsOTauHkUKX5Fpv4eG5Nbw+XEycilVwcUOnFBv05DAFr5yDQUX12C0UdTU6+TPPBcPOx+2G7FVDAoMpRnaRUdyYwBErGGDUGsgsjZLFVXN6F7Oa/bqEnVhf9s+3MDk6E8kh9TLgozJRkMDoLZRD/JSIpvLvDTD5vyMXgvwLLigsJ4J3eUM5QOpbtzJ/Dmu1tnpcTrAgMBAAGjUzBRMB0GA1UdDgQWBBQDZphyCNBDEdvzplCEbSXj3yk4kjAfBgNVHSMEGDAWgBQDZphyCNBDEdvzplCEbSXj3yk4kjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAAbfoPtP3CHFIb8YZL4It3ujkYPhhZExWkqCfbuGgiZZO0iUy5H2NgusQ9e4XBHtMDw+jB952elE632zSTQl9QODvk/aNeZKIGNlfV/hvM/u1bnw3M6Rqr4cAQEDUKQ3zRU7XdivSUzYEt3tqhJTz5AgJDZj93sLGvptJtZq3cWjNhMVAiRqChr1kvRLcFlc1xCW8ym/z6tzU+08pX2yvzT/dvDYaLXdZMK0EFxYj++isevjapRLYpIuyuekE4WnqVIzIemFNR2YOWPOYD50RQcskpRCdfwyCSREHuiloZv5troV/REuSBGBjbgMHakCNNjRm1H4CLREgtYjXip6K7"
+      ]
+    },
+    "signature": "nS_JAC26d1_K1lxojtsKCoEsqusIkXAtiUwK0ZL0dSwqFec91BJryxEPc_XXIuewA8tX_Ix3M99lMBQz5XneGZwlr7JyEniWoSdIk15jki2lyzkLFaVtum_ShO3D1UtRDHoLcWz1S3EhfXMpSqPwzfzxb6d4gKmdl-ocJn3VRNf7Ep6MdezfLdj96ZYgRxziJ7laew096VcTuiVHSVIzaSQaviQ1IvkjiLNqYw8yeYxaq9BfVy4H66X7eIndk7dJK8z5LwRCnHr3W5QJzzuiFBhCcF3VLjYzZ3G6cERE-7hdnwokrVEluWBsd_JVwc1a6UFSHyuNeSSLAE9nPpKA3A",
+    "header": {
+      "x5c": [
+        "MIIDcTCCAlmgAwIBAgIUI8hVSKEAMINVxlgB5HMRmEvtgiQwDQYJKoZIhvcNAQELBQAwSDEfMB0GA1UEAwwWVGVzdCBMb1RMIEpBZEVTIFNpZ25lcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMDUxMTNaFw0yNzAzMjcxMDUxMTNaMEgxHzAdBgNVBAMMFlRlc3QgTG9UTCBKQWRFUyBTaWduZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHQgLNDmHQLxztn6KaX3XGGP5xjtZ4YQ97i9aUMx0wL6JupMZtYa4V3besAY5bQebcDg8C3QHFyQmwwXg41MnGj1xRHbxxvvaVJNInf2Pzlnb3Eul3/mDNAOgCeuhabvzzwCzOoQgC29DrQCvDsOTauHkUKX5Fpv4eG5Nbw+XEycilVwcUOnFBv05DAFr5yDQUX12C0UdTU6+TPPBcPOx+2G7FVDAoMpRnaRUdyYwBErGGDUGsgsjZLFVXN6F7Oa/bqEnVhf9s+3MDk6E8kh9TLgozJRkMDoLZRD/JSIpvLvDTD5vyMXgvwLLigsJ4J3eUM5QOpbtzJ/Dmu1tnpcTrAgMBAAGjUzBRMB0GA1UdDgQWBBQDZphyCNBDEdvzplCEbSXj3yk4kjAfBgNVHSMEGDAWgBQDZphyCNBDEdvzplCEbSXj3yk4kjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAAbfoPtP3CHFIb8YZL4It3ujkYPhhZExWkqCfbuGgiZZO0iUy5H2NgusQ9e4XBHtMDw+jB952elE632zSTQl9QODvk/aNeZKIGNlfV/hvM/u1bnw3M6Rqr4cAQEDUKQ3zRU7XdivSUzYEt3tqhJTz5AgJDZj93sLGvptJtZq3cWjNhMVAiRqChr1kvRLcFlc1xCW8ym/z6tzU+08pX2yvzT/dvDYaLXdZMK0EFxYj++isevjapRLYpIuyuekE4WnqVIzIemFNR2YOWPOYD50RQcskpRCdfwyCSREHuiloZv5troV/REuSBGBjbgMHakCNNjRm1H4CLREgtYjXip6K7"
+      ]
+    }
+  }
+}

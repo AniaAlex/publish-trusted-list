@@ -1,0 +1,130 @@
+{
+  "loteTag": "http://uri.etsi.org/19602/LoTETag",
+  "schemeInformation": {
+    "loteVersionIdentifier": 1,
+    "loteSequenceNumber": 1,
+    "loteType": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+    "schemeOperatorName": [
+      {
+        "lang": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeOperatorAddress": {
+      "postalAddresses": [],
+      "electronicAddress": [
+        {
+          "lang": "en",
+          "uri": "https://webuild-consortium.github.io/wp4-trust-group/"
+        }
+      ]
+    },
+    "schemeName": [
+      {
+        "lang": "en",
+        "value": "WP4 List of Trusted Lists"
+      }
+    ],
+    "schemeInformationURI": [
+      {
+        "lang": "en",
+        "uri": "https://webuild-consortium.github.io/wp4-trust-group/"
+      }
+    ],
+    "statusDeterminationApproach": "http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate",
+    "schemeTypeCommunityRules": [],
+    "schemeTerritory": "EU",
+    "listIssueDateTime": "2026-03-27T10:06:18Z",
+    "nextUpdate": "2026-09-27T10:06:18Z",
+    "distributionPoints": [
+      {
+        "tlType": "pid-provider",
+        "participantId": "italy",
+        "tlUrl": "https://trust.example.it/pid_providers.json",
+        "tlUrlJson": "https://trust.example.it/pid_providers.json",
+        "tlUrlXml": "https://trust.example.it/pid_providers.xml",
+        "metadata": {
+          "operator_name": "Italian PID Authority",
+          "country": "IT"
+        }
+      },
+      {
+        "tlType": "pid-provider",
+        "participantId": "germany",
+        "tlUrl": "https://trust.example.de/pid_providers.json",
+        "tlUrlJson": "https://trust.example.de/pid_providers.json",
+        "tlUrlXml": "https://trust.example.de/pid_providers.xml",
+        "metadata": {
+          "operator_name": "German PID Authority",
+          "country": "DE"
+        }
+      },
+      {
+        "tlType": "wallet-provider",
+        "participantId": "italy",
+        "tlUrl": "https://trust.example.it/wallet_providers.json",
+        "tlUrlJson": "https://trust.example.it/wallet_providers.json",
+        "tlUrlXml": "https://trust.example.it/wallet_providers.json",
+        "metadata": {
+          "operator_name": "Italian Wallet Authority",
+          "country": "IT"
+        }
+      },
+      {
+        "tlType": "wallet-provider",
+        "participantId": "france",
+        "tlUrl": "https://trust.example.fr/wallet_providers.json",
+        "tlUrlJson": "https://trust.example.fr/wallet_providers.json",
+        "tlUrlXml": "https://trust.example.fr/wallet_providers.json",
+        "metadata": {
+          "operator_name": "French Wallet Authority",
+          "country": "FR"
+        }
+      },
+      {
+        "tlType": "wrpac-provider",
+        "participantId": "eu-central",
+        "tlUrl": "https://trust.example.eu/wrpac_providers.json",
+        "tlUrlJson": "https://trust.example.eu/wrpac_providers.json",
+        "tlUrlXml": "https://trust.example.eu/wrpac_providers.json",
+        "metadata": {
+          "operator_name": "EU WRPAC Authority",
+          "country": "EU"
+        }
+      },
+      {
+        "tlType": "wrprc-provider",
+        "participantId": "eu-central",
+        "tlUrl": "https://trust.example.eu/wrprc_providers.json",
+        "tlUrlJson": "https://trust.example.eu/wrprc_providers.json",
+        "tlUrlXml": "https://trust.example.eu/wrprc_providers.json",
+        "metadata": {
+          "operator_name": "EU WRPRC Authority",
+          "country": "EU"
+        }
+      },
+      {
+        "tlType": "pub-eaa-provider",
+        "participantId": "spain",
+        "tlUrl": "https://trust.example.es/pub_eaa_providers.json",
+        "tlUrlJson": "https://trust.example.es/pub_eaa_providers.json",
+        "tlUrlXml": "https://trust.example.es/pub_eaa_providers.json",
+        "metadata": {
+          "operator_name": "Spanish Pub-EAA Authority",
+          "country": "ES"
+        }
+      },
+      {
+        "tlType": "ebwoid-provider",
+        "participantId": "eu-central",
+        "tlUrl": "https://trust.example.eu/ebwoid_providers.json",
+        "tlUrlJson": "https://trust.example.eu/ebwoid_providers.json",
+        "tlUrlXml": "https://trust.example.eu/ebwoid_providers.json",
+        "metadata": {
+          "operator_name": "EU EBWOID Registry",
+          "country": "EU"
+        }
+      }
+    ]
+  }
+}

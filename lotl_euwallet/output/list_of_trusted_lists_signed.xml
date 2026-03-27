@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TrustServiceStatusList xmlns="http://uri.etsi.org/19612/v2.4.1#" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" Id="lotl-1">
+  <SchemeInformation>
+    <TSLVersionIdentifier>6</TSLVersionIdentifier>
+    <TSLSequenceNumber>1</TSLSequenceNumber>
+    <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+    <SchemeOperatorName>
+      <Name xml:lang="en">WE BUILD WP4 Trust Group</Name>
+    </SchemeOperatorName>
+    <SchemeOperatorAddress>
+      <PostalAddresses/>
+      <ElectronicAddress>
+        <URI xml:lang="en">https://webuild-consortium.github.io/wp4-trust-group/</URI>
+      </ElectronicAddress>
+    </SchemeOperatorAddress>
+    <SchemeName>
+      <Name xml:lang="en">WP4 List of Trusted Lists</Name>
+    </SchemeName>
+    <SchemeInformationURI>
+      <URI xml:lang="en">https://webuild-consortium.github.io/wp4-trust-group/</URI>
+    </SchemeInformationURI>
+    <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate</StatusDeterminationApproach>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <ListIssueDateTime>2026-03-27T10:06:18Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-09-27T10:06:18Z</dateTime>
+    </NextUpdate>
+    <DistributionPoints>
+      <URI>https://trust.example.it/pid_providers.json</URI>
+      <URI>https://trust.example.de/pid_providers.json</URI>
+      <URI>https://trust.example.it/wallet_providers.json</URI>
+      <URI>https://trust.example.fr/wallet_providers.json</URI>
+      <URI>https://trust.example.eu/wrpac_providers.json</URI>
+      <URI>https://trust.example.eu/wrprc_providers.json</URI>
+      <URI>https://trust.example.es/pub_eaa_providers.json</URI>
+      <URI>https://trust.example.eu/ebwoid_providers.json</URI>
+    </DistributionPoints>
+  </SchemeInformation>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#lotl-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>q1E97OpncERCa9btytu7gW/K7YEC35Wd8ysjC69vF60=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>P7sEvB8iyvGDp9qzj5dnwBXIWdZr1VwbbXXbjdB1qFqJOak6sHCx799hmE9om+GeKHb2dCMTtZ8jK+b9KnjF4lRaM9wuIzFPNj8d8XvWv9hETDi6e1RTcyr9cY/KjqZeQio5DRk+K+AWYPFT1ZQznJ6BJBI67LucIYIFwMc9Ur6J7Be7781gGZtpoul3F8Pfzpr/yYfOB7gS1fLXY3K/wwpWPVsHFiv0VM5ypvJhQD+Z+GbI+hYpVWhPPr5sQIV0LxldSpiz6/900vU07nE9Mv9l95RvDGihpFzK2Rn/UaHe+9lcdJFWzgVhroRpqBbHXLtu0faJajTvmfuz3Nh3uQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDcTCCAlmgAwIBAgIUBg4BFvCbGMcuPjwAXtHwo+DbYBswDQYJKoZIhvcNAQEL
+BQAwSDEfMB0GA1UEAwwWVGVzdCBMb1RMIFhBZEVTIFNpZ25lcjEYMBYGA1UECgwP
+V1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMDUxMDNaFw0y
+NzAzMjcxMDUxMDNaMEgxHzAdBgNVBAMMFlRlc3QgTG9UTCBYQWRFUyBTaWduZXIx
+GDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAV2Rzfu7LzxrbxhIkFaEO66BLATDF5SBZ
+AXQZ3vT5989KP16eJ0R7RFw9TPUcJ0mtOfAHjXiFxhK20co9QG6x0CTXBf+1txDz
+gYn4NyHtfVo+txgPA8VxBKEDIrtJVCmtS52JdIE5C0Hf71YTr/2VLP1Jskv1BE4Z
+1hmYDuRNDNm8xQNf4R26ydXZ2WB2Ha2mrYqDoFLQeFliEPVYyWcWEduVZlcOyPTH
+pftj6xCs/iq7uPelsD6gO15e3J0WvTj9RmfzWoH2rdM73ng+Dxt7LUs8Pole+R92
+BvgntNhDXTv8GeZJmviFGXWm1GwyZ2QV7VeacRSZIQTHq/rL/bFrAgMBAAGjUzBR
+MB0GA1UdDgQWBBTv8AEaUsPiCMGMNOJMxfllzJ7KpDAfBgNVHSMEGDAWgBTv8AEa
+UsPiCMGMNOJMxfllzJ7KpDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQBByTOiQ5lILw0ooyfJsXDQl6YL72TeEZ2NWLolXcpknP+unNVeX4+P4mZL
+JHvR0hsR3MAgWJNTnmj2c/3GDT3DbhkqIwz8qZhKpWBx9ZFPkNahJzYZ1+6/4hZR
+EcudN2CEXvkjHyhI68mozYmODCGXot1bEh4Ao8L82kBcZUZXCeuqveRStYCUsB5u
+T4I4qjILNCkR+WMNLRHWPDu1r3iFdY1X9quQMoI0VYsGGt6h9Uox5Ud8pw4QXRG+
+BHcO9lSoPYb8eqqQNnlymrG4kHboUjyz9e9EjijrdbcAWm112dqmDdqg3PUG9dx3
+G/yl9KENn1FuT1z0oZH/kEBycESA
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></TrustServiceStatusList>
