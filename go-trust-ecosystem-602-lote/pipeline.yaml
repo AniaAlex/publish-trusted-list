@@ -1,0 +1,8 @@
+# LoTE Generation Pipeline (ETSI TS 119 602)
+# Generates a List of Trusted Entities from the entities/ directory structure.
+
+- generate-lote:
+    - .
+
+- publish-lote:
+    - ./output

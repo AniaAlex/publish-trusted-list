@@ -1,0 +1,10 @@
+# LoTE Signing Pipeline (ETSI TS 119 602)
+# Generates and JWS-signs a List of Trusted Entities from the entities/ directory.
+
+- generate-lote:
+    - .
+
+- publish-lote:
+    - ./output
+    - ./lote-signing-cert.pem
+    - ./lote-signing-key.pem

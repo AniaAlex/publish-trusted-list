@@ -1,0 +1,11 @@
+entityId: "https://ca.example.com"
+names:
+  - language: en
+    value: "Example CA"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+services:
+  - serviceType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
+    serviceNames:
+      - language: en
+        value: "Qualified Certificate Authority"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

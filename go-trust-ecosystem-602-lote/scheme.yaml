@@ -1,0 +1,9 @@
+operatorNames:
+  - language: en
+    value: "WE BUILD WP4 Trust Group"
+schemeName:
+  - language: en
+    value: "WP4 List of Trusted Entities"
+schemeType: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric"
+territory: "SE"
+sequenceNumber: 1

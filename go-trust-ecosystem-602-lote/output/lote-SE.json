@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "SE",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "WP4 List of Trusted Entities"
+      }
+    ],
+    "schemeType": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+    "issueDate": "2026-03-27T11:59:57.755686Z",
+    "sequenceNumber": 1
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://ca.example.com",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example CA"
+        }
+      ],
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDWTCCAkGgAwIBAgIUHQZBSVmjMWm7dRlfFvSZfb24VvcwDQYJKoZIhvcNAQELBQAwPDETMBEGA1UEAwwKZXhhbXBsZS1jYTEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMTQ1MjZaFw0yNzAzMjcxMTQ1MjZaMDwxEzARBgNVBAMMCmV4YW1wbGUtY2ExGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx6Jf1oP+R0VQhab86t9dMzF3c6Fl0uPY/gPbsTwcvlJ4wGI4O5pIQQykrEjBrM2Nt0mHz15aF74aSaj8Vq2TD6qqkK771ucFCKNyDWHTyrGOA4vZGI2+d/fdw+vhh7quuHaq5NmEbN9kAbT2+soybtu7JxjsPFqHT7wWEn5BeTZR1hV84A8Q5NNZHBwrM5Irt3DzVC5c4yIYTJ5NwAR/O67oKWswwXhh34jC/dS4Mp7V6jkR2smqXp9M8nSL685n0YU8ltqp5hdNgwA9vY0e4E+xhm1xwgPR0e2aFmux0j0x7OzdK28BtGEke2IyH8R/duyoP1WQnuyTAylSyhkGJAgMBAAGjUzBRMB0GA1UdDgQWBBTRW3PiMopvq3OYtIuFubzp0Ye/hzAfBgNVHSMEGDAWgBTRW3PiMopvq3OYtIuFubzp0Ye/hzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB0z4HIGPKs81KAxSUAA55G44I0Pa/c3GzNs3Zc32D0wsSxaiqclBAjSa1OtXhlX2Qr9oYJzYf/HNbw+r3BJezlsyzBXpIYcQRn36f/d2mG+NAEPJZpBx02CAtp5ZvkW1MRjIBJ/5gX52jDNS0yMy0K7LkHEmUWklRUdUQxwk1QzQI4N8lsq7rnuLwjCtTOAwZz6j71PfVFbt+x3pC8jjpcoSEEQ9r7BZmh2vm16DhH+IWB9Tz7aX9S+bWZEMvVYyMPL3TFV5ocmciOgwc8CIDS0xJoGYMGnIEU6hCsKjVRKGS52yE2lml/fKXhD3pCyWb9LqexJZNxekNcW6jConCW"
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/TrstSvc/Svctype/CA/QC",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "Qualified Certificate Authority"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    },
+    {
+      "entityId": "https://issuer.example.com",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example Credential Issuer"
+        }
+      ],
+      "entityType": "credential-issuer",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "jwk",
+          "jwk": {
+            "crv": "P-256",
+            "kty": "EC",
+            "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",
+            "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0"
+          }
+        },
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDYTCCAkmgAwIBAgIUIbpCS+d5sa9AolGPz6zfNVjspBQwDQYJKoZIhvcNAQELBQAwQDEXMBUGA1UEAwwOZXhhbXBsZS1pc3N1ZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwHhcNMjYwMzI3MTE0NTI2WhcNMjcwMzI3MTE0NTI2WjBAMRcwFQYDVQQDDA5leGFtcGxlLWlzc3VlcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMNG1/LrPCWEomDPzuEKREMoNQ9F8VOapLfYegSJ8Xj1rwdRYmWLLRGrfOElSKX96gKwpo61pw0PlHdZs45ovo9TXIWIseMHh4lbZ3ay7iIjojHlQMO19H1xMHtlLykFj4Q+nY++F1ljk/5nTYRyTBh3vvvrKXQzogaxV6rbzGxsihKHGYy0+CnegCY9PfnPiDVtlDC0sowJgzKWITWyLpR+1J5+DY25mh0KTrhY4GZa7UIC6QgiER754CfRaTl3oofrfsm4udVAXpZMhbRDkoNKC6oL1jldI8WNxP4bqizw+IRMMDuqJlkQbzhD7IOqaQgsCaNhVy1fygk3KKcbg90CAwEAAaNTMFEwHQYDVR0OBBYEFOYFo8Rxw8L+GY+VytjVryd3mpwyMB8GA1UdIwQYMBaAFOYFo8Rxw8L+GY+VytjVryd3mpwyMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABjs7yychNnKupQC7FFtH4y7YMFvtr5WpfrrR5lFjBbT7bc/dw7cFw6iHFGMJb0LNQtY1a3qTJshP14ffAMaEDBnmk/SmnDkVQQchGqcsiQ1+DELSCRlKYptfmvyzhUNRhg2D6a3Lao3Z3F1Qg3F/wI4fBOlkvsicyVPly0zNYaoImkZjaZP9WKgYbU/Uxp740Su7uaKCg3y2ZEn2rrjliLCf1FhePOG+uja0JxZ0KnLEXJJc0Vv5Afan33e35w96QpquDsNm90+Q3alxIUrM3t/NqduwQ3EJkLsNAtXUb1xYY6Xfr2txZjuu21HRsDTLfVVXwkvQJE3qaRw9PsjFYw="
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/TrstSvc/Svctype/CA/QC",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "Qualified Certificate Service"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    },
+    {
+      "entityId": "https://verifier.example.com",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example Verifier"
+        }
+      ],
+      "entityType": "verifier",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "did",
+          "did": "did:web:verifier.example.com"
+        },
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDZTCCAk2gAwIBAgIUZlo7ZRYdVlJSbKzoMQetJBO//Y0wDQYJKoZIhvcNAQELBQAwQjEZMBcGA1UEAwwQZXhhbXBsZS12ZXJpZmllcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMjcxMTQ1MjZaFw0yNzAzMjcxMTQ1MjZaMEIxGTAXBgNVBAMMEGV4YW1wbGUtdmVyaWZpZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC22s7tanreAl8gaHbKTaXrxuQhoN0zVCqRG9jfmH9uuKZSUBdiH1UHoq6BRD7z0zgDjBfsUAXWTocWGkShRf0j4ar/tSuY+up+0jWnV8TgLhWgeIOuO0tlmFhLnyGc1LbcVwixxqBUdWQsnNNgPGEC9JmckYsTUAwozRW+bANYQFVpO+GkVOtcf0++8GkisOe/Jzep/jHXi71RpFNq4mAVY9vQlpWwAEExkRfHbfC2O6MipUDMGrs3nf7FR1Pylo/DimVUymakqLCbneSLplZfKkWfc+zjAqZ9RoxxSKSziMtsagPwT1Rz/v23EN9b7spMZo3nSDdAU0cJ7z42x7PNAgMBAAGjUzBRMB0GA1UdDgQWBBQA4P2CmzX+ouMhajwjjw78L6veZzAfBgNVHSMEGDAWgBQA4P2CmzX+ouMhajwjjw78L6veZzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAHiRa0DgIvtK2MYY6dABNSIuXAMA2IZVStmQ/CLHTc5/YR7/AoYbUI/c7+ARJria2Ews5eVB7XJrqhyEWD3lpslOA+XY6r7KF7FzIKyMBPdXDp5aN7QzGmlXeaC6cjGbZuWtYnRPp3Ugc4EdvKA0YYVHADkRdV57PqD5N3B5i5Dk+G6xhq67c/ZyzQeRkNy4Zl1XAIkymECSwSHxYD9CTgGk/L9RbHpeQCgB9jSH3sXb8uQ+oaeW9aUcQzpbUpQR+5IlA3W2P0Rnzk+uUK2k2JXUg1VD/IrvkQ6X+Zdtz/7lEcvrDOVOIrYqcg7HdBrnkq5YvKyVO6dG/7mLUY+EcJ"
+        }
+      ]
+    }
+  ]
+}

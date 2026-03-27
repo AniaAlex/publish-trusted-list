@@ -1,0 +1,12 @@
+entityId: "https://issuer.example.com"
+names:
+  - language: en
+    value: "Example Credential Issuer"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+entityType: "credential-issuer"
+services:
+  - serviceType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
+    serviceNames:
+      - language: en
+        value: "Qualified Certificate Service"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

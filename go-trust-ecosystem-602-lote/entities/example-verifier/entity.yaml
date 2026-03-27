@@ -1,0 +1,6 @@
+entityId: "https://verifier.example.com"
+names:
+  - language: en
+    value: "Example Verifier"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+entityType: "verifier"
