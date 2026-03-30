@@ -1,0 +1,8 @@
+names:
+  - language: en
+    value: "Example QEAA Issuer"
+  - language: sv
+    value: "Exempelutfärdare av QEAA"
+informationURI:
+  - language: en
+    value: "https://qeaa-issuer.example.se"

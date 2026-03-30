@@ -1,0 +1,10 @@
+operatorNames:
+  - language: en
+    value: "WE BUILD WP4 Trust Group"
+schemeName:
+  - language: en
+    value: "WP4 List of Trusted Entities — PID Providers"
+schemeType: "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList"
+type: "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList"
+territory: "SE"
+sequenceNumber: 1

@@ -1,0 +1,16 @@
+entityId: "https://pid-b.example.se"
+names:
+  - language: en
+    value: "Swedish PID Issuer B"
+  - language: sv
+    value: "Svensk PID-utfärdare B"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+entityType: "pid-provider"
+services:
+  - serviceType: "http://uri.etsi.org/19602/SvcType/PID/Issuance"
+    serviceNames:
+      - language: en
+        value: "PID Issuance Service B"
+      - language: sv
+        value: "PID-utfärdningstjänst B"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

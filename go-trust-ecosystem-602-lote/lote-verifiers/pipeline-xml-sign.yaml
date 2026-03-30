@@ -1,0 +1,7 @@
+- generate:
+    - .
+
+- publish:
+    - ./output
+    - ./tsl-signing-cert.pem
+    - ./tsl-signing-key.pem

@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "SE",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "WP4 List of Trusted Entities — QEAA Providers"
+      }
+    ],
+    "schemeType": "http://uri.etsi.org/19602/LoTEType/EUQEAAProvidersList",
+    "issueDate": "2026-03-30T11:32:30.259438Z",
+    "sequenceNumber": 1
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://qeaa-issuer.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example QEAA Issuer"
+        },
+        {
+          "language": "sv",
+          "value": "Exempelutfärdare av QEAA"
+        }
+      ],
+      "entityType": "qeaa-provider",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDazCCAlOgAwIBAgIUXphzbbFHfr3yTFJyviMyfGBptsswDQYJKoZIhvcNAQELBQAwRTEcMBoGA1UEAwwTZXhhbXBsZS1xZWFhLWlzc3VlcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMzAxMTMwNTRaFw0yNzAzMzAxMTMwNTRaMEUxHDAaBgNVBAMME2V4YW1wbGUtcWVhYS1pc3N1ZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDgR4oEllYIDwTXEhtJWhUzO7g6vsNVeaIFJvwiQa1jH0FpEmIhFXtW7Cea8ha2ulf9weudrOO08Wod9Tz33LTWwsfa5sYFjmaoryij+OQ9TLT54Bq48KViuyPKewoQkFP5hflFCd3kLPvjPxs+ymDEYwJ7I3dKu7Gc/Igy3hjeR9x8N/gIOq64tYbOT8rLu3pIfdO0q6DuYtVeRCIGh4El0KFRtslYCA7aZaectAHl2v/o8jCy6Z19IDiUAosFRUCpCrhuZxreQYut3jT+xWV6dlbJiQ/fXL5FjO23Gfb74XFiH6wJVFVLxaZPqfZJWUV+cch6smxKi32zreNJ1BVJAgMBAAGjUzBRMB0GA1UdDgQWBBTkCyxDiAceR3QZZIvPq2BI0tZzTDAfBgNVHSMEGDAWgBTkCyxDiAceR3QZZIvPq2BI0tZzTDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCEkmgQIkz6UCoTIPO30E0FVwYjzue4wzy9DOaOV/djVULTKSVoPQIiFgQatd+6p+t0Aj4IvmNhAozlQqQVuGB9eUeiSBfF+tkajzMOmoGd/iebIcchuRC05FlKVQeukWni2JTt88ynW6turzNebpaqzuSC3lJHJDZpcyN9T3zTgPU8stGWv05vfPNRKJMr9KlcSFVP1ZE/hSMUTio0LZ93Nos6TBJOgGOpAR+gmGV7VeR/XYyBQa6iI7hEWItT+GJdeBLLtfy4MoeXcDYf4MeBDhSF/6VnMWnTzoEO+jp8Vpyx9uezJDZZ/TYouS3sDy2vYz7oasJELhw2mJmDX2lw"
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/19602/SvcType/QEAA/Issuance",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "Qualified EAA Issuance Service"
+            },
+            {
+              "language": "sv",
+              "value": "Kvalificerad EAA-utfärdningstjänst"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    }
+  ]
+}

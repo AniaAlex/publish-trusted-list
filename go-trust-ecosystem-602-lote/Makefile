@@ -4,7 +4,35 @@ SIGNING_KEY  := lote-signing-key.pem
 JWS_FILE     := output/lote-SE.json.jws
 DECODED_FILE := output/lote-SE-signed-decoded.json
 
-.PHONY: lote keys sign sign-keys clean-sign-keys decode-sign clean
+LOTE_TYPES := lote-pid-providers lote-wallet-providers lote-qeaa-providers lote-verifiers
+
+.PHONY: lote keys sign sign-keys clean-sign-keys decode-sign clean all all-keys all-sign
+
+# Run lote generation for all per-type subdirectories
+all: $(addprefix lote-,$(LOTE_TYPES))
+
+lote-%:
+	$(MAKE) -C $* lote
+
+# Generate test certs for all per-type subdirectories
+all-keys:
+	@for t in $(LOTE_TYPES); do $(MAKE) -C $$t keys; done
+
+# Sign all per-type LOTEs
+all-sign:
+	@for t in $(LOTE_TYPES); do $(MAKE) -C $$t sign; done
+
+# Generate XML provider certs for all per-type subdirectories
+all-keys-xml:
+	@for t in $(LOTE_TYPES); do $(MAKE) -C $$t keys-xml; done
+
+# Generate XML LoTEs (119 612 schema, valid 119 602 XML binding) for all types
+all-xml:
+	@for t in $(LOTE_TYPES); do $(MAKE) -C $$t lote-xml; done
+
+# Generate and XML-DSIG-sign XML LoTEs for all types
+all-sign-xml:
+	@for t in $(LOTE_TYPES); do $(MAKE) -C $$t sign-xml; done
 
 # Build tsl-tool from g119612 if not present
 $(TSL_TOOL):

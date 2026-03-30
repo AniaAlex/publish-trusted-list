@@ -1,0 +1,10 @@
+operatorNames:
+  - language: en
+    value: "WE BUILD WP4 Trust Group"
+schemeName:
+  - language: en
+    value: "WP4 List of Trusted Entities — Verifiers"
+schemeType: "http://uri.etsi.org/19602/LoTEType/EURelyingPartyList"
+type: "http://uri.etsi.org/19602/LoTEType/EURelyingPartyList"
+territory: "SE"
+sequenceNumber: 1

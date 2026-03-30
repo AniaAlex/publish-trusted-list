@@ -1,0 +1,7 @@
+- generate-lote:
+    - .
+
+- publish-lote:
+    - ./output
+    - ./lote-signing-cert.pem
+    - ./lote-signing-key.pem

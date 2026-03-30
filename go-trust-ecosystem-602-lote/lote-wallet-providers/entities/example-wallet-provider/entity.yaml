@@ -1,0 +1,16 @@
+entityId: "https://wallet.example.se"
+names:
+  - language: en
+    value: "Example Wallet Provider"
+  - language: sv
+    value: "Exempelplånboksleverantör"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+entityType: "wallet-provider"
+services:
+  - serviceType: "http://uri.etsi.org/19602/SvcType/WalletSolution/Issuance"
+    serviceNames:
+      - language: en
+        value: "Wallet Solution Issuance Service"
+      - language: sv
+        value: "Plånbokslösning utfärdningstjänst"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

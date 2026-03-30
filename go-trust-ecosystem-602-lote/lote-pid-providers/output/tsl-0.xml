@@ -1,0 +1,73 @@
+<TrustServiceStatusList>
+  <List TSLTag="">
+    <SchemeInformation>
+      <TSLVersionIdentifier>1</TSLVersionIdentifier>
+      <TSLSequenceNumber>0</TSLSequenceNumber>
+      <TSLType>http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList</TSLType>
+      <SchemeOperatorName>
+        <Name lang="en">WE BUILD WP4 Trust Group</Name>
+      </SchemeOperatorName>
+      <StatusDeterminationApproach/>
+      <HistoricalInformationPeriod>0</HistoricalInformationPeriod>
+      <ListIssueDateTime/>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+      <TrustServiceProvider>
+        <TSPInformation>
+          <TSPName>
+            <Name lang="en">Swedish PID Issuer A</Name>
+            <Name lang="sv">Svensk PID-utfärdare A</Name>
+          </TSPName>
+        </TSPInformation>
+        <TSPServices>
+          <TSPService>
+            <ServiceInformation>
+              <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/PID/Issuance</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name lang="en">PID Issuance Service A</Name>
+                <Name lang="sv">PID-utfärdningstjänst A</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509Certificate>MIIDYzCCAkugAwIBAgIUDGQvDAfslc0FNwz8ZBZ/2XvKdoswDQYJKoZIhvcNAQELBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMzMDExNDUwOVoXDTI3MDMzMDExNDUwOVowQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3x7B/Q01ava5t6Gn6d4lwdCMP2MW9ovkwp+/+lm5kIHZmkA2JD9LFj0nT3lZoonagPnsfaKssiXM4WK1luD3plfgxWcb6a5bO+1Yv12VnonSQmr8KGKUQT3UPmfXxbL4LrRD/8mLAN+xkXTiJTcsz7mym3YU5UE0iM/j3VEvSZrCY5/9ggZOIZSQXR1yR+dIynNyfIWNh55X1ZkHcL45m4WjYP8tCS6CTFf+GiGHxCkBWFA2EdXCtxjy0BzUTfEH1R7XnHCRnho7So1Eh5HFPgJU1uC+Ke2sCWcel/3ju3uGu6cvdM7ZkGqr+eBmqz7h5NWS5QJjRAt8DIev7HJ1iQIDAQABo1MwUTAdBgNVHQ4EFgQU8tfHkAZ39aTb4pExJ3KH87WUx0AwHwYDVR0jBBgwFoAU8tfHkAZ39aTb4pExJ3KH87WUx0AwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAOXzyhyH+ze5pn+MfydGrUd4wbahSYdmd4WyZPVDB/+2D6svNxzjYb0MNA62IgPceuWKrE06Du0CWAftQCVMkXcRNSFHa53VluWHin1SY2pZiV/gBL8FTULkAowEiQX1nMqXmQWDc0YorAEokzMunKkUvIortjvQGe2triewvsGVaNBsb3WNSyipdMSCDrCe3F6nz+nJahdrZbfng6NLCQQfJpLDgixhtqfEm/piQLswdPvLiFwDkHEOQ9OFTa1wnjPyTkjskgGuf1Nvh6KCaDfn+rQBBN3QWhXTTgLTn6UmL4k6YH6lG1sFCDaPit08M8Dm+Unyrvt4Gpqh0hTruYg==</X509Certificate>
+                  <X509SubjectName/>
+                  <X509SKI/>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime/>
+            </ServiceInformation>
+          </TSPService>
+        </TSPServices>
+      </TrustServiceProvider>
+      <TrustServiceProvider>
+        <TSPInformation>
+          <TSPName>
+            <Name lang="en">Swedish PID Issuer B</Name>
+            <Name lang="sv">Svensk PID-utfärdare B</Name>
+          </TSPName>
+        </TSPInformation>
+        <TSPServices>
+          <TSPService>
+            <ServiceInformation>
+              <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/PID/Issuance</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name lang="en">PID Issuance Service B</Name>
+                <Name lang="sv">PID-utfärdningstjänst B</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509Certificate>MIIDYzCCAkugAwIBAgIUAtDFYkxBgrTgB0NA1gl5Yck6OfIwDQYJKoZIhvcNAQELBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1iMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMzMDExNDUwOVoXDTI3MDMzMDExNDUwOVowQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1iMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuswQ5xBkhhYc5g6CQELz4M+y2a/CSZ6My6tWPAN3J505C80b++FqilrgMtOlhRasSCcFM0aBaJNInFPUpOxNoBAELrywIiMYaI6llkJM5ua9WHxT101F8A4itPPQ6vfyNcC6dzxZ4gBZPLLZlCJYPAb3Ahwt8WWMFsLobipPyq/nccudiRUh1uQGJ5SMf4IywU7YIkqvguex1mot3T6Q7BiI2Ak0suVhPfiucgbLpV1As4HTjcK6CSxVsyUXsUc9wEWm+5mvBb6+2M7Ki1AbU9eW7WKau18IpE8H4LmRxuVBZlHzhDcTlB/WtmoepYMU0layosvq2H5bHknG7KHVmQIDAQABo1MwUTAdBgNVHQ4EFgQU+6Da6TOosjHWtiLmdyK8T0UhpdQwHwYDVR0jBBgwFoAU+6Da6TOosjHWtiLmdyK8T0UhpdQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAho98cE32hUZTdxMPRM7JtiMRmzMCMOSQvjMSlA7yCMpCC3iayM2PUAN1Kt1QpUahjUtbPP28SeUbKmnkRDW4Ipu/xo5T2aLvMRw8I6iEopqMA/HYQ+78b/sDh0PocBU8vSoT85ROYxzDVk2eN3OgOxlAn6/pbRmvFxmxrPI2/Vfwpu9q8zdCyA8P24XANkdI9lTfJkJXZilD0bmocQkgAGC8GkF8VEqUH5sVi7G/QCgnTm23K/668h7At32uEV/mfLiez1dig66oTGC58zLxxospzgQ3Tge6v0YOJTJeIZjplgSaCd/NOnZfgzXnkJqx4cU6QPw7dAFMYwWJdyDE1g==</X509Certificate>
+                  <X509SubjectName/>
+                  <X509SKI/>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime/>
+            </ServiceInformation>
+          </TSPService>
+        </TSPServices>
+      </TrustServiceProvider>
+    </TrustServiceProviderList>
+  </List>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>CG353xPfOOAHe6vT9LNPi2PpK0zaHpulIwiYH4t4MyQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>PNY7Cc4WOXFjmrh5pm0omkURwdJbIehTQK/gynM+NKoAJ1nVS3Pz5ew391GY5pF1vVt3Fik/vjxC71kF6kUUrxVm8GOAavQbWxsvVedGRGwiVr1q+lTDrwZ5Xt4FAPmOZvdkRdifiHNKITKLs5/GVpWYMZhh9OVTPuH8j833NJB3huo+zU0fhd7uEsAb6hZ4Z4s2G4JO93Es8nPvRZIEWZwAr4MP3phPi5cTIbGtLKOfkkHORVygW0IskfJ9wHfC6SJM5xQYiWIXB4fR6V++oqNqY5DJwSVKevgTj65OqUUeq6ehunAZzORBqlUxoxgz7flygkfNCPDbZdYNUU44iw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYTCCAkmgAwIBAgIUFr9IshZLL6f2eJS5BdLsMwhC+BgwDQYJKoZIhvcNAQELBQAwQDEXMBUGA1UEAwwOVFNMIFhNTCBTaWduZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCU0UwHhcNMjYwMzMwMTE0ODQ2WhcNMjcwMzMwMTE0ODQ2WjBAMRcwFQYDVQQDDA5UU0wgWE1MIFNpZ25lcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJTRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALNoxgCxTgHWQALfrjNXY6ugX9pZF01J6il6PugWTYNR4yr+6dq/WIFpXLcOGVW8wWopVmMrm+jWizSMK76Jtkii00ljYIq6qpLSpd0YPwIOhjV35uzldSjZ71PsfTaFawkzoyo+Ll0Y0pe6tKzILziguHOEOIBFm+LMQDuYxEs3fqHxhi/KWX8qUTDZdgOOZLFLmQvb1fcIPL5B24nyMf4RIpokxarDeVhDWNPkESRWyr9MnJX8AMA7DWL2I2/zQ2rziITuG2k5UuYxWkD5UpaCllNno5MTYVRnxbUKhgXEyewlhrDM7o7c6ir5qbR161v1s09PcBx89WZtzfZtkEMCAwEAAaNTMFEwHQYDVR0OBBYEFEOa0Kz8raaHfDBARi/U36CNAIIAMB8GA1UdIwQYMBaAFEOa0Kz8raaHfDBARi/U36CNAIIAMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALEZWYiPlWX66NJo1YLkJebOZ38wSyIAZuyV9J6f0slUlhfFurbctv4+rKEglwwGXc5/kUBxvYMpwaIzInuv95wbNJXYi1/gOGWxnczy/OX6L6iXI9IUy0erTUu3os8FxStvdtCuGV+R9j3CGNdRfGfbDjbeO43HXLqtvHeeJl4Cb0Fv5gkB5H52M09pF2LBYTLhcTZyDDK7NmxkDgmasJ8jI1xAjDBMr+BG13ZwhpwMlHytEFHQwrMd5UMaC+WDlSWdL7Sqq1NmMa4zlrgB+xmd8o+LakPARWDj1M9RimgnK0yZiI75T7Nn04nSKCJFGvqEzvYbSWHI+rIUIdkSKDk=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></TrustServiceStatusList>

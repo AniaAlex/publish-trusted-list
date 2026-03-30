@@ -1,0 +1,8 @@
+names:
+  - language: en
+    value: "Swedish PID Issuer A"
+  - language: sv
+    value: "Svensk PID-utfärdare A"
+informationURI:
+  - language: en
+    value: "https://pid-a.example.se"

@@ -1,0 +1,16 @@
+entityId: "https://qeaa-issuer.example.se"
+names:
+  - language: en
+    value: "Example QEAA Issuer"
+  - language: sv
+    value: "Exempelutfärdare av QEAA"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+entityType: "qeaa-provider"
+services:
+  - serviceType: "http://uri.etsi.org/19602/SvcType/QEAA/Issuance"
+    serviceNames:
+      - language: en
+        value: "Qualified EAA Issuance Service"
+      - language: sv
+        value: "Kvalificerad EAA-utfärdningstjänst"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

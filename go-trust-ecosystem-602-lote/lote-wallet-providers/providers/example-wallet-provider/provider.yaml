@@ -1,0 +1,8 @@
+names:
+  - language: en
+    value: "Example Wallet Provider"
+  - language: sv
+    value: "Exempelplånboksleverantör"
+informationURI:
+  - language: en
+    value: "https://wallet.example.se"

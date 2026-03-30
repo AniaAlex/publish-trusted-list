@@ -1,0 +1,45 @@
+<TrustServiceStatusList>
+  <List TSLTag="">
+    <SchemeInformation>
+      <TSLVersionIdentifier>1</TSLVersionIdentifier>
+      <TSLSequenceNumber>0</TSLSequenceNumber>
+      <TSLType>http://uri.etsi.org/19602/LoTEType/EURelyingPartyList</TSLType>
+      <SchemeOperatorName>
+        <Name lang="en">WE BUILD WP4 Trust Group</Name>
+      </SchemeOperatorName>
+      <StatusDeterminationApproach/>
+      <HistoricalInformationPeriod>0</HistoricalInformationPeriod>
+      <ListIssueDateTime/>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+      <TrustServiceProvider>
+        <TSPInformation>
+          <TSPName>
+            <Name lang="en">Example Verifier</Name>
+            <Name lang="sv">Exempelverifierare</Name>
+          </TSPName>
+        </TSPInformation>
+        <TSPServices>
+          <TSPService>
+            <ServiceInformation>
+              <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/RelyingParty/Verification</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name lang="en">Credential Verification Service</Name>
+                <Name lang="sv">Verifieringstjänst för intyg</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509Certificate>MIIDZTCCAk2gAwIBAgIUd5w3jinz3rmEo9PpeJ87qBQWV6YwDQYJKoZIhvcNAQELBQAwQjEZMBcGA1UEAwwQZXhhbXBsZS12ZXJpZmllcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMzAxMTQ1MDlaFw0yNzAzMzAxMTQ1MDlaMEIxGTAXBgNVBAMMEGV4YW1wbGUtdmVyaWZpZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCkdI1Z6hU3bmKvXYiz+dWDFhloCj0BffF3pn3OizfxlNfDKIj18osVHyguOf3LorAk6rkfp1hLAJkCYccbKLI/+o3DWI6WRd45ONBGnT9X85KhN3Eon95PloZlPMXiLarHZ7Ulnx6IcBfYG6sx+YImg+D6wZBWMHKOyZtk/zqqxb7ZTr8MZK+9c6TO+fy75Hk0uhLArU6LoujzkuUKjiszcYEucRTjLhAW3o5slpOSdmxZys9TBqKTJHyV9Xw34oUjAWS44u1BENH/HWmY/9v23muRE5mx+u34sJSiMgvcIdpwrqBbY7Q8uAD+1LtKeFaoM10VdCP9TUD16wSSO+KHAgMBAAGjUzBRMB0GA1UdDgQWBBQuz0RmrMi3dUqnSqCEYddCzp0otTAfBgNVHSMEGDAWgBQuz0RmrMi3dUqnSqCEYddCzp0otTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCCX7tZr0yYtyA+YhrX6KC3B95ufaAKk6qYyHrw0pKeZ+/H+cDSlZA635nVM8tmNhtulHnU/xPBJ1LX4Bf5b+WTdbK6syR5/770ZXPY8x+JKrZauK5e6Ta2aqNH9HJY2272Cin5HFXnGvUAWkMPTDUOsYREa6hv5ipXCYThkYNtQmf/rxdBImx2R+S9P+PvSeJ+kh2JYhjvYRjxTLomfgOXc9mh3z41lsXkgy2gOSFd2YGC91+4xcX1fo+gM1Pv2bNx3GKQhLzqBVnkEqkUW5EQLOHFUvb47v/FZUWoKBonq7NrECgn77cYaAfg29WJU30bZkoV4ddZaB7ZAzImEtDA</X509Certificate>
+                  <X509SubjectName/>
+                  <X509SKI/>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime/>
+            </ServiceInformation>
+          </TSPService>
+        </TSPServices>
+      </TrustServiceProvider>
+    </TrustServiceProviderList>
+  </List>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qk2O1AiDGU1jAgMEakkpEyRhqPKk20DNkUA81n8NNVE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ZOUm0vwSZv0cdGnzi9ZCr155xe2h3VVnBstNh0IblDzMCWS/aHv8m8L5mpcEw416Rq/Je5L3/fWsmkH/uO0FWBsUbnjc4jL94g4IxnMuJh32+0rql6VSpwX7FyNRIQpuc3rCTzGDxVPg+IqunjAkUJPKyT52WVrsxVvHINYOUCnppjhVs890X1Scg8HNTBw9FMiuqcEBSa3UZViSCFaB8221SjmgrdMsjgzJ0O/4O5dGJ5ZtM/KIAPea4iwP/N4slt6CC6dYifpDP7y7GwdqfNaak1Dx+YyIWfxYaz00ab6CmpGbvuD3QkhqQw5PJmD3uIKlk5yilLgNvC6qq6Ziwg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYTCCAkmgAwIBAgIUPmK/ibxTAqWQr00Um6rQljUsHZowDQYJKoZIhvcNAQELBQAwQDEXMBUGA1UEAwwOVFNMIFhNTCBTaWduZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCU0UwHhcNMjYwMzMwMTE0ODQ2WhcNMjcwMzMwMTE0ODQ2WjBAMRcwFQYDVQQDDA5UU0wgWE1MIFNpZ25lcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJTRTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZ7rACpxMaVCh7haELAKLxHODoQFc9Hc7IDWPZ6XWXnCN4FQCUXexcbwdadClFbZvfTM02n1YI3ggP3ABywFPZ0qmVXG6iZUVsX9k1ly3ccCjCYkpLYAkp/i+0n7xwflnZUTwpYafF1b3HC8t+R4fBVnUoY22xwCDwyy3yaIAq7hD1GWfgemfF1hzH6hmF79lZDSNTMrH5jFt4NuMdndTheQNiHi9AgAcRs6Cl1jJVZUNsYX4XGJ0wf/eNmGhiIyt9NOYnvZQtu3Mczs52BvyoD/6G8EPBgBPkCd/EMsB0cCeMrw9v3aAZFoXL7VT9hQXMH8K3j6hfaJQMmbIQFhg8CAwEAAaNTMFEwHQYDVR0OBBYEFJx7irI7zekcf2aChFdgusl34G9pMB8GA1UdIwQYMBaAFJx7irI7zekcf2aChFdgusl34G9pMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALTuTviO4rNnney1/GcAYuGUYX4GebuIWcfTCivtkrhQiEDgoEtRLu05SDJoDUFiY6NcpZuZdKPPPcFuPfQuopcaeGXJOur+fxiS8GK42N/4e8ubOge3Tm+Glp6Q95tiXGkvcP0Qc8qWo6zBHjYeRG9gzQs/T2RBc9Ij0X6+INV3YxFeM224IvxifoOntJFcGcnVoB5xbZ79BhAMhBdiFVzmhZjLA7hqGzQidvXH9vPByfRghLBCkHzBwY1goc/EVraTZ6+pJeHV1rhuz77O8vCI8Gv50LRKSeEIJH+4CcABbPLhsfWqeYqOtppiGtPvQUT2MH87aAw6+iTxirX/XCA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></TrustServiceStatusList>

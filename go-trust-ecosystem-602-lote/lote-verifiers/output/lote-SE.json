@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "SE",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "WP4 List of Trusted Entities — Verifiers"
+      }
+    ],
+    "schemeType": "http://uri.etsi.org/19602/LoTEType/EURelyingPartyList",
+    "issueDate": "2026-03-30T11:32:30.339192Z",
+    "sequenceNumber": 1
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://verifier.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example Verifier"
+        },
+        {
+          "language": "sv",
+          "value": "Exempelverifierare"
+        }
+      ],
+      "entityType": "verifier",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDZTCCAk2gAwIBAgIUWrimYgrCzJf4HOQWNKkqsPV1l60wDQYJKoZIhvcNAQELBQAwQjEZMBcGA1UEAwwQZXhhbXBsZS12ZXJpZmllcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTAeFw0yNjAzMzAxMTMwNTRaFw0yNzAzMzAxMTMwNTRaMEIxGTAXBgNVBAMMEGV4YW1wbGUtdmVyaWZpZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDGOEC9UaWXEMzDSsbfj86C+KqF9WGOq23MtBpKi2K07WjRef8+xWutm/l3k0IvzOY7rySz1ns6knr5fVfO8GGjT+Ypy4j30bWiSt9pwjiFAnLmOVorl11T7miE65Sum8I+WYiu3g/QqIj3zQ/ksDzhxNWxQaWSH7QgdVd6UEe4Su+oMGLpLIw2bRBf+fkaSHclFNRrFHxgOj5NcAdnQ9W6OcvGBuBPLwHyCaWtr820dzU2uENEWd6iX8Wev5H9bnLrtVU9KQFFCEJ27oCWKlfWA9mVSJH3j9z/rKXe6wEh98Z3CTsk0673yTgZKVuYqTeoG8iZbP33yMu2v2xghm8NAgMBAAGjUzBRMB0GA1UdDgQWBBTnQwJ3vGt+JWYE05Ua0FT1dBVICDAfBgNVHSMEGDAWgBTnQwJ3vGt+JWYE05Ua0FT1dBVICDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBq3kv9Ycaf+D0I+ndpaxvilmZm61axGSGpGr2uS92xq8T5GzAj1VW6DyO50T/tmSCoaM6OiTGHsw0AodK7umj6GGlIFwRn00oMmB6gBwJO53V7R+ZaImpo0nFtPhYVjEyi0V73C+Xcv73VU0wkLWdkd4v+1tE/h5vA6ZH+HopUVZb8Vgz1YjNF1ZKQ0jDUSvhs/dMXhJS66uwhb99NbzM9ft3yykLcRMTEsjqw2plfKQqtxzJqYgP4Yo6l3xBRZCPbwEjDUEu3U1G8KZqoDFXbK8saxiYFf/UiNosYelQVD75zaZVG4TewWbpScJzGq158E2ciuTjPwgRJAqRYZXuC"
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/19602/SvcType/RelyingParty/Verification",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "Credential Verification Service"
+            },
+            {
+              "language": "sv",
+              "value": "Verifieringstjänst för intyg"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+names:
+  - language: en
+    value: "Example Verifier"
+  - language: sv
+    value: "Exempelverifierare"
+informationURI:
+  - language: en
+    value: "https://verifier.example.se"

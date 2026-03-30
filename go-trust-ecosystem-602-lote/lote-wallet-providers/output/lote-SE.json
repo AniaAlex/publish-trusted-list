@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "SE",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "WP4 List of Trusted Entities — Wallet Providers"
+      }
+    ],
+    "schemeType": "http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList",
+    "issueDate": "2026-03-30T11:32:30.18919Z",
+    "sequenceNumber": 1
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://wallet.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example Wallet Provider"
+        },
+        {
+          "language": "sv",
+          "value": "Exempelplånboksleverantör"
+        }
+      ],
+      "entityType": "wallet-provider",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDczCCAlugAwIBAgIUK8ncBipOkdjcicx2OGjUqm6O3kswDQYJKoZIhvcNAQELBQAwSTEgMB4GA1UEAwwXZXhhbXBsZS13YWxsZXQtcHJvdmlkZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91cDELMAkGA1UEBhMCRVUwHhcNMjYwMzMwMTEzMDU0WhcNMjcwMzMwMTEzMDU0WjBJMSAwHgYDVQQDDBdleGFtcGxlLXdhbGxldC1wcm92aWRlcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3VwMQswCQYDVQQGEwJFVTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVbWf2udhF1DfqmdVPoqgXeHuklbDhHElup17SGvgkMLEI0+kXlY/kByNIqyOM/3g0y+A2oHaFczPhnQMAPk1rD8lH6jhK3g9REsVJcOsOZsdY7IH6lm9nX9XDHjRfGkM+75GJpqPL2AUZpLETqFTl9Wt8D4BdBuMWtQ3EYO9gfIXEEl2K6eByAjN5/jmI79YyXlz4S4Iu7jReh2tcagVFELGaw0i1T1FxqjcNkTfrb1UrWNyGwFEu2vEFSCiZkabJizn0ppq8T+k2XVkPfXna6MTtRgj3/iVCza1N8pMGiY+X9ZUPaXXQqpAKHFBgzQfPeWRPMg2/AFoz9ZfzgpjECAwEAAaNTMFEwHQYDVR0OBBYEFBzcc9i/ihGm3g2wpvJis7yD7qdAMB8GA1UdIwQYMBaAFBzcc9i/ihGm3g2wpvJis7yD7qdAMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAFMnkk6odiCBFDNCH7tPQcLminQS/nOu6esRdG3k+9ItNpUhBTGQdlQIfNhQIibHZ4FLFxKfh5Dt4g1yB1L83byIGUNSduzzXofEgdY4QW+mrhTirTUhEQ7VK+li7b5ZOMR67LwbAMnkSGwjPnHsVkUQvA2t2LxeOJAUCf9nKUd6a4mY6jGhc9bNyKZ+/GwbohFWw+5mAZT2ubTXRBZDjn+u/S8HpjAzNClmy5V6K8Elh3fiSLRx1jKHRO/ucRDLwu45GMeY9G7IJnStc0WFYMzt0OndpuobCvvux0Bn+MOs/0FtXUhYC0pSRmminjkkjr3/XUbSKKpnaqse4GIrY/M="
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/19602/SvcType/WalletSolution/Issuance",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "Wallet Solution Issuance Service"
+            },
+            {
+              "language": "sv",
+              "value": "Plånbokslösning utfärdningstjänst"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+serviceNames:
+  - language: en
+    value: "Qualified EAA Issuance Service"
+  - language: sv
+    value: "Kvalificerad EAA-utfärdningstjänst"
+serviceType: "http://uri.etsi.org/19602/SvcType/QEAA/Issuance"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

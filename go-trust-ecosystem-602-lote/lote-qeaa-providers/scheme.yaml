@@ -1,0 +1,10 @@
+operatorNames:
+  - language: en
+    value: "WE BUILD WP4 Trust Group"
+schemeName:
+  - language: en
+    value: "WP4 List of Trusted Entities — QEAA Providers"
+schemeType: "http://uri.etsi.org/19602/LoTEType/EUQEAAProvidersList"
+type: "http://uri.etsi.org/19602/LoTEType/EUQEAAProvidersList"
+territory: "SE"
+sequenceNumber: 1

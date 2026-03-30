@@ -1,0 +1,5 @@
+- generate-lote:
+    - .
+
+- publish-lote:
+    - ./output

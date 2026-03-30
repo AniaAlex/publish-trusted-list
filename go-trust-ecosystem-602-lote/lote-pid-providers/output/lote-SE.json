@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "SE",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "WE BUILD WP4 Trust Group"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "WP4 List of Trusted Entities — PID Providers"
+      }
+    ],
+    "schemeType": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+    "issueDate": "2026-03-30T11:32:30.083247Z",
+    "sequenceNumber": 1
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://pid-a.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Swedish PID Issuer A"
+        },
+        {
+          "language": "sv",
+          "value": "Svensk PID-utfärdare A"
+        }
+      ],
+      "entityType": "pid-provider",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDYzCCAkugAwIBAgIUT0tmoKuoTgvrfV9O6ETaqX8M8KkwDQYJKoZIhvcNAQELBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMzMDExMzA1NFoXDTI3MDMzMDExMzA1NFowQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0CCKj/Zc+UUEzs/pNrNjpuRrkH/5aAKERzC4ZXSaceXGBVvPuVFU6RHkq6aO1T2CCaq0SB8GQxkXEBpN9IhDm4ngpCuqfTv4bXWzA+XriskcD3/5vGzXY3C6ZV7KGO1+COhccTuC1MxfyEtsgMmzx9lLOZtUpjZ9ngKNvLd6QgDhha7INARgamt7+Ecz+rpsp/noi8gY4D15Q7GDMLtvJ1U0rdoNDQfs6/V+cNlDIJSBpyZDgEL+5fSobaaQMWayrE4xV+S6blvFSbsIzxcZyRMb9r7hWRJzxFr1wwOleLp+cTIlDG8MzH+0aVYdlRUW63uugk4AHEnk6dQvWvXPAQIDAQABo1MwUTAdBgNVHQ4EFgQUqnYgXaoOIkHEKVyYWEFbAKm5BpYwHwYDVR0jBBgwFoAUqnYgXaoOIkHEKVyYWEFbAKm5BpYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAvCUQelHAB4Tot5VQLewGDVERWB5/Lx3X6YbK73kgTCcuQY38ngkwYnBinqHgzOAR8OabzebncgcBQJdxZIqynLDNM1jXp1cqm/tCEdGg7EjUYU7t4457qq6hHRKKbwYJAV4fKOAwQEkpvZII6foJxVNjnPFKiPQroy4GVpiK7ORBLc4HznLSyFHukjEsWLxlJ7ycRt5aEcsC1MCpW5wIrH/eXMpzuxy39dteFrbdTAior0XCA1Ukd4Lm6cWD6vm2Whryas3TMnln+FiKiuegxn2FRt1QyZ1rNIJfTRfDthuft8SEGDMkX8kCPRelPF0QPJlugP3dALoIiZTho8OUxA=="
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/19602/SvcType/PID/Issuance",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "PID Issuance Service A"
+            },
+            {
+              "language": "sv",
+              "value": "PID-utfärdningstjänst A"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    },
+    {
+      "entityId": "https://pid-b.example.se",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Swedish PID Issuer B"
+        },
+        {
+          "language": "sv",
+          "value": "Svensk PID-utfärdare B"
+        }
+      ],
+      "entityType": "pid-provider",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "digitalIdentities": [
+        {
+          "type": "x509",
+          "x509Certificate": "MIIDYzCCAkugAwIBAgIUOfd2TRybifie397upR1G3hKxBYcwDQYJKoZIhvcNAQELBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1iMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMzMDExMzA1NFoXDTI3MDMzMDExMzA1NFowQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1iMRgwFgYDVQQKDA9XUDQgVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyWASESn9r+6rwKtoZILgTsnO+/IjdrzV6AKXT92PRked59xdWSUXp/q0aEYxseLgwWe4B9ac/rMY68BShta7MWcjfv9dJNhoLNTSRnSsyehM7bGQZZNgKvWhsO5mAJMBquodslTZF4I4PsJfabHmjT3La2XMsSxFU/n4q8W/T/TR+q4DL0PS1z7n0dJ6hsjlOnG/vGv6+M8SDKgZ3QDAqUfYiLBs5GaU2Duq0b2S9JiS9+i8m6/7sWd3Wr5LDdDTdl8fm+qOsoRftG8BWGICeSfBpjZvhcxIwH/h8F38A3cSI1EmPV0NuO6R/iaWD+W8bR7WfD1qG1EW8iIvgon+GwIDAQABo1MwUTAdBgNVHQ4EFgQUigpE6UyrRoy99Va3mOa5z8nqtk8wHwYDVR0jBBgwFoAUigpE6UyrRoy99Va3mOa5z8nqtk8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAbwFcygYKzyvCuNat3B5juudl/+QEQraieYQTHR/iw57/f51TDkjDlKqiHIRexQmF8N0cZ+hKCGjgf3Cwzk2NJ6InBB+n/j1r2DDY8GO3LiWF3SpkEWLRvl4e28mHsa95X9SpTrVgVAvKkAAZazSj3WrQn871KVCV/V3dDZLr7seAnhjEO8khQADcptVeHwvEmyb9b5W7oZb5i8W+z0AtvieqqDIw1r7BUj+p7OCZTVuszR31bCdA5sP2VfXGFtZ05W6nE4wNx8rSZIKsxWCxapHwZnB2KwalvYUY54xtfHq8+d3MUsD92idVoyjvaPd0PCiMvEfRId8ac14zPPxWMw=="
+        }
+      ],
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/19602/SvcType/PID/Issuance",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "PID Issuance Service B"
+            },
+            {
+              "language": "sv",
+              "value": "PID-utfärdningstjänst B"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+        }
+      ]
+    }
+  ]
+}
