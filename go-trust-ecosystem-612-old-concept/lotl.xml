@@ -61,7 +61,7 @@
                         </DigitalId>
                     </ServiceDigitalIdentity>
                 </ServiceDigitalIdentities>
-                <TSLLocation>https://trust-dev-1.iam.sunet.se:8443/api/api/tsl/SE-TL.xml</TSLLocation>
+                <TSLLocation>https://trust-dev-1.iam.sunet.se/api/tsl/SE-TL.xml</TSLLocation>
                 <AdditionalInformation>
                     <OtherInformation>
                         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
