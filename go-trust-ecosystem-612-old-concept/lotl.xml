@@ -50,7 +50,7 @@
             <dateTime>2026-02-16T12:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
-            <URI>https://raw.githubusercontent.com/AniaAlex/publish-trusted-list/main/output/lotl.xml</URI>
+            <URI>https://raw.githubusercontent.com/AniaAlex/publish-trusted-list/refs/heads/main/go-trust-ecosystem-612-old-concept/lotl.xml</URI>
         </DistributionPoints>
         <PointersToOtherTSL>
             <OtherTSLPointer>
