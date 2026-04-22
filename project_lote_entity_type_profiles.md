@@ -1,5 +1,5 @@
 Source: ETSI TS 119 602 v1.1.1, Annexes D–I (normative profiles).
-Analysed from ts_119602v010101p.pdf in the g119612 repo.
+
 
 | Feature | PID Issuers (D) | Wallet Providers (E) | WRPAC (F) | WRPRC (G) | Pub-EAA (H) | Registrars (I) |
 |---|---|---|---|---|---|---|
