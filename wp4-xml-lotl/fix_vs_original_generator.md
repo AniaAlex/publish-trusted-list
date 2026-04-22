@@ -58,3 +58,18 @@ ETSI TS 119 612 allows multiple `<URI>` elements inside one `<DistributionPoint>
 ## Recommendation
 
 Apply the same fix to `wp4-trust-group/tools/lotl/xml_generator.py`.
+
+---
+
+## Known limitation: DistributionPoints vs PointersToOtherTSL
+
+The current implementation puts participant TL URLs in `<DistributionPoints>`, which in ETSI TS 119 612 is actually meant for URLs where **the LOTL itself** can be downloaded.
+
+The correct element for referencing other TLs is `<PointersToOtherTSL>/<OtherTSLPointer>`, which would also carry:
+- `<ServiceDigitalIdentities>` — the `trust_anchor` cert for verifying the referenced TL's signature
+- `<TSLLocation>` — the TL URL
+- `<AdditionalInformation>` — TSLType, SchemeOperatorName, SchemeTerritory
+
+The `trust_anchor` field in each TL entry JSON is therefore currently unused in the XML output.
+
+This is a known simplification, acceptable for the WeBuild prototype. Full TS 119 612 compliance requires migrating to `<PointersToOtherTSL>`.

@@ -1,3 +1,4 @@
+##question to discussion: two entries:xml and json or 1 ?
 <?xml version='1.0' encoding='utf-8'?>
 <TrustServiceStatusList xmlns="http://uri.etsi.org/19612/v2.4.1#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="lotl-1" xsi:schemaLocation="http://uri.etsi.org/19612/v2.4.1# https://forge.etsi.org/rep/esi/x19_612_trusted_lists/-/raw/v2.4.1/19612_xsd.xsd">
   <SchemeInformation>
