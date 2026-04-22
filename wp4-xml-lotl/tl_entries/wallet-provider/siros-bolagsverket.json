@@ -1,0 +1,11 @@
+{
+  "tl_url": "https://bolagsverket.se/.well-known/wallet-providers.json",
+  "tl_url_json": "https://bolagsverket.se/.well-known/wallet-providers.json",
+  "tl_url_xml": "https://bolagsverket.se/.well-known/wallet-providers.xml",
+  "trust_anchor": "-----BEGIN CERTIFICATE-----\nMIIDZzCCAk+gAwIBAgIUPJJH656hqjwGf+LuyHHBscc6AO8wDQYJKoZIhvcNAQEL\nBQAwTTELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEgV2FsbGV0IFByb3ZpZGVy\nIEFCMRwwGgYDVQQDDBNCZXRhIFdhbGxldCBTaWduaW5nMB4XDTI2MDExOTE2MTUx\nNFoXDTI3MDExOTE2MTUxNFowSjELMAkGA1UEBhMCU0UxIDAeBgNVBAoMF0JldGEg\nV2FsbGV0IFByb3ZpZGVyIEFCMRkwFwYDVQQDDBBCZXRhIFdhbGxldCBMZWFmMIIB\nIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvyFrXcMYmPcZlZTFfIhj8Pe3\njNGS8BoUVWGHt+aNs9YL7r+wT6TEfk2LX3Row2eM22fiqkMGvkEF/IpeazBBlcRy\nfeyZGBQxTFAZybRmfpVpf4jdUOj6L2rQ+KxTACo/NlLyfamgoY5uTQyMtEu+AB47\n24C9iOb0LrBec78gpCQAAPJKJFA6+HQe1GIlyS4jmA0ahmNL3FYneFIfECuCoZ9r\nJ6u/g889vavZlbMwECHCdbauUCkRfk3oHgUFekKQXQFCg0LZwokDBYc4lTA3ILEk\n+++MbCkNr8Ej5xBI/sNAf5hsUq7o55yfwDIGLhP733PwwsdYQg+BqdQ5NQ8Z8QID\nAQABo0IwQDAdBgNVHQ4EFgQUUTHrObx2hqBdcoa8RJQPaeZ8b9AwHwYDVR0jBBgw\nFoAUsUteoyXEJ7FHsQwymBqNkdkVT1QwDQYJKoZIhvcNAQELBQADggEBAL67mrIi\nxNCbQL339s03l6x08xsE/8axMDsDBexk4oBnoVrGpgNEbI2DbLOFMQdW5qree3BW\nKvfTrzMyxFdSS/WOGjG+kHt+O8KuWMMrfOO8Lg/DRe7cBa/cHQ/lyR6jMMS4ExZn\nk8WJOQdzsmSuQ4vUFwPiBlRlWRXw/RA4LxPfqwdWwt4LExdIeRiLb7MKnrll5WXC\noIIn1Sdnt2wXpCnulQn8w9OWsga9ghYKY6ZN3hbrkuDUXizKHC/dVU+AOw7IaS2E\nbkY942Q8pbhSgD+drH2wWJDbR4yuRFELjdMJhRdUbeP9tLadjmZ2TWZpe0JyAwBC\nG2J6jZz+UPLWqvA=\n-----END CERTIFICATE-----",
+  "metadata": {
+    "operator_name": "Bolagsverket (SIROS Beta Wallet Provider)",
+    "country": "SE",
+    "subject": "C=SE, O=Beta Wallet Provider AB, CN=Beta Wallet Signing"
+  }
+}

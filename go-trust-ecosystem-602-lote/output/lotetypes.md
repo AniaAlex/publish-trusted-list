@@ -9,8 +9,31 @@ Based on ETSI TS 119 602 V1.1.1 (2025-11), Annex C.
 A LoTE (List of Trusted Entities) is typed via the `LoTEType` field in `ListAndSchemeInformation`.
 Each type corresponds to a distinct category of trusted entities notified by Member States under EU legislation.
 
-The EU Commission publishes one EU-level LoTE per type, aggregating notifications from all Member States.
-Member States should mirror this by publishing one national LoTE per type.
+### Two levels of LoTE publication
+
+**EU level** — The European Commission publishes one official LoTE per type, aggregating notifications
+from all Member States. For example, Annex D of ETSI TS 119 602 explicitly mandates the Commission to
+publish an EU-wide PID providers LoTE (per CIR 2024/2980, Article 5(2)). These EU-level LoTEs must be
+scheme-explicit.
+
+**National level** — Each Member State may additionally publish its own national LoTE(s) for domestic
+use, one per type. These are referenced from the EU LOTL or a national LOTL via pointers.
+
+```
+EU LOTL
+├── EU PID Providers LoTE        (published by European Commission, all MS entries)
+│       ├── PID Provider from SE
+│       ├── PID Provider from DE
+│       └── ...
+├── EU Wallet Providers LoTE     (published by European Commission)
+│       └── ...
+└── ...
+
+National LOTL (e.g. Sweden)
+├── lote-SE-pid-providers.json
+├── lote-SE-wallet-providers.json
+└── ...
+```
 
 ---
 

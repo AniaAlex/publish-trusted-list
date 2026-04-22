@@ -1,0 +1,5 @@
+.venv/
+certs/*.pem
+output/
+__pycache__/
+*.pyc

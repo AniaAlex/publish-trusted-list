@@ -1,0 +1,10 @@
+{
+  "tl_url": "https://trust.wp4.sunet.se/pid-providers/sweden.json",
+  "tl_url_json": "https://trust.wp4.sunet.se/pid-providers/sweden.json",
+  "tl_url_xml": "https://trust.wp4.sunet.se/pid-providers/sweden.xml",
+  "trust_anchor": "-----BEGIN CERTIFICATE-----\nMIIDYzCCAkugAwIBAgIUOxbWlFk2BUAuAk4rTGRlTmn00IMwDQYJKoZIhvcNAQEL\nBQAwQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQgVHJ1\nc3QgR3JvdXAxCzAJBgNVBAYTAkVVMB4XDTI2MDMyNzEyNDI0NloXDTI3MDMyNzEy\nNDI0NlowQTEYMBYGA1UEAwwPc2UtcGlkLWlzc3Vlci1hMRgwFgYDVQQKDA9XUDQg\nVHJ1c3QgR3JvdXAxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A\nMIIBCgKCAQEA8/28grzppYRouTjebTL0X7JVhkPBa5VyIS9yjoBqZOl0UyzhXOkU\nfznTLLaiU7FjnSfAs2aN9iWb0rUe1YXN5DVL8iUE2SX0CovKapRaui3QCk6HtH+u\nkxquZ9AooqDgP59RAHwz3ocTgWPoTUPNNmtc6rbmmf+q6PKAoUD8SdS/hghM/001\na2eQgushp+z7c2wHo83CiLXkOfClGhdyZJJz0pHW4r70aNyOyBoAgBP1b1via3Bs\n5zEEGMwnRyPWZherWY3AhuzaKwtKl1dEe607ZlB5G1DBYZxzI8SwK5uMud9l8PMA\n9RSyCrQdozGIlhiZIVJP0P6OPTAccff6YwIDAQABo1MwUTAdBgNVHQ4EFgQUiuPF\nRN6RkNJYhPa54QBxFLau6FUwHwYDVR0jBBgwFoAUiuPFRN6RkNJYhPa54QBxFLau\n6FUwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA8vBR0BfS4m9V\nLOf5f86hHovxTULGFthkOht0hK+sELQh+iaavNDfXfijFE/YhD1hfBdRavrqCt1k\n0lRearq9/FJDvhdJNFHGsyKLCMfxjI/h6iVmMimijx2d4DijCXKnPZLIiFmyY3BK\npiF6z1Q4LVRQgWCyiUsxOrx8qPuHTtEaQxtc/yBSo8UuLWPeIk5dB5gVfWao1lub\nLcykjo6Db4fivfU8d9K9fOf8051aN/GpVJb60UG1Gfi5P0JDjzcmudBRqBsoTe0q\ntmuGlg3vRyfoTutcALJrvab0wku79hDHaN5tCnv9LAxXPjUQsJzCnDKia08p7zBA\nBZll39jv7g==\n-----END CERTIFICATE-----",
+  "metadata": {
+    "operator_name": "SUNET — Sweden PID Providers TL",
+    "country": "SE"
+  }
+}

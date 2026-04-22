@@ -1,0 +1,11 @@
+{
+  "tl_url": "https://trust.wp4.sunet.se/eaa-providers/sunet-eaa.json",
+  "tl_url_json": "https://trust.wp4.sunet.se/eaa-providers/sunet-eaa.json",
+  "tl_url_xml": "https://trust.wp4.sunet.se/eaa-providers/sunet-eaa.xml",
+  "trust_anchor": "-----BEGIN CERTIFICATE-----\nMIIBzzCCAXWgAwIBAgIUTyhwGn0MPms+dRlQojVOhadi/b8wCgYIKoZIzj0EAwIw\nPTEUMBIGA1UEAwwLTG9URSBTaWduZXIxGDAWBgNVBAoMD1dQNCBUcnVzdCBHcm91\ncDELMAkGA1UEBhMCU0UwHhcNMjYwMzMwMTEzMjMwWhcNMjcwMzMwMTEzMjMwWjA9\nMRQwEgYDVQQDDAtMb1RFIFNpZ25lcjEYMBYGA1UECgwPV1A0IFRydXN0IEdyb3Vw\nMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMgmTBV8aWMT\nTfA8AjC//G6tGMfnvDwuqdRPhIUhjm37StpXrGiQA907mb6V3fDu5hRchIgYnSJN\nOOubvEo2vKejUzBRMB0GA1UdDgQWBBTp3dux3/Uow8Ly+kSzc2ZNt6AdKDAfBgNV\nHSMEGDAWgBTp3dux3/Uow8Ly+kSzc2ZNt6AdKDAPBgNVHRMBAf8EBTADAQH/MAoG\nCCqGSM49BAMCA0gAMEUCIEk+0C9hJzH2x/VomhByWu1QM6WgylSfHFCHRtNc7mvP\nAiEA6vj4yB1lSwSRcqfTek08Q/uhamgs4iAk/Xp4GoWj660=\n-----END CERTIFICATE-----",
+  "metadata": {
+    "operator_name": "SUNET EAA Provider",
+    "country": "SE",
+    "subject": "CN=LoTE Signer, O=WP4 Trust Group, C=SE"
+  }
+}
