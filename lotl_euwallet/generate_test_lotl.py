@@ -1,52 +1,50 @@
-"""Generate a test LOTL (List of Trusted Lists) — unsigned, for development/testing.
+"""Generate a test LOTL (List of Trusted Lists) in JSON format — unsigned, for development/testing.
 
 Based on the structure defined in:
   https://github.com/webuild-consortium/wp4-trust-group/tools/lotl/
 
 Produces:
   output/list_of_trusted_lists.json
-  output/list_of_trusted_lists.xml
+
+Note: For XML generation, use wp4-xml-lotl which correctly implements ETSI TS 119 612.
 """
 
 import json
-import os
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
 
-try:
-    from lxml import etree
-    HAS_LXML = True
-except ImportError:
-    HAS_LXML = False
-
 # ---------------------------------------------------------------------------
 # Config (mirrors tools/lotl/settings.py)
 # ---------------------------------------------------------------------------
 
-TL_TYPE_TO_LOTE_URI = {
-    "wrpac-provider":  "http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList",
-    "wrprc-provider":  "http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList",
-    "pub-eaa-provider":"http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
-    "pid-provider":    "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
-    "qeaa-provider":   "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
-    "eaa-provider":    "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
+TL_TYPE_TO_REFERENCE_URI = {
+    "wrpac-provider": "http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList",
+    "wrprc-provider": "http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList",
+    "pub-eaa-provider": "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
+    "pid-provider": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+    "qeaa-provider": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric",
+    "eaa-provider": "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
     "wallet-provider": "http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList",
     "ebwoid-provider": "http://uri.etsi.org/19602/LoTEType/EURegistrarsAndRegistersList",
 }
 
+# Backward-compatible alias
+TL_TYPE_TO_LOTE_URI = TL_TYPE_TO_REFERENCE_URI
+
 LOTE_TAG = "http://uri.etsi.org/19602/LoTETag"
 
 SCHEME_OPERATOR_NAME = "WE BUILD WP4 Trust Group"
-SCHEME_NAME          = "WP4 List of Trusted Lists"
-SCHEME_INFO_URI      = "https://webuild-consortium.github.io/wp4-trust-group/"
+SCHEME_NAME = "WP4 List of Trusted Lists"
+SCHEME_INFO_URI = "https://webuild-consortium.github.io/wp4-trust-group/"
 
 OUTPUT_DIR = Path("output")
 
 # ---------------------------------------------------------------------------
 # Data model (mirrors tools/lotl/tl_entry.py)
 # ---------------------------------------------------------------------------
+
 
 @dataclass
 class TLEntry:
@@ -139,22 +137,28 @@ TEST_ENTRIES: list[TLEntry] = [
 # JSON generator (mirrors tools/lotl/json_generator.py)
 # ---------------------------------------------------------------------------
 
-def generate_lotl_json(entries: list[TLEntry], sequence_number: int = 1) -> dict[str, Any]:
+
+def generate_lotl_json(
+    entries: list[TLEntry], sequence_number: int = 1
+) -> dict[str, Any]:
     now = datetime.now(timezone.utc)
     issue_dt = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     next_month = now.month + 6
-    next_year  = now.year + (next_month - 1) // 12
+    next_year = now.year + (next_month - 1) // 12
     next_month = ((next_month - 1) % 12) + 1
-    next_update = now.replace(year=next_year, month=next_month).strftime("%Y-%m-%dT%H:%M:%SZ")
+    next_update = now.replace(year=next_year, month=next_month).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
+    )
 
     distribution_points: list[dict[str, Any]] = []
     for entry in entries:
         dist: dict[str, Any] = {
-            "tlType":        entry.tl_type,
+            "tlType": entry.tl_type,
+            "referencedListTypeUri": TL_TYPE_TO_REFERENCE_URI[entry.tl_type],
             "participantId": entry.participant_id,
-            "tlUrl":         entry.tl_url,
-            "tlUrlJson":     entry.get_tl_url_json(),
-            "tlUrlXml":      entry.get_tl_url_xml(),
+            "tlUrl": entry.tl_url,
+            "tlUrlJson": entry.get_tl_url_json(),
+            "tlUrlXml": entry.get_tl_url_xml(),
         }
         if entry.metadata:
             dist["metadata"] = entry.metadata
@@ -184,82 +188,11 @@ def generate_lotl_json(entries: list[TLEntry], sequence_number: int = 1) -> dict
     return {"loteTag": LOTE_TAG, "schemeInformation": scheme_info}
 
 
-# ---------------------------------------------------------------------------
-# XML generator (mirrors tools/lotl/xml_generator.py, ETSI TS 119 612 v2.4.1)
-# ---------------------------------------------------------------------------
-
-def generate_lotl_xml(entries: list[TLEntry], sequence_number: int = 1) -> bytes:
-    if not HAS_LXML:
-        raise RuntimeError("lxml is required for XML generation: pip install lxml")
-
-    NS     = "http://uri.etsi.org/19612/v2.4.1#"
-    XSD_NS = "http://www.w3.org/2001/XMLSchema-instance"
-    XML_NS = "http://www.w3.org/XML/1998/namespace"
-
-    nsmap = {None: NS, "xsd": XSD_NS}
-
-    now = datetime.now(timezone.utc)
-    issue_dt  = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-    next_month = now.month + 6
-    next_year  = now.year + (next_month - 1) // 12
-    next_month = ((next_month - 1) % 12) + 1
-    next_update = now.replace(year=next_year, month=next_month).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    def elem(parent, tag, text=None):
-        el = etree.SubElement(parent, f"{{{NS}}}{tag}")
-        if text is not None:
-            el.text = str(text)
-        return el
-
-    def lang_elem(parent, tag, text, lang="en"):
-        el = etree.SubElement(parent, f"{{{NS}}}{tag}")
-        name = etree.SubElement(el, f"{{{NS}}}Name")
-        name.set(f"{{{XML_NS}}}lang", lang)
-        name.text = text
-        return el
-
-    root = etree.Element(f"{{{NS}}}TrustServiceStatusList", nsmap=nsmap)
-
-    si = etree.SubElement(root, f"{{{NS}}}SchemeInformation")
-    elem(si, "TSLVersionIdentifier", "6")
-    elem(si, "TSLSequenceNumber", str(sequence_number))
-    elem(si, "TSLType", "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric")
-
-    lang_elem(si, "SchemeOperatorName", SCHEME_OPERATOR_NAME)
-
-    addr = elem(si, "SchemeOperatorAddress")
-    postal = elem(addr, "PostalAddresses")
-    electronic = elem(addr, "ElectronicAddress")
-    uri_el = elem(electronic, "URI")
-    uri_el.set(f"{{{XML_NS}}}lang", "en")
-    uri_el.text = SCHEME_INFO_URI
-
-    lang_elem(si, "SchemeName", SCHEME_NAME)
-
-    si_uri = elem(si, "SchemeInformationURI")
-    uri2 = elem(si_uri, "URI")
-    uri2.set(f"{{{XML_NS}}}lang", "en")
-    uri2.text = SCHEME_INFO_URI
-
-    elem(si, "StatusDeterminationApproach",
-         "http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate")
-    elem(si, "SchemeTerritory", "EU")
-    elem(si, "ListIssueDateTime", issue_dt)
-
-    nu = elem(si, "NextUpdate")
-    elem(nu, "dateTime", next_update)
-
-    dp = elem(si, "DistributionPoints")
-    for entry in entries:
-        dp_uri = elem(dp, "URI")
-        dp_uri.text = entry.tl_url
-
-    return etree.tostring(root, xml_declaration=True, encoding="UTF-8", pretty_print=True)
-
 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
 
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -273,17 +206,15 @@ def main():
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(lotl_json, f, indent=2)
     print(f"[JSON] Written to {json_path}")
-    print(f"       {len(lotl_json['schemeInformation']['distributionPoints'])} distribution points")
+    print(
+        f"       {len(lotl_json['schemeInformation']['distributionPoints'])} distribution points"
+    )
 
-    # --- XML ---
-    if HAS_LXML:
-        xml_bytes = generate_lotl_xml(entries, sequence_number=sequence)
-        xml_path = OUTPUT_DIR / "list_of_trusted_lists.xml"
-        with open(xml_path, "wb") as f:
-            f.write(xml_bytes)
-        print(f"[XML]  Written to {xml_path}")
-    else:
-        print("[XML]  Skipped — install lxml: pip install lxml")
+    # Also write dated version
+    json_dated_path = OUTPUT_DIR / "lotl_updated_22042026.json"
+    with open(json_dated_path, "w", encoding="utf-8") as f:
+        json.dump(lotl_json, f, indent=2)
+    print(f"[JSON] Written to {json_dated_path}")
 
     # --- Summary ---
     print()
