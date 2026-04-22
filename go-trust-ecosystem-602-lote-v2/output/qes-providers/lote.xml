@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList TSLTag="http://uri.etsi.org/02231/TSLTag">
+  <SchemeInformation>
+    <TSLVersionIdentifier>5</TSLVersionIdentifier>
+    <TSLSequenceNumber>1</TSLSequenceNumber>
+    <TSLType>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</TSLType>
+    <SchemeOperatorName>
+      <Name lang="en">EUDI Trust Ecosystem - QES Certificate Providers Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">List of Trusted QES Certificate Providers</Name>
+    </SchemeName>
+    <SchemeInformationURI>
+      <URI lang="en">https://example.com/trust-ecosystem/qes-providers</URI>
+    </SchemeInformationURI>
+    <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate</StatusDeterminationApproach>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <PolicyOrLegalNotice>
+      <TSLLegalNotice lang="en">This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. QES providers are Qualified Trust Service Providers authorized to issue Qualified Certificates for Electronic Signatures and Seals.</TSLLegalNotice>
+    </PolicyOrLegalNotice>
+    <ListIssueDateTime>2026-04-22T13:44:27Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-05-22T13:44:27Z</dateTime>
+    </NextUpdate>
+    <DistributionPoints>
+      <URI>https://example.com/trust-ecosystem/qes-providers/lote.json</URI>
+      <URI>https://example.com/trust-ecosystem/qes-providers/lote.xml</URI>
+    </DistributionPoints>
+    <PointersToOtherTSL></PointersToOtherTSL>
+  </SchemeInformation>
+  <TrustServiceProviderList>
+    <TrustServiceProvider>
+      <TSPInformation>
+        <TSPName>
+          <Name lang="en">Example Qualified Trust Service Provider - CA</Name>
+          <Name lang="pl">Przykładowy Kwalifikowany Dostawca Usług Zaufania - CA</Name>
+        </TSPName>
+        <TSPTradeName></TSPTradeName>
+        <TSPAddress>
+          <PostalAddresses></PostalAddresses>
+          <ElectronicAddresses></ElectronicAddresses>
+        </TSPAddress>
+        <TSPInformationURI>
+          <URI lang="en">https://qes-provider.example.com/info</URI>
+        </TSPInformationURI>
+      </TSPInformation>
+      <TSPServices>
+        <TSPService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">Qualified Certificate for Electronic Signature Issuance</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity></ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+            <StatusStartingTime>2026-04-22T13:44:27Z</StatusStartingTime>
+            <ServiceSupplyPoints>
+              <ServiceSupplyPoint>https://qes-provider.example.com/certificates</ServiceSupplyPoint>
+              <ServiceSupplyPoint>https://qes-provider.example.com/ocsp</ServiceSupplyPoint>
+            </ServiceSupplyPoints>
+          </ServiceInformation>
+          <ServiceHistory></ServiceHistory>
+        </TSPService>
+      </TSPServices>
+    </TrustServiceProvider>
+  </TrustServiceProviderList>
+</TrustServiceStatusList>

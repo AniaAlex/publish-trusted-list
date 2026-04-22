@@ -23,4 +23,8 @@ statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/St
 
 policyOrLegalNotice:
   - language: en
-    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. Relying Parties (Verifiers) are entities that request and verify credentials from EUDI wallet holders. Registration enables holders to verify the authenticity and authorization of verifiers before sharing credentials."
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0
+      regulation. Relying Parties (Verifiers) are entities that request and
+      verify credentials from EUDI wallet holders. Registration enables holders
+      to verify the authenticity and authorization of verifiers before sharing
+      credentials."

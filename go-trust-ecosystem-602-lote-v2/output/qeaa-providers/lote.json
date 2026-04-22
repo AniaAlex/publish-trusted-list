@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "EU",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "EUDI Trust Ecosystem - QEAA Providers Registry"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "List of Trusted Qualified EAA Providers"
+      }
+    ],
+    "schemeType": "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q",
+    "schemeInformationURI": [
+      {
+        "language": "en",
+        "uri": "https://example.com/trust-ecosystem/qeaa-providers"
+      }
+    ],
+    "statusDeterminationApproach": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate",
+    "policyOrLegalNotice": [
+      {
+        "language": "en",
+        "value": "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. QEAA providers are Qualified Trust Service Providers authorized to issue Qualified Electronic Attestations of Attributes with the highest assurance level."
+      }
+    ],
+    "issueDate": "2026-04-22T13:44:27.963517Z",
+    "nextUpdate": "2026-05-22T13:44:27.963517Z",
+    "sequenceNumber": 1,
+    "distributionPoints": [
+      "https://example.com/trust-ecosystem/qeaa-providers/lote.json",
+      "https://example.com/trust-ecosystem/qeaa-providers/lote.xml"
+    ]
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://qeaa-issuer.example.com/eudi",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example Qualified Trust Service Provider"
+        },
+        {
+          "language": "fr",
+          "value": "Exemple de Prestataire de Services de Confiance Qualifié"
+        }
+      ],
+      "entityType": "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "statusStartingTime": "2026-04-22T13:44:27.963785Z",
+      "services": [
+        {
+          "serviceType": "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "Qualified Electronic Attestation of Attributes Service"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+          "statusStartingTime": "2026-04-22T13:44:27.963785Z",
+          "serviceSupplyPoints": [
+            "https://qeaa-issuer.example.com/oidc4vci",
+            "https://qeaa-issuer.example.com/api/v1/credentials"
+          ]
+        }
+      ],
+      "informationURIs": [
+        {
+          "language": "en",
+          "uri": "https://qeaa-issuer.example.com/info"
+        }
+      ]
+    }
+  ]
+}

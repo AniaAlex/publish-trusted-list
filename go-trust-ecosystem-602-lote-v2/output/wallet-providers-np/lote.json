@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "schemeInformation": {
+    "territory": "EU",
+    "schemeOperator": [
+      {
+        "language": "en",
+        "value": "EUDI Trust Ecosystem - Natural Person Wallet Providers Registry"
+      }
+    ],
+    "schemeName": [
+      {
+        "language": "en",
+        "value": "List of Trusted Natural Person Wallet Providers"
+      }
+    ],
+    "schemeType": "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP",
+    "schemeInformationURI": [
+      {
+        "language": "en",
+        "uri": "https://example.com/trust-ecosystem/wallet-providers-np"
+      }
+    ],
+    "statusDeterminationApproach": "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate",
+    "policyOrLegalNotice": [
+      {
+        "language": "en",
+        "value": "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. Natural Person Wallet Providers are authorized to provide EUDI wallet solutions for natural persons (citizens) and issue Wallet Unit Attestations (WUA)."
+      }
+    ],
+    "issueDate": "2026-04-22T13:44:27.965114Z",
+    "nextUpdate": "2026-05-22T13:44:27.965114Z",
+    "sequenceNumber": 1,
+    "distributionPoints": [
+      "https://example.com/trust-ecosystem/wallet-providers-np/lote.json",
+      "https://example.com/trust-ecosystem/wallet-providers-np/lote.xml"
+    ]
+  },
+  "trustedEntities": [
+    {
+      "entityId": "https://wallet-provider-np.example.com/eudi",
+      "entityName": [
+        {
+          "language": "en",
+          "value": "Example Natural Person Wallet Provider"
+        },
+        {
+          "language": "nl",
+          "value": "Voorbeeld Natuurlijk Persoon Wallet Provider"
+        }
+      ],
+      "entityType": "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP",
+      "entityStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+      "statusStartingTime": "2026-04-22T13:44:27.965299Z",
+      "services": [
+        {
+          "serviceType": "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP",
+          "serviceName": [
+            {
+              "language": "en",
+              "value": "EUDI Wallet for Natural Persons"
+            }
+          ],
+          "serviceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted",
+          "statusStartingTime": "2026-04-22T13:44:27.965299Z",
+          "serviceSupplyPoints": [
+            "https://wallet-provider-np.example.com/wua",
+            "https://wallet-provider-np.example.com/.well-known/openid-configuration"
+          ]
+        }
+      ],
+      "informationURIs": [
+        {
+          "language": "en",
+          "uri": "https://wallet-provider-np.example.com/info"
+        }
+      ]
+    }
+  ]
+}

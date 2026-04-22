@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList TSLTag="http://uri.etsi.org/02231/TSLTag">
+  <SchemeInformation>
+    <TSLVersionIdentifier>5</TSLVersionIdentifier>
+    <TSLSequenceNumber>1</TSLSequenceNumber>
+    <TSLType>http://uri.etsi.org/TrstSvc/Svctype/EAA</TSLType>
+    <SchemeOperatorName>
+      <Name lang="en">EUDI Trust Ecosystem - EAA Providers Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">List of Trusted EAA Providers</Name>
+    </SchemeName>
+    <SchemeInformationURI>
+      <URI lang="en">https://example.com/trust-ecosystem/eaa-providers</URI>
+    </SchemeInformationURI>
+    <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate</StatusDeterminationApproach>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <PolicyOrLegalNotice>
+      <TSLLegalNotice lang="en">This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. EAA providers are authorized to issue non-qualified Electronic Attestations of Attributes for various use cases including diploma credentials, professional licenses, and other verifiable credentials.</TSLLegalNotice>
+    </PolicyOrLegalNotice>
+    <ListIssueDateTime>2026-04-22T13:44:27Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-05-22T13:44:27Z</dateTime>
+    </NextUpdate>
+    <DistributionPoints>
+      <URI>https://example.com/trust-ecosystem/eaa-providers/lote.json</URI>
+      <URI>https://example.com/trust-ecosystem/eaa-providers/lote.xml</URI>
+    </DistributionPoints>
+    <PointersToOtherTSL></PointersToOtherTSL>
+  </SchemeInformation>
+  <TrustServiceProviderList>
+    <TrustServiceProvider>
+      <TSPInformation>
+        <TSPName>
+          <Name lang="en">Example University EAA Issuer</Name>
+          <Name lang="es">Ejemplo Universidad Emisor EAA</Name>
+        </TSPName>
+        <TSPTradeName></TSPTradeName>
+        <TSPAddress>
+          <PostalAddresses></PostalAddresses>
+          <ElectronicAddresses></ElectronicAddresses>
+        </TSPAddress>
+        <TSPInformationURI>
+          <URI lang="en">https://eaa-issuer.example.com/info</URI>
+        </TSPInformationURI>
+      </TSPInformation>
+      <TSPServices>
+        <TSPService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">Diploma and Academic Credential Issuance Service</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity></ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+            <StatusStartingTime>2026-04-22T13:44:27Z</StatusStartingTime>
+            <ServiceSupplyPoints>
+              <ServiceSupplyPoint>https://eaa-issuer.example.com/oidc4vci</ServiceSupplyPoint>
+            </ServiceSupplyPoints>
+          </ServiceInformation>
+          <ServiceHistory></ServiceHistory>
+        </TSPService>
+      </TSPServices>
+    </TrustServiceProvider>
+  </TrustServiceProviderList>
+</TrustServiceStatusList>

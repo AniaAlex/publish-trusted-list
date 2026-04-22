@@ -24,7 +24,10 @@ statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/St
 
 policyOrLegalNotice:
   - language: en
-    value: "This is the Master List of Trusted Lists (LOTL) for the EUDI Trust Ecosystem. It provides pointers to all entity-type-specific Lists of Trusted Entities (LoTEs) under the eIDAS 2.0 framework. The LOTL enables hierarchical trust list management and discovery."
+    value: "This is the Master List of Trusted Lists (LOTL) for the EUDI Trust
+      Ecosystem. It provides pointers to all entity-type-specific Lists of
+      Trusted Entities (LoTEs) under the eIDAS 2.0 framework. The LOTL enables
+      hierarchical trust list management and discovery."
 
 distributionPoints:
   - "https://example.com/trust-ecosystem/lotl.json"
@@ -38,56 +41,56 @@ pointersToOtherLoTEs:
     schemeName:
       - language: en
         value: "PID Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/lpid-providers/lote.json"
     schemeTerritory: "EU"
     schemeType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPID"
     schemeName:
       - language: en
         value: "LPID Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/qeaa-providers/lote.json"
     schemeTerritory: "EU"
     schemeType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q"
     schemeName:
       - language: en
         value: "QEAA Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/eaa-providers/lote.json"
     schemeTerritory: "EU"
     schemeType: "http://uri.etsi.org/TrstSvc/Svctype/EAA"
     schemeName:
       - language: en
         value: "EAA Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/pub-eaa-providers/lote.json"
     schemeTerritory: "EU"
     schemeType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Pub-EAA"
     schemeName:
       - language: en
         value: "Public Body EAA Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/wallet-providers-np/lote.json"
     schemeTerritory: "EU"
     schemeType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP"
     schemeName:
       - language: en
         value: "Natural Person Wallet Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/wallet-providers-lp/lote.json"
     schemeTerritory: "EU"
     schemeType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP"
     schemeName:
       - language: en
         value: "Legal Person Wallet Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/qes-providers/lote.json"
     schemeTerritory: "EU"
     schemeType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
     schemeName:
       - language: en
         value: "QES Certificate Providers Trust List"
-  
+
   - location: "https://example.com/trust-ecosystem/relying-parties/lote.json"
     schemeTerritory: "EU"
     schemeType: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric"

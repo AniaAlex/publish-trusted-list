@@ -23,4 +23,7 @@ statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/St
 
 policyOrLegalNotice:
   - language: en
-    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. Legal Person Wallet Providers are authorized to provide EUDI wallet solutions for legal persons (organizations/companies) and issue Wallet Unit Attestations (WUA)."
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0
+      regulation. Legal Person Wallet Providers are authorized to provide EUDI
+      wallet solutions for legal persons (organizations/companies) and issue
+      Wallet Unit Attestations (WUA)."

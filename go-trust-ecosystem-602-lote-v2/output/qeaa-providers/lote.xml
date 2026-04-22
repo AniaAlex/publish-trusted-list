@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrustServiceStatusList TSLTag="http://uri.etsi.org/02231/TSLTag">
+  <SchemeInformation>
+    <TSLVersionIdentifier>5</TSLVersionIdentifier>
+    <TSLSequenceNumber>1</TSLSequenceNumber>
+    <TSLType>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</TSLType>
+    <SchemeOperatorName>
+      <Name lang="en">EUDI Trust Ecosystem - QEAA Providers Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">List of Trusted Qualified EAA Providers</Name>
+    </SchemeName>
+    <SchemeInformationURI>
+      <URI lang="en">https://example.com/trust-ecosystem/qeaa-providers</URI>
+    </SchemeInformationURI>
+    <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate</StatusDeterminationApproach>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <PolicyOrLegalNotice>
+      <TSLLegalNotice lang="en">This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. QEAA providers are Qualified Trust Service Providers authorized to issue Qualified Electronic Attestations of Attributes with the highest assurance level.</TSLLegalNotice>
+    </PolicyOrLegalNotice>
+    <ListIssueDateTime>2026-04-22T13:44:27Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-05-22T13:44:27Z</dateTime>
+    </NextUpdate>
+    <DistributionPoints>
+      <URI>https://example.com/trust-ecosystem/qeaa-providers/lote.json</URI>
+      <URI>https://example.com/trust-ecosystem/qeaa-providers/lote.xml</URI>
+    </DistributionPoints>
+    <PointersToOtherTSL></PointersToOtherTSL>
+  </SchemeInformation>
+  <TrustServiceProviderList>
+    <TrustServiceProvider>
+      <TSPInformation>
+        <TSPName>
+          <Name lang="en">Example Qualified Trust Service Provider</Name>
+          <Name lang="fr">Exemple de Prestataire de Services de Confiance Qualifié</Name>
+        </TSPName>
+        <TSPTradeName></TSPTradeName>
+        <TSPAddress>
+          <PostalAddresses></PostalAddresses>
+          <ElectronicAddresses></ElectronicAddresses>
+        </TSPAddress>
+        <TSPInformationURI>
+          <URI lang="en">https://qeaa-issuer.example.com/info</URI>
+        </TSPInformationURI>
+      </TSPInformation>
+      <TSPServices>
+        <TSPService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">Qualified Electronic Attestation of Attributes Service</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity></ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+            <StatusStartingTime>2026-04-22T13:44:27Z</StatusStartingTime>
+            <ServiceSupplyPoints>
+              <ServiceSupplyPoint>https://qeaa-issuer.example.com/oidc4vci</ServiceSupplyPoint>
+              <ServiceSupplyPoint>https://qeaa-issuer.example.com/api/v1/credentials</ServiceSupplyPoint>
+            </ServiceSupplyPoints>
+          </ServiceInformation>
+          <ServiceHistory></ServiceHistory>
+        </TSPService>
+      </TSPServices>
+    </TrustServiceProvider>
+  </TrustServiceProviderList>
+</TrustServiceStatusList>

@@ -23,4 +23,6 @@ statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/St
 
 policyOrLegalNotice:
   - language: en
-    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. LPID providers must be authorized by EU Member States to issue Legal Person Identification Data attestations."
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0
+      regulation. LPID providers must be authorized by EU Member States to issue
+      Legal Person Identification Data attestations."

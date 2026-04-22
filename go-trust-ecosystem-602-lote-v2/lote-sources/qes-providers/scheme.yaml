@@ -23,4 +23,6 @@ statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/St
 
 policyOrLegalNotice:
   - language: en
-    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. QES providers are Qualified Trust Service Providers authorized to issue Qualified Certificates for Electronic Signatures and Seals."
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0
+      regulation. QES providers are Qualified Trust Service Providers authorized
+      to issue Qualified Certificates for Electronic Signatures and Seals."

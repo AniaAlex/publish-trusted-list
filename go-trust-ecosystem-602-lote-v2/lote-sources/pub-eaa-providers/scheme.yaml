@@ -23,4 +23,7 @@ statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/St
 
 policyOrLegalNotice:
   - language: en
-    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. Pub-EAA providers are public sector bodies authorized to issue Electronic Attestations of Attributes as authentic sources of public data."
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0
+      regulation. Pub-EAA providers are public sector bodies authorized to issue
+      Electronic Attestations of Attributes as authentic sources of public
+      data."
