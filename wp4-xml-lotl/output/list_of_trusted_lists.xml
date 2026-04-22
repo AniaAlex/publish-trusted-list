@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TrustServiceStatusList xmlns="http://uri.etsi.org/19612/v2.4.1#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="lotl-1" xsi:schemaLocation="http://uri.etsi.org/19612/v2.4.1# https://forge.etsi.org/rep/esi/x19_612_trusted_lists/-/raw/v2.4.1/19612_xsd.xsd">
+  <SchemeInformation>
+    <TSLVersionIdentifier>6</TSLVersionIdentifier>
+    <TSLSequenceNumber>3</TSLSequenceNumber>
+    <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
+    <SchemeOperatorName>
+      <Name xml:lang="en">WE BUILD WP4 Trust Group</Name>
+    </SchemeOperatorName>
+    <SchemeOperatorAddress>
+      <PostalAddresses>
+        <PostalAddress>
+          <StreetAddress>N/A</StreetAddress>
+          <Locality>N/A</Locality>
+          <PostalCode>N/A</PostalCode>
+          <CountryName>EU</CountryName>
+        </PostalAddress>
+      </PostalAddresses>
+      <ElectronicAddress>
+        <URI>https://webuild-consortium.github.io/wp4-trust-group/</URI>
+      </ElectronicAddress>
+    </SchemeOperatorAddress>
+    <SchemeName>
+      <Name xml:lang="en">WP4 List of Trusted Lists</Name>
+    </SchemeName>
+    <SchemeInformationURI>https://webuild-consortium.github.io/wp4-trust-group/</SchemeInformationURI>
+    <StatusDeterminationApproach>http://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate</StatusDeterminationApproach>
+    <SchemeTypeCommunityRules>http://uri.etsi.org/TrstSvc/TrustedList/SchemeTypeCommunityRules/EU</SchemeTypeCommunityRules>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <ListIssueDateTime>2026-04-22T09:16:42Z</ListIssueDateTime>
+    <NextUpdate>2026-10-22T09:16:42Z</NextUpdate>
+    <DistributionPoints>
+      <DistributionPoint>
+        <URI>https://trust.wp4.sunet.se/eaa-providers/sunet-eaa.json</URI>
+        <URI>https://trust.wp4.sunet.se/eaa-providers/sunet-eaa.xml</URI>
+      </DistributionPoint>
+      <DistributionPoint>
+        <URI>https://trust.wp4.sunet.se/pid-providers/sweden.json</URI>
+        <URI>https://trust.wp4.sunet.se/pid-providers/sweden.xml</URI>
+      </DistributionPoint>
+      <DistributionPoint>
+        <URI>https://bolagsverket.se/.well-known/wallet-providers.json</URI>
+        <URI>https://bolagsverket.se/.well-known/wallet-providers.xml</URI>
+      </DistributionPoint>
+      <DistributionPoint>
+        <URI>https://trust.wp4.sunet.se/wrpac-providers/webuild-wrpac.json</URI>
+        <URI>https://trust.wp4.sunet.se/wrpac-providers/webuild-wrpac.xml</URI>
+      </DistributionPoint>
+    </DistributionPoints>
+  </SchemeInformation>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference URI="#lotl-1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>IXVbXutYjDn3YUVcG9XMEnGc4cANr628R3e1bdvdYX4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>aQL5xINEMTEqx/HTIQt1mMswOk06bQb8P/uDj575k96BjmeiWa/I771uZFqvb0X8rvlIjDNLmLkVEkaSSvbGkw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIBtTCCAVqgAwIBAgIUMqCAoYJjKLEKx0vK+Mjfx/ELSkMwCgYIKoZIzj0EAwIw
+MDELMAkGA1UEBhMCRVUxITAfBgNVBAoMGFdFIEJVSUxEIFdQNCBUcnVzdCBHcm91
+cDAeFw0yNjA0MjIwOTA5MThaFw0yOTA0MjEwOTA5MThaMDAxCzAJBgNVBAYTAkVV
+MSEwHwYDVQQKDBhXRSBCVUlMRCBXUDQgVHJ1c3QgR3JvdXAwWTATBgcqhkjOPQIB
+BggqhkjOPQMBBwNCAATDXnuZmxyjAglPtv17okPTdxzUPdxD0Wl7UM4zQwPXll1G
+ZiQhziQ+LWfbKWm/t2tZ90pUWddrSZt/RzzTmNDso1IwUDAOBgNVHQ8BAf8EBAMC
+BsAwEQYDVR0lBAowCAYGBACRNwMAMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFIlS
+FGCNwGc8z9uK1BipAp72dMUtMAoGCCqGSM49BAMCA0kAMEYCIQC//JePqtVp2st4
+We4ETSyGI+yKYR2NVkDYmpD1yKBXFwIhAPsIFRIraMxAvDX1dncU8XvaiT6/2mzC
+Zo6H7jajRhcb
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></TrustServiceStatusList>
