@@ -1,0 +1,26 @@
+# LoTE Scheme for QEAA Providers (Qualified Electronic Attestation of Attributes)
+# Based on ETSI TS 119 602 and EWC RFC 012
+
+operatorNames:
+  - language: en
+    value: "EUDI Trust Ecosystem - QEAA Providers Registry"
+
+schemeName:
+  - language: en
+    value: "List of Trusted Qualified EAA Providers"
+
+schemeType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q"
+
+territory: "EU"
+
+sequenceNumber: 1
+
+schemeInformationURI:
+  - language: en
+    uri: "https://example.com/trust-ecosystem/qeaa-providers"
+
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+
+policyOrLegalNotice:
+  - language: en
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. QEAA providers are Qualified Trust Service Providers authorized to issue Qualified Electronic Attestations of Attributes with the highest assurance level."

@@ -1,0 +1,63 @@
+# Pipeline for generating all LoTEs from source directories
+# Run with: tsl-tool pipeline-generate-lotes.yaml
+
+# ==============================================================================
+# STEP 1: Generate LoTEs for each entity type
+# ==============================================================================
+
+# PID Providers LoTE
+- generate-lote:
+    - ./lote-sources/pid-providers
+- publish-lote:
+    - ./output/pid-providers
+
+# LPID Providers LoTE  
+- generate-lote:
+    - ./lote-sources/lpid-providers
+- publish-lote:
+    - ./output/lpid-providers
+
+# QEAA Providers LoTE
+- generate-lote:
+    - ./lote-sources/qeaa-providers
+- publish-lote:
+    - ./output/qeaa-providers
+
+# EAA Providers LoTE
+- generate-lote:
+    - ./lote-sources/eaa-providers
+- publish-lote:
+    - ./output/eaa-providers
+
+# Pub-EAA Providers LoTE
+- generate-lote:
+    - ./lote-sources/pub-eaa-providers
+- publish-lote:
+    - ./output/pub-eaa-providers
+
+# Natural Person Wallet Providers LoTE
+- generate-lote:
+    - ./lote-sources/wallet-providers-np
+- publish-lote:
+    - ./output/wallet-providers-np
+
+# Legal Person Wallet Providers LoTE
+- generate-lote:
+    - ./lote-sources/wallet-providers-lp
+- publish-lote:
+    - ./output/wallet-providers-lp
+
+# QES Providers LoTE
+- generate-lote:
+    - ./lote-sources/qes-providers
+- publish-lote:
+    - ./output/qes-providers
+
+# Relying Parties LoTE
+- generate-lote:
+    - ./lote-sources/relying-parties
+- publish-lote:
+    - ./output/relying-parties
+
+- log:
+    - "All LoTEs generated successfully"

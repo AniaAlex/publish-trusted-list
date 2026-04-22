@@ -1,0 +1,28 @@
+# Entity configuration for a Legal Person Wallet Provider (LPWP)
+# Service Type: Legal Person Wallet Provider
+
+entityId: "https://wallet-provider-lp.example.com/eudi"
+
+entityType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP"
+
+names:
+  - language: en
+    value: "Example Legal Person Wallet Provider"
+  - language: de
+    value: "Beispiel Wallet-Anbieter für juristische Personen"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://wallet-provider-lp.example.com/info"
+
+services:
+  - serviceType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP"
+    serviceNames:
+      - language: en
+        value: "EUDI Wallet for Legal Persons"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://wallet-provider-lp.example.com/wua"
+      - "https://wallet-provider-lp.example.com/.well-known/openid-configuration"

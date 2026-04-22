@@ -1,0 +1,28 @@
+# Entity configuration for a QES (Qualified Electronic Signature) Certificate Provider
+# Service Type: Certification Authority issuing Qualified Certificates
+
+entityId: "https://qes-provider.example.com/eudi"
+
+entityType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
+
+names:
+  - language: en
+    value: "Example Qualified Trust Service Provider - CA"
+  - language: pl
+    value: "Przykładowy Kwalifikowany Dostawca Usług Zaufania - CA"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://qes-provider.example.com/info"
+
+services:
+  - serviceType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
+    serviceNames:
+      - language: en
+        value: "Qualified Certificate for Electronic Signature Issuance"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://qes-provider.example.com/certificates"
+      - "https://qes-provider.example.com/ocsp"

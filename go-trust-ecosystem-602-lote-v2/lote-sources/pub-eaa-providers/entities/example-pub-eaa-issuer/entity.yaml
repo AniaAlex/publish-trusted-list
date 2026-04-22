@@ -1,0 +1,27 @@
+# Entity configuration for a Pub-EAA (Public Body EAA) Provider
+# Service Type: Public Body EAA Provider
+
+entityId: "https://pub-eaa-issuer.example.gov/eudi"
+
+entityType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Pub-EAA"
+
+names:
+  - language: en
+    value: "Example Tax Authority Pub-EAA Issuer"
+  - language: it
+    value: "Esempio Agenzia delle Entrate Emittente Pub-EAA"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://pub-eaa-issuer.example.gov/info"
+
+services:
+  - serviceType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Pub-EAA"
+    serviceNames:
+      - language: en
+        value: "Tax Residency Certificate Issuance Service"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://pub-eaa-issuer.example.gov/oidc4vci"

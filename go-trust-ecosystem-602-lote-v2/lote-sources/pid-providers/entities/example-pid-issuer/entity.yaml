@@ -1,0 +1,27 @@
+# Entity configuration for a PID (Personal Identification Document) Provider
+# Service Type: Natural Person PID Provider
+
+entityId: "https://pid-issuer.example.gov/eudi"
+
+entityType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID"
+
+names:
+  - language: en
+    value: "Example Government PID Issuer"
+  - language: sv
+    value: "Exempel Statlig PID-utfärdare"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://pid-issuer.example.gov/info"
+
+services:
+  - serviceType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID"
+    serviceNames:
+      - language: en
+        value: "Personal Identification Document Issuance Service"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://pid-issuer.example.gov/oidc4vci"

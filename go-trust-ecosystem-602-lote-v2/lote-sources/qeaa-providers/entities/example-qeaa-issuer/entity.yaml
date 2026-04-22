@@ -1,0 +1,28 @@
+# Entity configuration for a QEAA (Qualified Electronic Attestation of Attributes) Provider
+# Service Type: Qualified EAA Provider
+
+entityId: "https://qeaa-issuer.example.com/eudi"
+
+entityType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q"
+
+names:
+  - language: en
+    value: "Example Qualified Trust Service Provider"
+  - language: fr
+    value: "Exemple de Prestataire de Services de Confiance Qualifié"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://qeaa-issuer.example.com/info"
+
+services:
+  - serviceType: "http://uri.etsi.org/TrstSvc/Svctype/EAA/Q"
+    serviceNames:
+      - language: en
+        value: "Qualified Electronic Attestation of Attributes Service"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://qeaa-issuer.example.com/oidc4vci"
+      - "https://qeaa-issuer.example.com/api/v1/credentials"

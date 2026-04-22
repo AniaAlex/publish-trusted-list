@@ -1,0 +1,27 @@
+# Entity configuration for a LPID (Legal Person Identification Document) Provider
+# Service Type: Legal Person PID Provider
+
+entityId: "https://lpid-issuer.example.com/eudi"
+
+entityType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPID"
+
+names:
+  - language: en
+    value: "Example Business Registry LPID Issuer"
+  - language: de
+    value: "Beispiel Handelsregister LPID-Aussteller"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://lpid-issuer.example.com/info"
+
+services:
+  - serviceType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPID"
+    serviceNames:
+      - language: en
+        value: "Legal Person Identification Document Issuance Service"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://lpid-issuer.example.com/oidc4vci"

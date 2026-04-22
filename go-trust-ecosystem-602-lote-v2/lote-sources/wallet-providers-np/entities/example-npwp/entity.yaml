@@ -1,0 +1,28 @@
+# Entity configuration for a Natural Person Wallet Provider (NPWP)
+# Service Type: Natural Person Wallet Provider
+
+entityId: "https://wallet-provider-np.example.com/eudi"
+
+entityType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP"
+
+names:
+  - language: en
+    value: "Example Natural Person Wallet Provider"
+  - language: nl
+    value: "Voorbeeld Natuurlijk Persoon Wallet Provider"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://wallet-provider-np.example.com/info"
+
+services:
+  - serviceType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP"
+    serviceNames:
+      - language: en
+        value: "EUDI Wallet for Natural Persons"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://wallet-provider-np.example.com/wua"
+      - "https://wallet-provider-np.example.com/.well-known/openid-configuration"

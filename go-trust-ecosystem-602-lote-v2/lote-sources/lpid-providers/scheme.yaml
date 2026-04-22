@@ -1,0 +1,26 @@
+# LoTE Scheme for LPID Providers (Legal Person Identification Document)
+# Based on ETSI TS 119 602 and EWC RFC 012
+
+operatorNames:
+  - language: en
+    value: "EUDI Trust Ecosystem - LPID Providers Registry"
+
+schemeName:
+  - language: en
+    value: "List of Trusted Legal Person PID Providers"
+
+schemeType: "https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPID"
+
+territory: "EU"
+
+sequenceNumber: 1
+
+schemeInformationURI:
+  - language: en
+    uri: "https://example.com/trust-ecosystem/lpid-providers"
+
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+
+policyOrLegalNotice:
+  - language: en
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. LPID providers must be authorized by EU Member States to issue Legal Person Identification Data attestations."

@@ -1,0 +1,26 @@
+# LoTE Scheme for Relying Parties (Verifiers)
+# Based on ETSI TS 119 602 and EWC RFC 012
+
+operatorNames:
+  - language: en
+    value: "EUDI Trust Ecosystem - Relying Parties Registry"
+
+schemeName:
+  - language: en
+    value: "List of Trusted Relying Parties"
+
+schemeType: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric"
+
+territory: "EU"
+
+sequenceNumber: 1
+
+schemeInformationURI:
+  - language: en
+    uri: "https://example.com/trust-ecosystem/relying-parties"
+
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+
+policyOrLegalNotice:
+  - language: en
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. Relying Parties (Verifiers) are entities that request and verify credentials from EUDI wallet holders. Registration enables holders to verify the authenticity and authorization of verifiers before sharing credentials."

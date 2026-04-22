@@ -1,0 +1,82 @@
+# Pipeline for generating signed LoTEs with JWS signatures
+# Requires signing keys to be generated first (run generate-certs.sh)
+# Run with: tsl-tool pipeline-generate-signed-lotes.yaml
+
+# ==============================================================================
+# STEP 1: Generate and sign LoTEs for each entity type
+# ==============================================================================
+
+# PID Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/pid-providers
+- publish-lote:
+    - ./output/signed/pid-providers
+    - ./lote-sources/pid-providers/entities/example-pid-issuer/signing-cert.pem
+    - ./lote-sources/pid-providers/entities/example-pid-issuer/signing-key.pem
+
+# LPID Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/lpid-providers
+- publish-lote:
+    - ./output/signed/lpid-providers
+    - ./lote-sources/lpid-providers/entities/example-lpid-issuer/signing-cert.pem
+    - ./lote-sources/lpid-providers/entities/example-lpid-issuer/signing-key.pem
+
+# QEAA Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/qeaa-providers
+- publish-lote:
+    - ./output/signed/qeaa-providers
+    - ./lote-sources/qeaa-providers/entities/example-qeaa-issuer/signing-cert.pem
+    - ./lote-sources/qeaa-providers/entities/example-qeaa-issuer/signing-key.pem
+
+# EAA Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/eaa-providers
+- publish-lote:
+    - ./output/signed/eaa-providers
+    - ./lote-sources/eaa-providers/entities/example-eaa-issuer/signing-cert.pem
+    - ./lote-sources/eaa-providers/entities/example-eaa-issuer/signing-key.pem
+
+# Pub-EAA Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/pub-eaa-providers
+- publish-lote:
+    - ./output/signed/pub-eaa-providers
+    - ./lote-sources/pub-eaa-providers/entities/example-pub-eaa-issuer/signing-cert.pem
+    - ./lote-sources/pub-eaa-providers/entities/example-pub-eaa-issuer/signing-key.pem
+
+# Natural Person Wallet Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/wallet-providers-np
+- publish-lote:
+    - ./output/signed/wallet-providers-np
+    - ./lote-sources/wallet-providers-np/entities/example-npwp/signing-cert.pem
+    - ./lote-sources/wallet-providers-np/entities/example-npwp/signing-key.pem
+
+# Legal Person Wallet Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/wallet-providers-lp
+- publish-lote:
+    - ./output/signed/wallet-providers-lp
+    - ./lote-sources/wallet-providers-lp/entities/example-lpwp/signing-cert.pem
+    - ./lote-sources/wallet-providers-lp/entities/example-lpwp/signing-key.pem
+
+# QES Providers LoTE (signed)
+- generate-lote:
+    - ./lote-sources/qes-providers
+- publish-lote:
+    - ./output/signed/qes-providers
+    - ./lote-sources/qes-providers/entities/example-qes-provider/signing-cert.pem
+    - ./lote-sources/qes-providers/entities/example-qes-provider/signing-key.pem
+
+# Relying Parties LoTE (signed)
+- generate-lote:
+    - ./lote-sources/relying-parties
+- publish-lote:
+    - ./output/signed/relying-parties
+    - ./lote-sources/relying-parties/entities/example-verifier/signing-cert.pem
+    - ./lote-sources/relying-parties/entities/example-verifier/signing-key.pem
+
+- log:
+    - "All signed LoTEs generated successfully"

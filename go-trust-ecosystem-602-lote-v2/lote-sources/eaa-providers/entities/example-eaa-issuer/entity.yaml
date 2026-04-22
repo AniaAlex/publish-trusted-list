@@ -1,0 +1,27 @@
+# Entity configuration for an EAA (Electronic Attestation of Attributes) Provider
+# Service Type: EAA Provider
+
+entityId: "https://eaa-issuer.example.com/eudi"
+
+entityType: "http://uri.etsi.org/TrstSvc/Svctype/EAA"
+
+names:
+  - language: en
+    value: "Example University EAA Issuer"
+  - language: es
+    value: "Ejemplo Universidad Emisor EAA"
+
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+
+informationURIs:
+  - language: en
+    uri: "https://eaa-issuer.example.com/info"
+
+services:
+  - serviceType: "http://uri.etsi.org/TrstSvc/Svctype/EAA"
+    serviceNames:
+      - language: en
+        value: "Diploma and Academic Credential Issuance Service"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+    serviceSupplyPoints:
+      - "https://eaa-issuer.example.com/oidc4vci"

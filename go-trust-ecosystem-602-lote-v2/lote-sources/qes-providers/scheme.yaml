@@ -1,0 +1,26 @@
+# LoTE Scheme for QES Providers (Qualified Electronic Signature/Seal Certificate Providers)
+# Based on ETSI TS 119 602 and EWC RFC 012
+
+operatorNames:
+  - language: en
+    value: "EUDI Trust Ecosystem - QES Certificate Providers Registry"
+
+schemeName:
+  - language: en
+    value: "List of Trusted QES Certificate Providers"
+
+schemeType: "http://uri.etsi.org/TrstSvc/Svctype/CA/QC"
+
+territory: "EU"
+
+sequenceNumber: 1
+
+schemeInformationURI:
+  - language: en
+    uri: "https://example.com/trust-ecosystem/qes-providers"
+
+statusDeterminationApproach: "http://uri.etsi.org/TrstSvc/TrustedList/TSLType/StatusDetn/EUappropriate"
+
+policyOrLegalNotice:
+  - language: en
+    value: "This trust list is operated under the EUDI Trust Framework and eIDAS 2.0 regulation. QES providers are Qualified Trust Service Providers authorized to issue Qualified Certificates for Electronic Signatures and Seals."
