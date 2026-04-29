@@ -1,0 +1,26 @@
+names:
+  - language: en
+    value: "Bundesdruckerei — German PID"
+  - language: de
+    value: "Bundesdruckerei — Deutsches PID"
+entityId: "https://eid.bundesdruckerei.de/pid"
+entityType: "pid-provider"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+address:
+  postal:
+    streetAddress: "Kommandantenstr. 18"
+    locality: "Berlin"
+    postalCode: "10969"
+    countryName: "DE"
+  electronic:
+    - "https://www.bundesdruckerei.de"
+    - "mailto:eid@bundesdruckerei.de"
+informationURI:
+  - language: en
+    value: "https://www.bundesdruckerei.de/eid"
+services:
+  - serviceNames:
+      - language: en
+        value: "Bundesdruckerei PID Issuance Service"
+    serviceType: "http://uri.etsi.org/19602/SvcType/PIDProvider"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

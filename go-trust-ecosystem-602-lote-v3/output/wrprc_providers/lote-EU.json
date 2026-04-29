@@ -1,0 +1,87 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Demo Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU WRPRC Providers List"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-04-29T11:13:01Z",
+      "NextUpdate": "2026-04-29T11:13:01Z"
+    },
+    "TrustedEntitiesList": [
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "DIGG — Agency for Digital Government (WRPRC)"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Vasagatan 10",
+                "Locality": "Sundsvall",
+                "PostalCode": "85217",
+                "Country": "SE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.digg.se"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.digg.se/eidas/wrprc"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "DIGG WRPRC Service"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIBvDCCAWOgAwIBAgIUPCUJjS3/VumC8PyJSKuDVE+30hswCgYIKoZIzj0EAwIwNDEWMBQGA1UEAwwNd3JwcmMuZGlnZy5zZTENMAsGA1UECgwERElHRzELMAkGA1UEBhMCU0UwHhcNMjYwNDI5MTEwOTI2WhcNMjgwNDI4MTEwOTI2WjA0MRYwFAYDVQQDDA13cnByYy5kaWdnLnNlMQ0wCwYDVQQKDARESUdHMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABARsdv2MlDFgsVEqvbTI/fxYqInH8m42+aQO0aIvLB7HcHsIja0nnFQKyi2OpsmcSN88ykcXtJAGFMF84Y7oqP+jUzBRMB0GA1UdDgQWBBSlsZ0cQpjituHSWBVYQk3TPLogjDAfBgNVHSMEGDAWgBSlsZ0cQpjituHSWBVYQk3TPLogjDAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCIDwUPhjPX8P5P8FH9urupPrRA/i3fRMo+iC4bvcpY52NAiBUsZex9ipqc5JTEro3pjZoZxON66+zOJTulhjZYkwFzw=="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",
+                    "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/WRPRCProvider"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

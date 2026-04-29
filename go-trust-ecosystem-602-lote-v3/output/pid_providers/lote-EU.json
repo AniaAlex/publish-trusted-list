@@ -1,0 +1,164 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Demo Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU PID Providers List"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-04-29T11:13:01Z",
+      "NextUpdate": "2026-04-29T11:13:01Z"
+    },
+    "TrustedEntitiesList": [
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Bundesdruckerei — German PID"
+            },
+            {
+              "lang": "de",
+              "value": "Bundesdruckerei — Deutsches PID"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Kommandantenstr. 18",
+                "Locality": "Berlin",
+                "PostalCode": "10969",
+                "Country": "DE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.bundesdruckerei.de"
+              },
+              {
+                "lang": "",
+                "uriValue": "mailto:eid@bundesdruckerei.de"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.bundesdruckerei.de/eid"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Bundesdruckerei PID Issuance Service"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIB7zCCAZWgAwIBAgIULXbem8g4u3t/FCeIwv8IzBrH81YwCgYIKoZIzj0EAwIwTTEfMB0GA1UEAwwWZWlkLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMB4XDTI2MDQyOTExMDkyNloXDTI4MDQyODExMDkyNlowTTEfMB0GA1UEAwwWZWlkLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvEQmHAdpRl2OY66pDuSnttrBkYGqbWmseCH9goEXP5NoJK0cKM1hfMtdLDyD6aPFKBwd5+wk+14jUHAdyoU7sKNTMFEwHQYDVR0OBBYEFOv+dLuJiPTdHk+IH3DRrx3rhCzLMB8GA1UdIwQYMBaAFOv+dLuJiPTdHk+IH3DRrx3rhCzLMA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIhAPD3wvwiE566CxHtd4n/vvGs7++R/jxGBEz55rHSXAO9AiBTpZfYr1ovanWGlpbL1G891ux6g5jAxe2O6mUpHdlubQ=="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "MKBCTNIcKUSDii11ySs3526iDZ8AiTo7Tu6KPAqv7D4",
+                    "y": "4Etl6SRW2YiLUrN5vfvVHuhp7x8PxltmWWlbbM4IFyM"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/PIDProvider"
+            }
+          }
+        ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Swedish Tax Agency — eID PID"
+            },
+            {
+              "lang": "sv",
+              "value": "Skatteverket — eID PID"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Solna strandväg 10",
+                "Locality": "Solna",
+                "PostalCode": "17194",
+                "Country": "SE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.skatteverket.se"
+              },
+              {
+                "lang": "",
+                "uriValue": "mailto:eid@skatteverket.se"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.skatteverket.se/eid"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Skatteverket PID Issuance Service"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIB2jCCAX+gAwIBAgIULqm1GcDklsGkRvZb7QSOPmkKDIIwCgYIKoZIzj0EAwIwQjEcMBoGA1UEAwwTZWlkLnNrYXR0ZXZlcmtldC5zZTEVMBMGA1UECgwMU2thdHRldmVya2V0MQswCQYDVQQGEwJTRTAeFw0yNjA0MjkxMTA5MjZaFw0yODA0MjgxMTA5MjZaMEIxHDAaBgNVBAMME2VpZC5za2F0dGV2ZXJrZXQuc2UxFTATBgNVBAoMDFNrYXR0ZXZlcmtldDELMAkGA1UEBhMCU0UwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARVuWfH6pUrY098R7kl/BLiPxuqQYbYUh5CukJzL8z4mFbwkhpLJKfIKHTgdngNB6S02+JEkAq9MSj+4+E9YL3Uo1MwUTAdBgNVHQ4EFgQUKwgPI+YANJ0BiJyci1nM0tTmBiEwHwYDVR0jBBgwFoAUKwgPI+YANJ0BiJyci1nM0tTmBiEwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAgNJADBGAiEA6243SJdzQAY7ycMBveySUtnMtzKVek41GJbnf3nR2YECIQDkU2RywHHsFUf35JZo4+u2DY9qkInTE2jwmyMyYs9J2A=="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",
+                    "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/PIDProvider"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

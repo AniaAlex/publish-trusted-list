@@ -1,0 +1,23 @@
+names:
+  - language: en
+    value: "DIGG — Agency for Digital Government (WRPAC)"
+entityId: "https://wrpac.digg.se"
+entityType: "wrpac-provider"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+address:
+  postal:
+    streetAddress: "Vasagatan 10"
+    locality: "Sundsvall"
+    postalCode: "85217"
+    countryName: "SE"
+  electronic:
+    - "https://www.digg.se"
+informationURI:
+  - language: en
+    value: "https://www.digg.se/eidas/wrpac"
+services:
+  - serviceNames:
+      - language: en
+        value: "DIGG WRPAC Service"
+    serviceType: "http://uri.etsi.org/19602/SvcType/WRPACProvider"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

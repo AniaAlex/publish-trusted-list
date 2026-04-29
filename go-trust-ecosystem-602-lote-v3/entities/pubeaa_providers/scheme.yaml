@@ -1,0 +1,9 @@
+operatorNames:
+  - language: en
+    value: "WP4Trust Demo Registry"
+schemeName:
+  - language: en
+    value: "EU Pub-EAA Providers List"
+schemeType: "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList"
+territory: EU
+sequenceNumber: 1

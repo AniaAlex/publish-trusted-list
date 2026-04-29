@@ -1,0 +1,25 @@
+names:
+  - language: en
+    value: "IDunion SCE"
+  - language: de
+    value: "IDunion SCE"
+entityId: "https://www.idunion.org"
+entityType: "wallet-provider"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+address:
+  postal:
+    streetAddress: "Unter den Linden 1"
+    locality: "Berlin"
+    postalCode: "10117"
+    countryName: "DE"
+  electronic:
+    - "https://www.idunion.org"
+informationURI:
+  - language: en
+    value: "https://www.idunion.org"
+services:
+  - serviceNames:
+      - language: en
+        value: "IDunion Wallet Solution"
+    serviceType: "http://uri.etsi.org/19602/SvcType/WalletSolution/Issuance"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

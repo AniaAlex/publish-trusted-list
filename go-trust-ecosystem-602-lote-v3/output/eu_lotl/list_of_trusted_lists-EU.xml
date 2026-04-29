@@ -1,0 +1,57 @@
+<ListOfTrustedEntities xmlns="http://uri.etsi.org/019602/v1#" LOTETag="http://uri.etsi.org/019602/LOTETag">
+  <ListAndSchemeInformation>
+    <LoTEVersionIdentifier>1</LoTEVersionIdentifier>
+    <LoTESequenceNumber>1</LoTESequenceNumber>
+    <LoTEType>http://uri.etsi.org/19602/LoTLType/EUListOfTrustedLists</LoTEType>
+    <SchemeOperatorName>
+      <Name lang="en">WP4Trust Demo Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">EU List of Trusted Lists</Name>
+    </SchemeName>
+    <StatusDeterminationApproach/>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <PointersToOtherLoTE>
+      <OtherLoTEPointer>
+        <LoTELocation>https://demo.wp4trust.example/SE/pid.json</LoTELocation>
+        <AdditionalInformation>
+          <TextualInformation lang="en">http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList</TextualInformation>
+        </AdditionalInformation>
+      </OtherLoTEPointer>
+      <OtherLoTEPointer>
+        <LoTELocation>https://demo.wp4trust.example/SE/wallet.json</LoTELocation>
+        <AdditionalInformation>
+          <TextualInformation lang="en">http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList</TextualInformation>
+        </AdditionalInformation>
+      </OtherLoTEPointer>
+      <OtherLoTEPointer>
+        <LoTELocation>https://demo.wp4trust.example/SE/pubeaa.json</LoTELocation>
+        <AdditionalInformation>
+          <TextualInformation lang="en">http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList</TextualInformation>
+        </AdditionalInformation>
+      </OtherLoTEPointer>
+      <OtherLoTEPointer>
+        <LoTELocation>https://demo.wp4trust.example/SE/wrpac.json</LoTELocation>
+        <AdditionalInformation>
+          <TextualInformation lang="en">http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList</TextualInformation>
+        </AdditionalInformation>
+      </OtherLoTEPointer>
+      <OtherLoTEPointer>
+        <LoTELocation>https://demo.wp4trust.example/SE/wrprc.json</LoTELocation>
+        <AdditionalInformation>
+          <TextualInformation lang="en">http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList</TextualInformation>
+        </AdditionalInformation>
+      </OtherLoTEPointer>
+      <OtherLoTEPointer>
+        <LoTELocation>https://demo.wp4trust.example/SE/registrars.json</LoTELocation>
+        <AdditionalInformation>
+          <TextualInformation lang="en">http://uri.etsi.org/19602/LoTEType/EURegistrarsAndRegistersList</TextualInformation>
+        </AdditionalInformation>
+      </OtherLoTEPointer>
+    </PointersToOtherLoTE>
+    <ListIssueDateTime>2026-04-29T11:13:01Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-04-29T11:13:01Z</dateTime>
+    </NextUpdate>
+  </ListAndSchemeInformation>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="b20c23de2342b8eddeeb6b4a1bf8a65b"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-doc-b20c23de2342b8eddeeb6b4a1bf8a65b" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>I8Y13VMKGUlbTZOtYiRNWVLxZW2AivzfCiaj/gIMnWg=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-b20c23de2342b8eddeeb6b4a1bf8a65b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>phtWT1dkM3zJCf20ak/ujjbl1u3i89+RaUnpNL+sJLo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>EfH3f4igqGMbUpeUJADoQQ7+V0/4R9poUDUl1P4G24Npczwbi1sClj4eJAGKfHPNiBXbyd1sXQtbkHTK7eWXa3la6+dPuHkcEVs/96CLn2PsXTRYNgc4J026UK+WMPUhf5gnlNX9gXxnj2aiog8JWCu+0/5GUpXOX6x0OUtcz8qfGnFLblqHRbjtrIFNWnspV4Xd8PFLMEPLhA42tiGW+ojbuxqGepUtLimVH7+jxJB1UQjcqnd5Ut2xAX2HAdbqHvRibZIpTO2XTTklALaIaD5ah2kLERtPo995eS7rNj+qxT40Y9IOIOi9W/cTHw9eobfNS3Ritj1xg9CrUhUk+Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYzCCAkugAwIBAgIUX6CS6rfu1EFp0M9mps9lm71nqFQwDQYJKoZIhvcNAQELBQAwQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMB4XDTI2MDQyOTExMTI1N1oXDTI4MDQyODExMTI1N1owQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruXgchk+sDDyxridmqpMc6MJLy3sIZ79O7FFhFYvGzQNutzjKUl6ESs0K2dDRlaLI2xUJ8byGSVlWDiU4twqAo41tRES5IdfqbZXTTDj9VB7Q0iOpqh0SIcDM4JRMQ/GQ5u9rNIiFRQs8t3fZtMysvfrWmV07/ZRK5LQsR2kxJkBkn1ozu7FBefuNtBzVbST0EYy90zbIjkarB9hLy+qkf7eqqdYy7Wm9c+TQsA+O14akd2GjkI+RUkACZS59OMz1HB5LsAPWrVTunAlhqr2EBo6TlLOoWjqNX31gAo1nhGVGqX8u4Eu8Nq43QfRQc98NrdMB2cZYBE9BZkUhF7pbwIDAQABo1MwUTAdBgNVHQ4EFgQUJl7ZgZJEPoswtocBA27JnqP3I3cwHwYDVR0jBBgwFoAUJl7ZgZJEPoswtocBA27JnqP3I3cwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMX+9+wqt/z7uAtF97Xk4drkSpudtu372pmsd4EmO80lxP1YUGDTcmeWbk7t0gOAJ8aYO6SUuxgbLoGPREv3i3zwdPgDVFT8zJ9+ue8yBUQmCR/S1DB30tMX2v+UT3AFLpRDnMgY1Sqyhp1fd4f0RB6XI03LUZYvsZ6HOQ8wQR3EP+Jha+YbEEAcG6edbBRHDG5fxh0nage/BD6Svv6RBVexaMJs2mSeLOEI1knD3w3tY0Ag8QHZlmyAL6c/2pABMsZGfgdHbH8ZQ8uYThlqZe8Ex+OeAciFac/a02zCTGY8hsaOYL+SptnA37E0fx04mXau2Pry/uHDkcg/ZgAYaPA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#b20c23de2342b8eddeeb6b4a1bf8a65b"><xades:SignedProperties Id="xades-b20c23de2342b8eddeeb6b4a1bf8a65b"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-29T11:13:01Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>18/aY0FKKW2AXnkehzgsG6NzlCWrGyynKNkYw0oxxRE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=WP4Trust Demo Registry,O=WP4Trust,C=EU</ds:X509IssuerName><ds:X509SerialNumber>545935040724338345934791034156887031293541853268</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-doc-b20c23de2342b8eddeeb6b4a1bf8a65b"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ListOfTrustedEntities>

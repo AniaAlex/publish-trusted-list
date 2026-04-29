@@ -1,0 +1,52 @@
+operatorNames:
+  - language: en
+    value: "WP4Trust Demo Registry"
+schemeName:
+  - language: en
+    value: "EU List of Trusted Lists"
+schemeType: "http://uri.etsi.org/19602/LoTLType/EUListOfTrustedLists"
+territory: EU
+sequenceNumber: 1
+pointers:
+  - location: "https://demo.wp4trust.example/SE/pid.json"
+    schemeTerritory: SE
+    schemeType: "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList"
+    schemeOperatorNames:
+      - language: en
+        value: "WP4Trust Demo Registry SE"
+    mimeType: "application/json"
+  - location: "https://demo.wp4trust.example/SE/wallet.json"
+    schemeTerritory: SE
+    schemeType: "http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList"
+    schemeOperatorNames:
+      - language: en
+        value: "WP4Trust Demo Registry SE"
+    mimeType: "application/json"
+  - location: "https://demo.wp4trust.example/SE/pubeaa.json"
+    schemeTerritory: SE
+    schemeType: "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList"
+    schemeOperatorNames:
+      - language: en
+        value: "WP4Trust Demo Registry SE"
+    mimeType: "application/json"
+  - location: "https://demo.wp4trust.example/SE/wrpac.json"
+    schemeTerritory: SE
+    schemeType: "http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList"
+    schemeOperatorNames:
+      - language: en
+        value: "WP4Trust Demo Registry SE"
+    mimeType: "application/json"
+  - location: "https://demo.wp4trust.example/SE/wrprc.json"
+    schemeTerritory: SE
+    schemeType: "http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList"
+    schemeOperatorNames:
+      - language: en
+        value: "WP4Trust Demo Registry SE"
+    mimeType: "application/json"
+  - location: "https://demo.wp4trust.example/SE/registrars.json"
+    schemeTerritory: SE
+    schemeType: "http://uri.etsi.org/19602/LoTEType/EURegistrarsAndRegistersList"
+    schemeOperatorNames:
+      - language: en
+        value: "WP4Trust Demo Registry SE"
+    mimeType: "application/json"

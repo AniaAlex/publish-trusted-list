@@ -1,0 +1,9 @@
+operatorNames:
+  - language: en
+    value: "WP4Trust Demo Registry"
+schemeName:
+  - language: en
+    value: "EU WRPRC Providers List"
+schemeType: "http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList"
+territory: EU
+sequenceNumber: 1

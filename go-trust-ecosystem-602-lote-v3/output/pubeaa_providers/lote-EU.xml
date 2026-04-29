@@ -1,0 +1,81 @@
+<ListOfTrustedEntities xmlns="http://uri.etsi.org/019602/v1#" LOTETag="http://uri.etsi.org/019602/LOTETag">
+  <ListAndSchemeInformation>
+    <LoTEVersionIdentifier>1</LoTEVersionIdentifier>
+    <LoTESequenceNumber>1</LoTESequenceNumber>
+    <LoTEType>http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList</LoTEType>
+    <SchemeOperatorName>
+      <Name lang="en">WP4Trust Demo Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">EU Pub-EAA Providers List</Name>
+    </SchemeName>
+    <StatusDeterminationApproach/>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <ListIssueDateTime>2026-04-29T11:13:01Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-04-29T11:13:01Z</dateTime>
+    </NextUpdate>
+  </ListAndSchemeInformation>
+  <TrustedEntitiesList>
+    <TrustedEntity>
+      <TrustedEntityInformation>
+        <TEName>
+          <Name lang="en">Bundesdruckerei — EAA (withdrawn)</Name>
+          <Name lang="de">Bundesdruckerei — EAA (zurückgezogen)</Name>
+        </TEName>
+        <TEInformationURI>
+          <URI lang="en">https://www.bundesdruckerei.de/eaa</URI>
+        </TEInformationURI>
+      </TrustedEntityInformation>
+      <TrustedEntityServices>
+        <TrustedEntityService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/PubEAAProvider</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">Bundesdruckerei EAA Service (withdrawn)</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIB7jCCAZWgAwIBAgIUeaMme3T+DZTuR2+z1OQPtuvrJFcwCgYIKoZIzj0EAwIwTTEfMB0GA1UEAwwWZWFhLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMB4XDTI2MDQyOTExMDkyNloXDTI4MDQyODExMDkyNlowTTEfMB0GA1UEAwwWZWFhLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQA4/jRbrhWPXckMVyeWjd527WJxklMM/kN4rHy7LjjceOAf7xBgI/1Wm+fdVqrrhN0cW3McROcB+G85McNuOWqNTMFEwHQYDVR0OBBYEFDNXzKsx15OfeMdqbUbw/s8sVZZ3MB8GA1UdIwQYMBaAFDNXzKsx15OfeMdqbUbw/s8sVZZ3MA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDRwAwRAIgDvmfy7RbgW9AtQC4RON/Og+kOIr5Zf28NGxaOv4/BR0CICcf0jIeGYmhfAqkyt9h56g3NfdMOXkfgYVpAeXPqLHG</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <OtherId>{&quot;crv&quot;:&quot;P-256&quot;,&quot;kty&quot;:&quot;EC&quot;,&quot;x&quot;:&quot;MKBCTNIcKUSDii11ySs3526iDZ8AiTo7Tu6KPAqv7D4&quot;,&quot;y&quot;:&quot;4Etl6SRW2YiLUrN5vfvVHuhp7x8PxltmWWlbbM4IFyM&quot;}</OtherId>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+          </ServiceInformation>
+        </TrustedEntityService>
+      </TrustedEntityServices>
+    </TrustedEntity>
+    <TrustedEntity>
+      <TrustedEntityInformation>
+        <TEName>
+          <Name lang="en">SUNET — Swedish University Network</Name>
+          <Name lang="sv">SUNET</Name>
+        </TEName>
+        <TEInformationURI>
+          <URI lang="en">https://www.sunet.se/eaa</URI>
+        </TEInformationURI>
+      </TrustedEntityInformation>
+      <TrustedEntityServices>
+        <TrustedEntityService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/PubEAAProvider</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">SUNET EAA Issuance Service</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIBvTCCAWOgAwIBAgIUbSIX1Nbi6ywv7/ejfp7JZG7StmUwCgYIKoZIzj0EAwIwNDEVMBMGA1UEAwwMZWFhLnN1bmV0LnNlMQ4wDAYDVQQKDAVTVU5FVDELMAkGA1UEBhMCU0UwHhcNMjYwNDI5MTEwOTI2WhcNMjgwNDI4MTEwOTI2WjA0MRUwEwYDVQQDDAxlYWEuc3VuZXQuc2UxDjAMBgNVBAoMBVNVTkVUMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPr0CjCJNUFlp60qexmHo7AhEktXwK203BKVmnk+VcMy/QrqwNEsKoOiBJL5Rz5566YTTp+/ZofLHP3gSrik/g+jUzBRMB0GA1UdDgQWBBTqKbQYOsor3MfDkyOsulNJGuKcKTAfBgNVHSMEGDAWgBTqKbQYOsor3MfDkyOsulNJGuKcKTAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0gAMEUCIQCNpz3vbNCPYsHh8Bz9pCyaDfrBmA9Q424G6xjg+cbIBAIgfLf41k2VZcqNFylKvC7NUSnb1uJxKcBGd7+k0gYagLQ=</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <OtherId>{&quot;crv&quot;:&quot;P-256&quot;,&quot;kty&quot;:&quot;EC&quot;,&quot;x&quot;:&quot;f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU&quot;,&quot;y&quot;:&quot;x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0&quot;}</OtherId>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+          </ServiceInformation>
+        </TrustedEntityService>
+      </TrustedEntityServices>
+    </TrustedEntity>
+  </TrustedEntitiesList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="703b3864b53b9bd2d24ffeeab78fa1ab"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-doc-703b3864b53b9bd2d24ffeeab78fa1ab" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>cl8UQPDNxiOBhhVLahuJNBcJnodBhE9g366E8lf2hs8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-703b3864b53b9bd2d24ffeeab78fa1ab"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eUhWsZipjQUyHSnz2g/sutw66bWEd8SlYPbD8JO5eqU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>W2c1A6PxGZ9xH09LzOAkad+xSTowX3eTjHkyPqNWv5sVQIhhMqg9dYk8EsIo6Vj/zY7lLZv2hIUPc0wZ0fcBwVObaYDY12g7xReoZrpPoYNO9ZJc/M0J/mqNfQkvOKOhWcjUANTCYLQpNNQ0I1u7tBl8JOQ8e7QPCf/ErM1/fdDgDjxM8qMKjKE0efEIuNJrXf2zXOHS4XvJrzpSRrmzQAjOrW5X3bBNFvwAvDP+72H7FgMeooO9d6lDOo5pxVYSSvelpeoCYmzMKvgxjuLLnE1AeZTLPRei0H6Wd6vLvLvvYK4Jcb+On+pbMXSFHbbYIx3fP9xxHaE9nFTmFtuvQg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYzCCAkugAwIBAgIUX6CS6rfu1EFp0M9mps9lm71nqFQwDQYJKoZIhvcNAQELBQAwQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMB4XDTI2MDQyOTExMTI1N1oXDTI4MDQyODExMTI1N1owQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruXgchk+sDDyxridmqpMc6MJLy3sIZ79O7FFhFYvGzQNutzjKUl6ESs0K2dDRlaLI2xUJ8byGSVlWDiU4twqAo41tRES5IdfqbZXTTDj9VB7Q0iOpqh0SIcDM4JRMQ/GQ5u9rNIiFRQs8t3fZtMysvfrWmV07/ZRK5LQsR2kxJkBkn1ozu7FBefuNtBzVbST0EYy90zbIjkarB9hLy+qkf7eqqdYy7Wm9c+TQsA+O14akd2GjkI+RUkACZS59OMz1HB5LsAPWrVTunAlhqr2EBo6TlLOoWjqNX31gAo1nhGVGqX8u4Eu8Nq43QfRQc98NrdMB2cZYBE9BZkUhF7pbwIDAQABo1MwUTAdBgNVHQ4EFgQUJl7ZgZJEPoswtocBA27JnqP3I3cwHwYDVR0jBBgwFoAUJl7ZgZJEPoswtocBA27JnqP3I3cwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMX+9+wqt/z7uAtF97Xk4drkSpudtu372pmsd4EmO80lxP1YUGDTcmeWbk7t0gOAJ8aYO6SUuxgbLoGPREv3i3zwdPgDVFT8zJ9+ue8yBUQmCR/S1DB30tMX2v+UT3AFLpRDnMgY1Sqyhp1fd4f0RB6XI03LUZYvsZ6HOQ8wQR3EP+Jha+YbEEAcG6edbBRHDG5fxh0nage/BD6Svv6RBVexaMJs2mSeLOEI1knD3w3tY0Ag8QHZlmyAL6c/2pABMsZGfgdHbH8ZQ8uYThlqZe8Ex+OeAciFac/a02zCTGY8hsaOYL+SptnA37E0fx04mXau2Pry/uHDkcg/ZgAYaPA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#703b3864b53b9bd2d24ffeeab78fa1ab"><xades:SignedProperties Id="xades-703b3864b53b9bd2d24ffeeab78fa1ab"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-29T11:13:01Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>18/aY0FKKW2AXnkehzgsG6NzlCWrGyynKNkYw0oxxRE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=WP4Trust Demo Registry,O=WP4Trust,C=EU</ds:X509IssuerName><ds:X509SerialNumber>545935040724338345934791034156887031293541853268</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-doc-703b3864b53b9bd2d24ffeeab78fa1ab"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ListOfTrustedEntities>

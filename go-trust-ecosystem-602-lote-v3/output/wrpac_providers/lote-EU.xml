@@ -1,0 +1,49 @@
+<ListOfTrustedEntities xmlns="http://uri.etsi.org/019602/v1#" LOTETag="http://uri.etsi.org/019602/LOTETag">
+  <ListAndSchemeInformation>
+    <LoTEVersionIdentifier>1</LoTEVersionIdentifier>
+    <LoTESequenceNumber>1</LoTESequenceNumber>
+    <LoTEType>http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList</LoTEType>
+    <SchemeOperatorName>
+      <Name lang="en">WP4Trust Demo Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">EU WRPAC Providers List</Name>
+    </SchemeName>
+    <StatusDeterminationApproach/>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <ListIssueDateTime>2026-04-29T11:13:01Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-04-29T11:13:01Z</dateTime>
+    </NextUpdate>
+  </ListAndSchemeInformation>
+  <TrustedEntitiesList>
+    <TrustedEntity>
+      <TrustedEntityInformation>
+        <TEName>
+          <Name lang="en">DIGG — Agency for Digital Government (WRPAC)</Name>
+        </TEName>
+        <TEInformationURI>
+          <URI lang="en">https://www.digg.se/eidas/wrpac</URI>
+        </TEInformationURI>
+      </TrustedEntityInformation>
+      <TrustedEntityServices>
+        <TrustedEntityService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/WRPACProvider</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">DIGG WRPAC Service</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIBvDCCAWOgAwIBAgIUTo11/IvClAxmIMrzQejNYvsIgSkwCgYIKoZIzj0EAwIwNDEWMBQGA1UEAwwNd3JwYWMuZGlnZy5zZTENMAsGA1UECgwERElHRzELMAkGA1UEBhMCU0UwHhcNMjYwNDI5MTEwOTI2WhcNMjgwNDI4MTEwOTI2WjA0MRYwFAYDVQQDDA13cnBhYy5kaWdnLnNlMQ0wCwYDVQQKDARESUdHMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKssIe5o2T/qwPFDLchiZpLkk8up02V9FYPi7X/klkUb8jYzWMYtXeHJi7JzBImoTUtqWANXaujy9PMA4kIO81OjUzBRMB0GA1UdDgQWBBTc/RzgTM1i58Hrm0sj67Ta6X4L3jAfBgNVHSMEGDAWgBTc/RzgTM1i58Hrm0sj67Ta6X4L3jAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCIBaDsz6faEw+GAUUTRS+TzGFnI5xH/3mBbn070e/KXtiAiBYjFkE/gqe/qbknTKTB21XczspwT3a1QMDlPv6b7dKhQ==</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <OtherId>{&quot;crv&quot;:&quot;P-256&quot;,&quot;kty&quot;:&quot;EC&quot;,&quot;x&quot;:&quot;f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU&quot;,&quot;y&quot;:&quot;x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0&quot;}</OtherId>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+          </ServiceInformation>
+        </TrustedEntityService>
+      </TrustedEntityServices>
+    </TrustedEntity>
+  </TrustedEntitiesList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="f24ed264d3932645f04e6125c68672e8"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-doc-f24ed264d3932645f04e6125c68672e8" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>m+G1XVK2+budC4jdM16BbVISma+Gmdz4LSZsuAyqjv8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-f24ed264d3932645f04e6125c68672e8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>6EBt5DosdvJiGDcjvLgA3kOaXr8267OximSfYqX2mvY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ditlk8kP/wLJxtG1tTTyJ0LEHYSl5ULugMmitq3TIvuFCZKo3I77SC0S4Ldd+Qd43w5sLyqcEBs9QcMBLWPwXz4G39MCsr+OcdNUSo807uGgi8nQAtUDE9CzKKV6ExVif8qTAtxnb0/yOEqn2j0PExC++3VG+dfvfDOmh94OwT7CTKMpuWrhR8PTvV3+J26gbyC72qSFcMM+IDOmHG9d4hxorC8bLyZANd/SDpbJ0QGXqt6o7/QoMdtaXtpSOqqNlgNXgQX+ikWZ78XkMnrb0O/TKny1w/W7llz9hSX5bEgq9d+PYhDcudQQDbnsvp1yf12vtL9th2e8rdvUwEvXkQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYzCCAkugAwIBAgIUX6CS6rfu1EFp0M9mps9lm71nqFQwDQYJKoZIhvcNAQELBQAwQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMB4XDTI2MDQyOTExMTI1N1oXDTI4MDQyODExMTI1N1owQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruXgchk+sDDyxridmqpMc6MJLy3sIZ79O7FFhFYvGzQNutzjKUl6ESs0K2dDRlaLI2xUJ8byGSVlWDiU4twqAo41tRES5IdfqbZXTTDj9VB7Q0iOpqh0SIcDM4JRMQ/GQ5u9rNIiFRQs8t3fZtMysvfrWmV07/ZRK5LQsR2kxJkBkn1ozu7FBefuNtBzVbST0EYy90zbIjkarB9hLy+qkf7eqqdYy7Wm9c+TQsA+O14akd2GjkI+RUkACZS59OMz1HB5LsAPWrVTunAlhqr2EBo6TlLOoWjqNX31gAo1nhGVGqX8u4Eu8Nq43QfRQc98NrdMB2cZYBE9BZkUhF7pbwIDAQABo1MwUTAdBgNVHQ4EFgQUJl7ZgZJEPoswtocBA27JnqP3I3cwHwYDVR0jBBgwFoAUJl7ZgZJEPoswtocBA27JnqP3I3cwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMX+9+wqt/z7uAtF97Xk4drkSpudtu372pmsd4EmO80lxP1YUGDTcmeWbk7t0gOAJ8aYO6SUuxgbLoGPREv3i3zwdPgDVFT8zJ9+ue8yBUQmCR/S1DB30tMX2v+UT3AFLpRDnMgY1Sqyhp1fd4f0RB6XI03LUZYvsZ6HOQ8wQR3EP+Jha+YbEEAcG6edbBRHDG5fxh0nage/BD6Svv6RBVexaMJs2mSeLOEI1knD3w3tY0Ag8QHZlmyAL6c/2pABMsZGfgdHbH8ZQ8uYThlqZe8Ex+OeAciFac/a02zCTGY8hsaOYL+SptnA37E0fx04mXau2Pry/uHDkcg/ZgAYaPA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#f24ed264d3932645f04e6125c68672e8"><xades:SignedProperties Id="xades-f24ed264d3932645f04e6125c68672e8"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-29T11:13:01Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>18/aY0FKKW2AXnkehzgsG6NzlCWrGyynKNkYw0oxxRE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=WP4Trust Demo Registry,O=WP4Trust,C=EU</ds:X509IssuerName><ds:X509SerialNumber>545935040724338345934791034156887031293541853268</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-doc-f24ed264d3932645f04e6125c68672e8"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ListOfTrustedEntities>

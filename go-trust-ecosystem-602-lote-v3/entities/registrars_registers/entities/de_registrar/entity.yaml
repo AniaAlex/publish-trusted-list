@@ -1,0 +1,25 @@
+names:
+  - language: en
+    value: "Bundesamt für Justiz — Federal Office of Justice"
+  - language: de
+    value: "Bundesamt für Justiz"
+entityId: "https://eregister.bundesjustizamt.de"
+entityType: "registrar"
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+address:
+  postal:
+    streetAddress: "Adenauerallee 99-103"
+    locality: "Bonn"
+    postalCode: "53113"
+    countryName: "DE"
+  electronic:
+    - "https://www.bundesjustizamt.de"
+informationURI:
+  - language: en
+    value: "https://www.bundesjustizamt.de"
+services:
+  - serviceNames:
+      - language: en
+        value: "Bundesamt für Justiz Company Register"
+    serviceType: "http://uri.etsi.org/19602/SvcType/Registrar"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

@@ -1,0 +1,28 @@
+names:
+  - language: en
+    value: "SUNET — Swedish University Network"
+  - language: sv
+    value: "SUNET"
+entityId: "https://eaa.sunet.se"
+entityType: "pubeaa-provider"
+# PubEAA profile: this status IS written into ServiceStatus in the output.
+# Use "granted" for active providers, "withdrawn" for revoked ones.
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+address:
+  postal:
+    streetAddress: "Tulegatan 11"
+    locality: "Stockholm"
+    postalCode: "11353"
+    countryName: "SE"
+  electronic:
+    - "https://www.sunet.se"
+    - "mailto:eaa@sunet.se"
+informationURI:
+  - language: en
+    value: "https://www.sunet.se/eaa"
+services:
+  - serviceNames:
+      - language: en
+        value: "SUNET EAA Issuance Service"
+    serviceType: "http://uri.etsi.org/19602/SvcType/PubEAAProvider"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

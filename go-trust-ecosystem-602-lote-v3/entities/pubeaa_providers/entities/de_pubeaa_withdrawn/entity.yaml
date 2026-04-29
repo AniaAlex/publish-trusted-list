@@ -1,0 +1,27 @@
+names:
+  - language: en
+    value: "Bundesdruckerei — EAA (withdrawn)"
+  - language: de
+    value: "Bundesdruckerei — EAA (zurückgezogen)"
+entityId: "https://eaa.bundesdruckerei.de"
+entityType: "pubeaa-provider"
+# PubEAA profile: "withdrawn" means trust has been revoked.
+# The entry stays in the list so relying parties can see the historical record.
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn"
+address:
+  postal:
+    streetAddress: "Kommandantenstr. 18"
+    locality: "Berlin"
+    postalCode: "10969"
+    countryName: "DE"
+  electronic:
+    - "https://www.bundesdruckerei.de"
+informationURI:
+  - language: en
+    value: "https://www.bundesdruckerei.de/eaa"
+services:
+  - serviceNames:
+      - language: en
+        value: "Bundesdruckerei EAA Service (withdrawn)"
+    serviceType: "http://uri.etsi.org/19602/SvcType/PubEAAProvider"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn"

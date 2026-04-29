@@ -1,0 +1,128 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTLType/EUListOfTrustedLists",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Demo Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU List of Trusted Lists"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "PointersToOtherLoTE": [
+        {
+          "LoTELocation": "https://demo.wp4trust.example/SE/pid.json",
+          "ServiceDigitalIdentities": null,
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Demo Registry SE"
+                }
+              ],
+              "SchemeTerritory": "SE",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://demo.wp4trust.example/SE/wallet.json",
+          "ServiceDigitalIdentities": null,
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Demo Registry SE"
+                }
+              ],
+              "SchemeTerritory": "SE",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://demo.wp4trust.example/SE/pubeaa.json",
+          "ServiceDigitalIdentities": null,
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Demo Registry SE"
+                }
+              ],
+              "SchemeTerritory": "SE",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://demo.wp4trust.example/SE/wrpac.json",
+          "ServiceDigitalIdentities": null,
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUWRPACProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Demo Registry SE"
+                }
+              ],
+              "SchemeTerritory": "SE",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://demo.wp4trust.example/SE/wrprc.json",
+          "ServiceDigitalIdentities": null,
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUWRPRCProvidersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Demo Registry SE"
+                }
+              ],
+              "SchemeTerritory": "SE",
+              "MimeType": "application/json"
+            }
+          ]
+        },
+        {
+          "LoTELocation": "https://demo.wp4trust.example/SE/registrars.json",
+          "ServiceDigitalIdentities": null,
+          "LoTEQualifiers": [
+            {
+              "LoTEType": "http://uri.etsi.org/19602/LoTEType/EURegistrarsAndRegistersList",
+              "SchemeOperatorName": [
+                {
+                  "lang": "en",
+                  "value": "WP4Trust Demo Registry SE"
+                }
+              ],
+              "SchemeTerritory": "SE",
+              "MimeType": "application/json"
+            }
+          ]
+        }
+      ],
+      "ListIssueDateTime": "2026-04-29T11:13:01Z",
+      "NextUpdate": "2026-04-29T11:13:01Z"
+    }
+  }
+}

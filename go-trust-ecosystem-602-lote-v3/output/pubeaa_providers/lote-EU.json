@@ -1,0 +1,162 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUPubEAAProvidersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Demo Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU Pub-EAA Providers List"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-04-29T11:13:01Z",
+      "NextUpdate": "2026-04-29T11:13:01Z"
+    },
+    "TrustedEntitiesList": [
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Bundesdruckerei — EAA (withdrawn)"
+            },
+            {
+              "lang": "de",
+              "value": "Bundesdruckerei — EAA (zurückgezogen)"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Kommandantenstr. 18",
+                "Locality": "Berlin",
+                "PostalCode": "10969",
+                "Country": "DE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.bundesdruckerei.de"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.bundesdruckerei.de/eaa"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Bundesdruckerei EAA Service (withdrawn)"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIB7jCCAZWgAwIBAgIUeaMme3T+DZTuR2+z1OQPtuvrJFcwCgYIKoZIzj0EAwIwTTEfMB0GA1UEAwwWZWFhLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMB4XDTI2MDQyOTExMDkyNloXDTI4MDQyODExMDkyNlowTTEfMB0GA1UEAwwWZWFhLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQA4/jRbrhWPXckMVyeWjd527WJxklMM/kN4rHy7LjjceOAf7xBgI/1Wm+fdVqrrhN0cW3McROcB+G85McNuOWqNTMFEwHQYDVR0OBBYEFDNXzKsx15OfeMdqbUbw/s8sVZZ3MB8GA1UdIwQYMBaAFDNXzKsx15OfeMdqbUbw/s8sVZZ3MA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDRwAwRAIgDvmfy7RbgW9AtQC4RON/Og+kOIr5Zf28NGxaOv4/BR0CICcf0jIeGYmhfAqkyt9h56g3NfdMOXkfgYVpAeXPqLHG"
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "MKBCTNIcKUSDii11ySs3526iDZ8AiTo7Tu6KPAqv7D4",
+                    "y": "4Etl6SRW2YiLUrN5vfvVHuhp7x8PxltmWWlbbM4IFyM"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/PubEAAProvider",
+              "ServiceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn"
+            }
+          }
+        ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "SUNET — Swedish University Network"
+            },
+            {
+              "lang": "sv",
+              "value": "SUNET"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Tulegatan 11",
+                "Locality": "Stockholm",
+                "PostalCode": "11353",
+                "Country": "SE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.sunet.se"
+              },
+              {
+                "lang": "",
+                "uriValue": "mailto:eaa@sunet.se"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.sunet.se/eaa"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "SUNET EAA Issuance Service"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIBvTCCAWOgAwIBAgIUbSIX1Nbi6ywv7/ejfp7JZG7StmUwCgYIKoZIzj0EAwIwNDEVMBMGA1UEAwwMZWFhLnN1bmV0LnNlMQ4wDAYDVQQKDAVTVU5FVDELMAkGA1UEBhMCU0UwHhcNMjYwNDI5MTEwOTI2WhcNMjgwNDI4MTEwOTI2WjA0MRUwEwYDVQQDDAxlYWEuc3VuZXQuc2UxDjAMBgNVBAoMBVNVTkVUMQswCQYDVQQGEwJTRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPr0CjCJNUFlp60qexmHo7AhEktXwK203BKVmnk+VcMy/QrqwNEsKoOiBJL5Rz5566YTTp+/ZofLHP3gSrik/g+jUzBRMB0GA1UdDgQWBBTqKbQYOsor3MfDkyOsulNJGuKcKTAfBgNVHSMEGDAWgBTqKbQYOsor3MfDkyOsulNJGuKcKTAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0gAMEUCIQCNpz3vbNCPYsHh8Bz9pCyaDfrBmA9Q424G6xjg+cbIBAIgfLf41k2VZcqNFylKvC7NUSnb1uJxKcBGd7+k0gYagLQ="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",
+                    "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/PubEAAProvider",
+              "ServiceStatus": "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

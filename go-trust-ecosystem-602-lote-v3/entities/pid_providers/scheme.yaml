@@ -1,0 +1,9 @@
+operatorNames:
+  - language: en
+    value: "WP4Trust Demo Registry"
+schemeName:
+  - language: en
+    value: "EU PID Providers List"
+schemeType: "http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList"
+territory: EU
+sequenceNumber: 1

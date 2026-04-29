@@ -1,0 +1,156 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EUWalletProvidersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Demo Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU Wallet Providers List"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-04-29T11:13:01Z",
+      "NextUpdate": "2026-04-29T11:13:01Z"
+    },
+    "TrustedEntitiesList": [
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "IDunion SCE"
+            },
+            {
+              "lang": "de",
+              "value": "IDunion SCE"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Unter den Linden 1",
+                "Locality": "Berlin",
+                "PostalCode": "10117",
+                "Country": "DE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.idunion.org"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.idunion.org"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "IDunion Wallet Solution"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIBzzCCAXWgAwIBAgIUb/AxOeFm9zDVc/dxAeN6kCDTn14wCgYIKoZIzj0EAwIwPTEYMBYGA1UEAwwPd3d3LmlkdW5pb24ub3JnMRQwEgYDVQQKDAtJRHVuaW9uIFNDRTELMAkGA1UEBhMCREUwHhcNMjYwNDI5MTEwOTI2WhcNMjgwNDI4MTEwOTI2WjA9MRgwFgYDVQQDDA93d3cuaWR1bmlvbi5vcmcxFDASBgNVBAoMC0lEdW5pb24gU0NFMQswCQYDVQQGEwJERTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABD6J0HVIsaP8acvHiMrJc4IRn3/iglJPz1DVkVobU3XruYrz1zMbmTgzh0EKkucrXbveHtv/Onpz95wWMOITr5+jUzBRMB0GA1UdDgQWBBSGajHaaKWvFrBMKp8+9FeiWD9brzAfBgNVHSMEGDAWgBSGajHaaKWvFrBMKp8+9FeiWD9brzAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0gAMEUCICqbfOY6pvcEZ6l01DH/E0KSIDOIgcOpDqR87yLDE9QJAiEAmScbY3minZvSIqAIHYIz5VWBdoZF/q0DtjdEyP/v4Sc="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "MKBCTNIcKUSDii11ySs3526iDZ8AiTo7Tu6KPAqv7D4",
+                    "y": "4Etl6SRW2YiLUrN5vfvVHuhp7x8PxltmWWlbbM4IFyM"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/WalletSolution/Issuance"
+            }
+          }
+        ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Test Identity Org AB"
+            },
+            {
+              "lang": "sv",
+              "value": "Test Identity Org AB"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Drottninggatan 1",
+                "Locality": "Stockholm",
+                "PostalCode": "11151",
+                "Country": "SE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://test-identity.org.se"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://test-identity.org.se"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "TestWallet — Wallet Solution"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIB6zCCAZGgAwIBAgIUX4QBiZRgiDUANHQLVByFOXr5Zl4wCgYIKoZIzj0EAwIwSzEdMBsGA1UEAwwUdGVzdC1pZGVudGl0eS5vcmcuc2UxHTAbBgNVBAoMFFRlc3QgSWRlbnRpdHkgT3JnIEFCMQswCQYDVQQGEwJTRTAeFw0yNjA0MjkxMTA5MjZaFw0yODA0MjgxMTA5MjZaMEsxHTAbBgNVBAMMFHRlc3QtaWRlbnRpdHkub3JnLnNlMR0wGwYDVQQKDBRUZXN0IElkZW50aXR5IE9yZyBBQjELMAkGA1UEBhMCU0UwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQq06aXHLeFtY16AsgiN5mkxIxiSgI7fHxgB7MnHSfoA390PsvKVZfXPREAeGEaf5vg0W1T517vwlrUkuJRMfCbo1MwUTAdBgNVHQ4EFgQUW7MpnWDj/ox0moccc3DbHOI/ecAwHwYDVR0jBBgwFoAUW7MpnWDj/ox0moccc3DbHOI/ecAwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAgNIADBFAiEA1zd+pcORM+KgsnSP3MqiFCgywhzWYW9u82wpzrcO8f4CIFtMrndI8F2/gQC7W+uYmGfvQeceQQ/fmHw2VpnIh2vB"
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",
+                    "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/WalletSolution/Issuance"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

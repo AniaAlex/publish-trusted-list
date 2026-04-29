@@ -1,0 +1,156 @@
+{
+  "LoTE": {
+    "ListAndSchemeInformation": {
+      "LoTEVersionIdentifier": 1,
+      "LoTESequenceNumber": 1,
+      "LoTEType": "http://uri.etsi.org/19602/LoTEType/EURegistrarsAndRegistersList",
+      "SchemeOperatorName": [
+        {
+          "lang": "en",
+          "value": "WP4Trust Demo Registry"
+        }
+      ],
+      "SchemeName": [
+        {
+          "lang": "en",
+          "value": "EU Registrars and Registers List"
+        }
+      ],
+      "SchemeTerritory": "EU",
+      "ListIssueDateTime": "2026-04-29T11:13:01Z",
+      "NextUpdate": "2026-04-29T11:13:01Z"
+    },
+    "TrustedEntitiesList": [
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Bundesamt für Justiz — Federal Office of Justice"
+            },
+            {
+              "lang": "de",
+              "value": "Bundesamt für Justiz"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Adenauerallee 99-103",
+                "Locality": "Bonn",
+                "PostalCode": "53113",
+                "Country": "DE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.bundesjustizamt.de"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.bundesjustizamt.de"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Bundesamt für Justiz Company Register"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIB6jCCAY+gAwIBAgIUJbucaEQOmCiJEUDJk26QR0Qg+kEwCgYIKoZIzj0EAwIwSjEbMBkGA1UEAwwSYnVuZGVzanVzdGl6YW10LmRlMR4wHAYDVQQKDBVCdW5kZXNhbXQgZnVlciBKdXN0aXoxCzAJBgNVBAYTAkRFMB4XDTI2MDQyOTExMDkyNloXDTI4MDQyODExMDkyNlowSjEbMBkGA1UEAwwSYnVuZGVzanVzdGl6YW10LmRlMR4wHAYDVQQKDBVCdW5kZXNhbXQgZnVlciBKdXN0aXoxCzAJBgNVBAYTAkRFMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXNLwJ1ahHNZ/+u5GIA101JgD4NHM0R72eVe76JzT36pZrB4lQIXFvONMJzC9W+SurJ4AeUORHTN+KB2H7pzcfKNTMFEwHQYDVR0OBBYEFPr5iQHQIDX2OEbtOs2eR87M7k6IMB8GA1UdIwQYMBaAFPr5iQHQIDX2OEbtOs2eR87M7k6IMA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDSQAwRgIhAJPuy3oT4Qpdn2fOGCXQ07BkMftALKAFH4BEcrmL5g5lAiEAsSMsXpQL8LaNDHwigDsJPLFH2cTE1LodRx3YB0E4kbU="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "MKBCTNIcKUSDii11ySs3526iDZ8AiTo7Tu6KPAqv7D4",
+                    "y": "4Etl6SRW2YiLUrN5vfvVHuhp7x8PxltmWWlbbM4IFyM"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/Registrar"
+            }
+          }
+        ]
+      },
+      {
+        "TrustedEntityInformation": {
+          "TEName": [
+            {
+              "lang": "en",
+              "value": "Bolagsverket — Swedish Companies Registration Office"
+            },
+            {
+              "lang": "sv",
+              "value": "Bolagsverket"
+            }
+          ],
+          "TEAddress": {
+            "TEPostalAddress": [
+              {
+                "lang": "",
+                "StreetAddress": "Stuvarvägen 21",
+                "Locality": "Sundsvall",
+                "PostalCode": "85181",
+                "Country": "SE"
+              }
+            ],
+            "TEElectronicAddress": [
+              {
+                "lang": "",
+                "uriValue": "https://www.bolagsverket.se"
+              }
+            ]
+          },
+          "TEInformationURI": [
+            {
+              "lang": "en",
+              "uriValue": "https://www.bolagsverket.se"
+            }
+          ]
+        },
+        "TrustedEntityServices": [
+          {
+            "ServiceInformation": {
+              "ServiceName": [
+                {
+                  "lang": "en",
+                  "value": "Bolagsverket Company Register"
+                }
+              ],
+              "ServiceDigitalIdentity": {
+                "X509Certificates": [
+                  {
+                    "val": "MIIB0TCCAXegAwIBAgIUZ05AFNFLXkEtcA6R1bbBeUh/3wgwCgYIKoZIzj0EAwIwPjEYMBYGA1UEAwwPYm9sYWdzdmVya2V0LnNlMRUwEwYDVQQKDAxCb2xhZ3N2ZXJrZXQxCzAJBgNVBAYTAlNFMB4XDTI2MDQyOTExMDkyNloXDTI4MDQyODExMDkyNlowPjEYMBYGA1UEAwwPYm9sYWdzdmVya2V0LnNlMRUwEwYDVQQKDAxCb2xhZ3N2ZXJrZXQxCzAJBgNVBAYTAlNFMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEi4micHunLtrjhP1Mmi0aLtAUaUkFi3V0PD6njoxq9GQ2jk9rziHdXgD1P3+Wsn8DbWefDMSJfi5dhPJ+pnn/laNTMFEwHQYDVR0OBBYEFKBDawyxeWXPzG5OdJ7rP0QSKtD2MB8GA1UdIwQYMBaAFKBDawyxeWXPzG5OdJ7rP0QSKtD2MA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIhAIQuZLhhFwGc0HJitVOHWCy6zxdit+f9FPPGhsoQ6hrQAiAc+wozALD9XysFAIGIX3Nkb0oapYFAVbpcvF6cXcb1GA=="
+                  }
+                ],
+                "PublicKeyValues": [
+                  {
+                    "crv": "P-256",
+                    "kty": "EC",
+                    "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",
+                    "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0"
+                  }
+                ]
+              },
+              "ServiceTypeIdentifier": "http://uri.etsi.org/19602/SvcType/Registrar"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

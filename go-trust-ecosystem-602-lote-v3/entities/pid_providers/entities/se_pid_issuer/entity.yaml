@@ -1,0 +1,28 @@
+names:
+  - language: en
+    value: "Swedish Tax Agency — eID PID"
+  - language: sv
+    value: "Skatteverket — eID PID"
+entityId: "https://eid.skatteverket.se/pid"
+entityType: "pid-provider"
+# status is only applied to ServiceStatus for PubEAA lists;
+# for PID (non-PubEAA) this field is ignored by the library.
+status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"
+address:
+  postal:
+    streetAddress: "Solna strandväg 10"
+    locality: "Solna"
+    postalCode: "17194"
+    countryName: "SE"
+  electronic:
+    - "https://www.skatteverket.se"
+    - "mailto:eid@skatteverket.se"
+informationURI:
+  - language: en
+    value: "https://www.skatteverket.se/eid"
+services:
+  - serviceNames:
+      - language: en
+        value: "Skatteverket PID Issuance Service"
+    serviceType: "http://uri.etsi.org/19602/SvcType/PIDProvider"
+    status: "http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted"

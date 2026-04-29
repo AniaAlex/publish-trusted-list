@@ -1,0 +1,79 @@
+<ListOfTrustedEntities xmlns="http://uri.etsi.org/019602/v1#" LOTETag="http://uri.etsi.org/019602/LOTETag">
+  <ListAndSchemeInformation>
+    <LoTEVersionIdentifier>1</LoTEVersionIdentifier>
+    <LoTESequenceNumber>1</LoTESequenceNumber>
+    <LoTEType>http://uri.etsi.org/19602/LoTEType/EUPIDProvidersList</LoTEType>
+    <SchemeOperatorName>
+      <Name lang="en">WP4Trust Demo Registry</Name>
+    </SchemeOperatorName>
+    <SchemeName>
+      <Name lang="en">EU PID Providers List</Name>
+    </SchemeName>
+    <StatusDeterminationApproach/>
+    <SchemeTerritory>EU</SchemeTerritory>
+    <ListIssueDateTime>2026-04-29T11:13:01Z</ListIssueDateTime>
+    <NextUpdate>
+      <dateTime>2026-04-29T11:13:01Z</dateTime>
+    </NextUpdate>
+  </ListAndSchemeInformation>
+  <TrustedEntitiesList>
+    <TrustedEntity>
+      <TrustedEntityInformation>
+        <TEName>
+          <Name lang="en">Bundesdruckerei — German PID</Name>
+          <Name lang="de">Bundesdruckerei — Deutsches PID</Name>
+        </TEName>
+        <TEInformationURI>
+          <URI lang="en">https://www.bundesdruckerei.de/eid</URI>
+        </TEInformationURI>
+      </TrustedEntityInformation>
+      <TrustedEntityServices>
+        <TrustedEntityService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/PIDProvider</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">Bundesdruckerei PID Issuance Service</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIB7zCCAZWgAwIBAgIULXbem8g4u3t/FCeIwv8IzBrH81YwCgYIKoZIzj0EAwIwTTEfMB0GA1UEAwwWZWlkLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMB4XDTI2MDQyOTExMDkyNloXDTI4MDQyODExMDkyNlowTTEfMB0GA1UEAwwWZWlkLmJ1bmRlc2RydWNrZXJlaS5kZTEdMBsGA1UECgwUQnVuZGVzZHJ1Y2tlcmVpIEdtYkgxCzAJBgNVBAYTAkRFMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvEQmHAdpRl2OY66pDuSnttrBkYGqbWmseCH9goEXP5NoJK0cKM1hfMtdLDyD6aPFKBwd5+wk+14jUHAdyoU7sKNTMFEwHQYDVR0OBBYEFOv+dLuJiPTdHk+IH3DRrx3rhCzLMB8GA1UdIwQYMBaAFOv+dLuJiPTdHk+IH3DRrx3rhCzLMA8GA1UdEwEB/wQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIhAPD3wvwiE566CxHtd4n/vvGs7++R/jxGBEz55rHSXAO9AiBTpZfYr1ovanWGlpbL1G891ux6g5jAxe2O6mUpHdlubQ==</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <OtherId>{&quot;crv&quot;:&quot;P-256&quot;,&quot;kty&quot;:&quot;EC&quot;,&quot;x&quot;:&quot;MKBCTNIcKUSDii11ySs3526iDZ8AiTo7Tu6KPAqv7D4&quot;,&quot;y&quot;:&quot;4Etl6SRW2YiLUrN5vfvVHuhp7x8PxltmWWlbbM4IFyM&quot;}</OtherId>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+          </ServiceInformation>
+        </TrustedEntityService>
+      </TrustedEntityServices>
+    </TrustedEntity>
+    <TrustedEntity>
+      <TrustedEntityInformation>
+        <TEName>
+          <Name lang="en">Swedish Tax Agency — eID PID</Name>
+          <Name lang="sv">Skatteverket — eID PID</Name>
+        </TEName>
+        <TEInformationURI>
+          <URI lang="en">https://www.skatteverket.se/eid</URI>
+        </TEInformationURI>
+      </TrustedEntityInformation>
+      <TrustedEntityServices>
+        <TrustedEntityService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/19602/SvcType/PIDProvider</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name lang="en">Skatteverket PID Issuance Service</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIB2jCCAX+gAwIBAgIULqm1GcDklsGkRvZb7QSOPmkKDIIwCgYIKoZIzj0EAwIwQjEcMBoGA1UEAwwTZWlkLnNrYXR0ZXZlcmtldC5zZTEVMBMGA1UECgwMU2thdHRldmVya2V0MQswCQYDVQQGEwJTRTAeFw0yNjA0MjkxMTA5MjZaFw0yODA0MjgxMTA5MjZaMEIxHDAaBgNVBAMME2VpZC5za2F0dGV2ZXJrZXQuc2UxFTATBgNVBAoMDFNrYXR0ZXZlcmtldDELMAkGA1UEBhMCU0UwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARVuWfH6pUrY098R7kl/BLiPxuqQYbYUh5CukJzL8z4mFbwkhpLJKfIKHTgdngNB6S02+JEkAq9MSj+4+E9YL3Uo1MwUTAdBgNVHQ4EFgQUKwgPI+YANJ0BiJyci1nM0tTmBiEwHwYDVR0jBBgwFoAUKwgPI+YANJ0BiJyci1nM0tTmBiEwDwYDVR0TAQH/BAUwAwEB/zAKBggqhkjOPQQDAgNJADBGAiEA6243SJdzQAY7ycMBveySUtnMtzKVek41GJbnf3nR2YECIQDkU2RywHHsFUf35JZo4+u2DY9qkInTE2jwmyMyYs9J2A==</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <OtherId>{&quot;crv&quot;:&quot;P-256&quot;,&quot;kty&quot;:&quot;EC&quot;,&quot;x&quot;:&quot;f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU&quot;,&quot;y&quot;:&quot;x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0&quot;}</OtherId>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+          </ServiceInformation>
+        </TrustedEntityService>
+      </TrustedEntityServices>
+    </TrustedEntity>
+  </TrustedEntitiesList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="2f10c7ab0451e108ac42512f01a2b994"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-doc-2f10c7ab0451e108ac42512f01a2b994" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OentoUYUc/RdAW+6PPwH1GZLXZSO2viipFPG7sOLPTk=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-2f10c7ab0451e108ac42512f01a2b994"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>fwr4FpWZCtZlILr2CrQof0HJ1o7lecCjv9N/86AFpO4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>IYVBUrX1s2prwp/X32T9pObgXAWPNBUcjwFxyQ1l+e/nUOpcg//TS4ti0Pyd+axWu4krVljdQUIVqXzfivpG0mLF9tFliXouRhS/DBR8gdH+sfE/10VXs74XwGbTqXfk5zrQfdlS7JuBVpDM9TxDFOPDpSBkvMz3Atm5sKVzpLSYQMcRb1B7bNGABjB0hu+Bka2mI1bGJSsR3gDzciE6BpAKg0aI0FVyGzqGtDhCkr7k0QYfr5ARWkz3hzKNjmb0azHT0cSQKdab13zKcB5O640u9VwctKL1dCpwsyh7M1l8laySMYT4KuSVWWsZ9yncOnc8SSZP09V15hb5YDUDlQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDYzCCAkugAwIBAgIUX6CS6rfu1EFp0M9mps9lm71nqFQwDQYJKoZIhvcNAQELBQAwQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMB4XDTI2MDQyOTExMTI1N1oXDTI4MDQyODExMTI1N1owQTEfMB0GA1UEAwwWV1A0VHJ1c3QgRGVtbyBSZWdpc3RyeTERMA8GA1UECgwIV1A0VHJ1c3QxCzAJBgNVBAYTAkVVMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAruXgchk+sDDyxridmqpMc6MJLy3sIZ79O7FFhFYvGzQNutzjKUl6ESs0K2dDRlaLI2xUJ8byGSVlWDiU4twqAo41tRES5IdfqbZXTTDj9VB7Q0iOpqh0SIcDM4JRMQ/GQ5u9rNIiFRQs8t3fZtMysvfrWmV07/ZRK5LQsR2kxJkBkn1ozu7FBefuNtBzVbST0EYy90zbIjkarB9hLy+qkf7eqqdYy7Wm9c+TQsA+O14akd2GjkI+RUkACZS59OMz1HB5LsAPWrVTunAlhqr2EBo6TlLOoWjqNX31gAo1nhGVGqX8u4Eu8Nq43QfRQc98NrdMB2cZYBE9BZkUhF7pbwIDAQABo1MwUTAdBgNVHQ4EFgQUJl7ZgZJEPoswtocBA27JnqP3I3cwHwYDVR0jBBgwFoAUJl7ZgZJEPoswtocBA27JnqP3I3cwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAMX+9+wqt/z7uAtF97Xk4drkSpudtu372pmsd4EmO80lxP1YUGDTcmeWbk7t0gOAJ8aYO6SUuxgbLoGPREv3i3zwdPgDVFT8zJ9+ue8yBUQmCR/S1DB30tMX2v+UT3AFLpRDnMgY1Sqyhp1fd4f0RB6XI03LUZYvsZ6HOQ8wQR3EP+Jha+YbEEAcG6edbBRHDG5fxh0nage/BD6Svv6RBVexaMJs2mSeLOEI1knD3w3tY0Ag8QHZlmyAL6c/2pABMsZGfgdHbH8ZQ8uYThlqZe8Ex+OeAciFac/a02zCTGY8hsaOYL+SptnA37E0fx04mXau2Pry/uHDkcg/ZgAYaPA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#2f10c7ab0451e108ac42512f01a2b994"><xades:SignedProperties Id="xades-2f10c7ab0451e108ac42512f01a2b994"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-29T11:13:01Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>18/aY0FKKW2AXnkehzgsG6NzlCWrGyynKNkYw0oxxRE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=WP4Trust Demo Registry,O=WP4Trust,C=EU</ds:X509IssuerName><ds:X509SerialNumber>545935040724338345934791034156887031293541853268</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-doc-2f10c7ab0451e108ac42512f01a2b994"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ListOfTrustedEntities>
