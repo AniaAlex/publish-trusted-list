@@ -145,7 +145,17 @@ paths:
         - name: filename
           in: path
           required: true
-          schema: { type: string, example: "pid-EU.json" }
+          schema:
+            type: string
+            default: "pid-EU.json"
+            enum:
+              - "pid-EU.json"
+              - "wallet-EU.json"
+              - "pubeaa-EU.json"
+              - "wrpac-EU.json"
+              - "wrprc-EU.json"
+              - "registrars-EU.json"
+              - "list_of_trusted_lists-EU.json"
       responses:
         "200":
           description: Compact JWS string
@@ -168,11 +178,17 @@ paths:
         - name: basename
           in: path
           required: true
-          schema: { type: string, example: "pid" }
+          schema:
+            type: string
+            default: "pid"
+            enum: [pid, wallet, pubeaa, wrpac, wrprc, registrars, list_of_trusted_lists]
         - name: territory
           in: path
           required: true
-          schema: { type: string, minLength: 2, maxLength: 3, example: "EU" }
+          schema:
+            type: string
+            default: "EU"
+            enum: ["EU"]
       responses:
         "200":
           description: Signed XML
