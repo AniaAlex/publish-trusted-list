@@ -1,0 +1,17 @@
+{{define "content"}}
+<section class="card narrow">
+  <h1>Operator log in</h1>
+  <p class="muted">Sign in with the credentials issued by your Member State administrator.</p>
+  <form method="post" action="/login">
+    <label>
+      Email
+      <input type="email" name="email" required autofocus value="{{.FormData.email}}">
+    </label>
+    <label>
+      Password
+      <input type="password" name="password" required>
+    </label>
+    <button type="submit" class="primary">Log in</button>
+  </form>
+</section>
+{{end}}

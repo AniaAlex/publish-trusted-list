@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{.Title}} · WP4Trust Onboarding</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="/">WP4Trust Onboarding</a>
+      <nav>
+        {{if .Operator}}
+          <span class="who">{{.Operator.DisplayName}} · {{.Operator.Territory}}</span>
+          <a href="/dashboard">Dashboard</a>
+          <a href="/logout">Log out</a>
+        {{else}}
+          <a href="/login">Log in</a>
+        {{end}}
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{if .Flash}}<div class="flash {{.Flash.Kind}}">{{.Flash.Message}}</div>{{end}}
+    {{if .Errors}}
+      <div class="alert error">
+        <strong>Please fix the following:</strong>
+        <ul>{{range $field, $msg := .Errors}}<li><b>{{$field}}:</b> {{$msg}}</li>{{end}}</ul>
+      </div>
+    {{end}}
+
+    {{template "content" .}}
+  </main>
+
+  <footer class="container muted">
+    <small>WP4Trust pilot · LoTE onboarding · ETSI TS 119 602</small>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{{define "content"}}
+<section>
+  <h1>Your trusted lists</h1>
+  <p class="muted">Each row is a list you can edit and publish.</p>
+
+  {{if .Schemes}}
+  <table class="grid">
+    <thead>
+      <tr>
+        <th>List type</th>
+        <th>Territory</th>
+        <th>Sequence</th>
+        <th>Entities</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {{range .Schemes}}
+      <tr>
+        <td><strong>{{.ListTypeLabel}}</strong></td>
+        <td>{{.Territory}}</td>
+        <td>{{.SequenceNumber}}</td>
+        <td>{{.EntityCount}}</td>
+        <td>
+          <a class="btn" href="/schemes/{{.ID}}">Open</a>
+          <form method="post" action="/schemes/{{.ID}}/publish" style="display:inline">
+            <button type="submit" class="btn ghost">Publish</button>
+          </form>
+        </td>
+      </tr>
+      {{end}}
+    </tbody>
+  </table>
+  {{else}}
+    <p class="empty">No schemes assigned to you yet. Ask your administrator to create one and set you as owner.</p>
+  {{end}}
+</section>
+{{end}}

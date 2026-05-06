@@ -1,0 +1,69 @@
+{{define "content"}}
+<section>
+  <header class="page-head">
+    <div>
+      <h1>{{.Scheme.ListTypeLabel}}</h1>
+      <p class="muted">{{.Scheme.Territory}} · sequence {{.Scheme.SequenceNumber}}</p>
+    </div>
+    {{if .Scheme.IsLoTL}}
+      <a class="btn primary" href="/schemes/{{.Scheme.ID}}/pointers/new">+ Add pointer</a>
+    {{else}}
+      <a class="btn primary" href="/schemes/{{.Scheme.ID}}/entities/new">+ Add entity</a>
+    {{end}}
+  </header>
+
+  {{if .Scheme.IsLoTL}}
+    {{if .Pointers}}
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>Territory</th>
+          <th>Scheme type</th>
+          <th>Location</th>
+          <th>MIME</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {{range .Pointers}}
+        <tr>
+          <td>{{.SchemeTerritory}}</td>
+          <td><span class="muted">{{.SchemeTypeShort}}</span></td>
+          <td><code>{{.Location}}</code></td>
+          <td>{{.MimeType}}</td>
+          <td>
+            <a class="btn" href="/schemes/{{$.Scheme.ID}}/pointers/{{.ID}}/edit">Edit</a>
+          </td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+    {{else}}
+      <p class="empty">No pointers yet. A LoTL points to one or more LoTEs (per Member State, per list type).</p>
+    {{end}}
+  {{else}}
+    {{if .Entities}}
+    <table class="grid">
+      <thead>
+        <tr><th>Name</th><th>Entity ID</th><th>Type</th><th>Status</th><th></th></tr>
+      </thead>
+      <tbody>
+        {{range .Entities}}
+        <tr>
+          <td>{{.PrimaryName}}</td>
+          <td><code>{{.EntityID}}</code></td>
+          <td>{{.EntityType}}</td>
+          <td>{{.Status}}</td>
+          <td>
+            <a class="btn" href="/schemes/{{$.Scheme.ID}}/entities/{{.ID}}/edit">Edit</a>
+          </td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+    {{else}}
+      <p class="empty">No entities yet. Click "Add entity" to register one.</p>
+    {{end}}
+  {{end}}
+</section>
+{{end}}

@@ -1,0 +1,69 @@
+{{define "content"}}
+<section class="card">
+  <h1>{{if .Pointer.ID}}Edit pointer{{else}}Add pointer{{end}}</h1>
+  <p class="muted">{{.Scheme.ListTypeLabel}} · {{.Scheme.Territory}}</p>
+
+  <form method="post" class="entity-form">
+    <fieldset>
+      <legend>Pointer target</legend>
+
+      <label>
+        Location (URL of the target LoTE) *
+        <input type="url" name="location" required value="{{.FormData.location}}"
+               placeholder="https://demo.wp4trust.example/SE/pid.json">
+      </label>
+
+      <label>
+        Scheme territory (ISO 3166-1 alpha-2) *
+        <input type="text" name="scheme_territory" required maxlength="3"
+               value="{{.FormData.scheme_territory}}" placeholder="SE">
+      </label>
+
+      <label>
+        Scheme type *
+        <select name="scheme_type" required>
+          <option value="">— select —</option>
+          {{range .SchemeTypeOptions}}
+            <option value="{{.Value}}" {{if eq .Value $.FormData.scheme_type}}selected{{end}}>{{.Label}}</option>
+          {{end}}
+        </select>
+      </label>
+
+      <label>
+        MIME type *
+        <select name="mime_type" required>
+          <option value="application/json" {{if eq "application/json" .FormData.mime_type}}selected{{end}}>application/json</option>
+          <option value="application/xml"  {{if eq "application/xml"  .FormData.mime_type}}selected{{end}}>application/xml</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Scheme operator names <small class="muted">(one per language)</small></legend>
+      <div id="opnames-list" class="repeater">
+        {{range .FormData.scheme_operator_names}}
+        <div class="row">
+          <input name="opnames_lang[]"  placeholder="en" value="{{.language}}">
+          <input name="opnames_value[]" placeholder="Operator name" value="{{.value}}">
+          <button type="button" class="btn ghost" onclick="this.closest('.row').remove()">×</button>
+        </div>
+        {{else}}
+        <div class="row">
+          <input name="opnames_lang[]"  placeholder="en">
+          <input name="opnames_value[]" placeholder="Operator name">
+          <button type="button" class="btn ghost" onclick="this.closest('.row').remove()">×</button>
+        </div>
+        {{end}}
+      </div>
+      <button type="button" class="btn ghost"
+              hx-get="/partials/repeater-row?fields=opnames_lang,opnames_value"
+              hx-target="#opnames-list" hx-swap="beforeend">+ Add language</button>
+    </fieldset>
+
+    <div class="actions">
+      <a class="btn ghost" href="/schemes/{{.Scheme.ID}}">Cancel</a>
+      <button type="submit" class="primary">Save</button>
+    </div>
+  </form>
+</section>
+{{end}}
