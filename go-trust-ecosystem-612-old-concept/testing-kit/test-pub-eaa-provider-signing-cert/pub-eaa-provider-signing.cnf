@@ -1,0 +1,22 @@
+# OpenSSL configuration for Pub-EAA Provider self-signed signing certificate.
+# The pub-EAA provider entity generates this itself.
+# This certificate is registered in the LoTE and used to sign leaf certificates.
+
+[ req ]
+default_md         = sha256
+prompt             = no
+utf8               = yes
+distinguished_name = req_distinguished_name
+x509_extensions    = v3_entity
+
+[ req_distinguished_name ]
+C                      = SE
+O                      = Test University EAA Issuer
+CN                     = eaa.test-university.example.se
+organizationIdentifier = LEIXG-TESTUNIV01
+
+[ v3_entity ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints       = critical,CA:FALSE
+keyUsage               = critical,digitalSignature

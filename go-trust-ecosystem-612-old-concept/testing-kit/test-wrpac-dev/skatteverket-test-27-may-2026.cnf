@@ -1,0 +1,15 @@
+# OpenSSL configuration for access certificate CSR
+# Entity: Swedish Tax Agency (SE)
+# Role: pid_provider
+
+[ req ]
+default_md         = sha256
+prompt             = no
+utf8               = yes
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]
+C                      = SE
+O                      = Skatteverket
+CN                     = Swedish Tax Agency
+organizationIdentifier = LEIXG-2021005448

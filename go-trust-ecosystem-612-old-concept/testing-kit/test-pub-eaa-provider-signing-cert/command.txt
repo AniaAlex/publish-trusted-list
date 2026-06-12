@@ -1,0 +1,3 @@
+curl -sS -X POST -H "Content-Type: application/json" \
+  --data-binary @pub-eaa-provider-signing-cert-test.json \
+  https://trust-dev-1.iam.sunet.se/siros-trust/evaluation
