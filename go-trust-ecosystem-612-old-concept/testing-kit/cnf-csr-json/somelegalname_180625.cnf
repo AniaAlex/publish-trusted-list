@@ -1,0 +1,21 @@
+# OpenSSL configuration for access certificate CSR
+# Entity: Sometradename (SE)
+# Role: relying_party
+#
+# Access certificates require an EC P-256 (secp256r1) key: the EUDI
+# Wallet profile mandates ES256, and RSA keys are rejected at issuance.
+# Generate the key and CSR with:
+#   openssl ecparam -name prime256v1 -genkey -noout -out entity.key
+#   openssl req -new -key entity.key -config entity.cnf -out entity.csr
+
+[ req ]
+default_md         = sha256
+prompt             = no
+utf8               = yes
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]
+C                      = SE
+O                      = Somelegalname
+CN                     = Sometradename
+organizationIdentifier = LEIXG-LEI
